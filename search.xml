@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>给大家介绍个CG资源网站</title>
+      <link href="2021/06/06/cg/"/>
+      <url>2021/06/06/cg/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.cgzixue.cn%2Fforum%2F201708%2F25%2F175927vcu87ibsmi808hia.jpg&amp;refer=http%3A%2F%2Fimg.cgzixue.cn&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1625552642&amp;t=1790993510aa32d6f3e23d3c0ed48f81"><br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fatt.cgzixue.cn%2Fforum%2F202101%2F05%2F113041mwbz1cljzolb1oio.png&amp;refer=http%3A%2F%2Fatt.cgzixue.cn&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1625552848&amp;t=39017631aa8460d4d95aad9ad33a1cda"><br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fatt.cgzixue.cn%2Fforum%2F202101%2F05%2F113043xyptw557awjuje9j.png&amp;refer=http%3A%2F%2Fatt.cgzixue.cn&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1625552902&amp;t=cb311444b5c5544dcaa246546d5834e7"></p><p>可以通过下方链接注册:<br><img src="https://www.cgzixue.cn/cgadd/fanxian.gif"><br><a href="https://www.cgzixue.cn/forum.php?x=630690">CG自学网推广链接</a><br>点这里直达官网：<a href="https://www.cgzixue.cn/">https://www.cgzixue.cn</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CG </tag>
+            
+            <tag> 自学网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>看病优先</title>
+      <link href="2021/06/04/youxian/"/>
+      <url>2021/06/04/youxian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="社会主义核心价值观"><a href="#社会主义核心价值观" class="headerlink" title="社会主义核心价值观"></a>社会主义核心价值观</h2><p>自由<br>民主<br>平等<br>公正<br>法治</p><h2 id="家庭衣食住行优先，我没意见"><a href="#家庭衣食住行优先，我没意见" class="headerlink" title="****家庭衣食住行优先，我没意见"></a>****家庭衣食住行优先，我没意见</h2><h2 id="就是这医院，不行，它提现了生命有高低贵贱次序之分。"><a href="#就是这医院，不行，它提现了生命有高低贵贱次序之分。" class="headerlink" title="就是这医院，不行，它提现了生命有高低贵贱次序之分。"></a>就是这医院，不行，它提现了生命有高低贵贱次序之分。</h2><p><img src="https://huakai.site/2021/06/04/youxian/IMG_0291.jpeg"></p><p>其实衣食住行优先我也是违心说的<br>人生来就是而且始终是自由的，在权利方面一律平等。社会差别只能建立在公益基础之上。<br>                                                      —「人权宣言第一条」</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 优先 </tag>
+            
+            <tag> 排队 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>md文件如何自定义文章字体的大小、颜色、背景色、字体等？</title>
+      <link href="2021/06/01/mdwenjiancssyufa/"/>
+      <url>2021/06/01/mdwenjiancssyufa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><h2 id="样式：-lt-font-color-size-face-bgcolor-”对应的数值”-gt-如何更改文章字体的颜色、大小、背景色等-lt-fon删除t-gt-删除-lt-b删除r-gt"><a href="#样式：-lt-font-color-size-face-bgcolor-”对应的数值”-gt-如何更改文章字体的颜色、大小、背景色等-lt-fon删除t-gt-删除-lt-b删除r-gt" class="headerlink" title="样式：<font color/size/face/bgcolor=”对应的数值”>如何更改文章字体的颜色、大小、背景色等 </fon删除t>删除<b删除r />"></a>样式：&lt;font color/size/face/bgcolor=”对应的数值”&gt;如何更改文章字体的颜色、大小、背景色等 &lt;/fon删除t&gt;删除&lt;b删除r /&gt;</h2><p><img src="https://huakai.site/2021/06/01/mdwenjiancssyufa/%E7%A4%BA%E4%BE%8B.png"><br><font color="#dd0000">浅红色文字：</font><br><br><font color="#660000">深红色文字</font><br><br><font color="#00dd00">浅绿色文字</font><br><br><font color="#006600">深绿色文字</font><br><br><font color="#0000dd">浅蓝色文字</font><br><br><font color="#000066">深蓝色文字</font><br><br><font color="#dddd00">浅黄色文字</font><br><br><font color="#666600">深黄色文字</font><br><br><font color="#00dddd">浅青色文字</font><br><br><font color="#006666">深青色文字</font><br><br><font color="#dd00dd">浅紫色文字</font><br><br><font color="#660066">深紫色文字</font><br> </p><p>————————————————</p><p><font size="1">size为1</font><br><br><font size="2">size为2</font><br><br><font size="3">size为3</font><br><br><font size="4">size为4</font><br><br><font size="10">size为10</font><br><br>————————————————</p><p><font face="黑体">我是黑体字</font><br><font face="宋体">我是宋体字</font><br><font face="微软雅黑">我是微软雅黑字</font><br><font face="fantasy">我是fantasy字</font><br><font face="Helvetica">我是Helvetica字</font><br>————————————————</p><table><tbody><tr><td bgcolor="#FF00FF">背景色的设置是按照十六进制颜色值：#7FFFD4</td></tr></tbody></table><table><tbody><tr><td bgcolor="#FF83FA">背景色的设置是按照十六进制颜色值：#FF83FA</td></tr></tbody></table><table><tbody><tr><td bgcolor="#D1EEEE">背景色的设置是按照十六进制颜色值：#D1EEEE</td></tr></tbody></table><table><tbody><tr><td bgcolor="#C0FF3E">背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></tbody></table><table><tbody><tr><td bgcolor="#54FF9F">背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></tbody></table>————————————————版权声明：本文为CSDN博主「007与狼共舞」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<p>原文链接：<a href="https://blog.csdn.net/manjianchao/article/details/53668280">https://blog.csdn.net/manjianchao/article/details/53668280</a></p><p><a href="https://blog.csdn.net/manjianchao/article/details/53668280">原本链接</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+            <tag> md语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何使用Markdown添加表情等样式</title>
+      <link href="2021/06/01/mdwenjianbianxie/"/>
+      <url>2021/06/01/mdwenjianbianxie/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h2><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。<br>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。<br>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。<br>Markdown 编写的文档后缀为 .md, .markdown。</p><h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>1.如何换行<br>方法一：<br>末尾添加两个空格<br>示例：<br>这段换末尾有两个空格<br>这段话末尾没有两个空格<br>这段话是参照物<br>可以看到，方法一没用<br>方法二：<br>在段尾使用一个空行<br><img src="https://www.runoob.com/wp-content/uploads/2019/03/3F254936-778E-417A-BEF2-467116A55D00.jpg" alt="使用空行来换行"><br>参考资料：菜鸟教程：地址：<a href="https://www.runoob.com/markdown/md-paragraph.html">https://www.runoob.com/markdown/md-paragraph.html</a><br>示例：<br>这是一句话，它下面有一行空行</p><p>这是一句话，它上面有一行空行<br>2.如何在每句话前加个小点<br>方法：使用※号，+号或者-号在加个空格后面跟句子<br>示例：</p><ul><li>这句话前面是个*号加一个空格</li></ul><ul><li>这句话前面是个+号加一个空格</li></ul><ul><li>这句话前面是个-号加一个空格</li></ul><p>3.如何添加超链接，链接是文字但她是个链接<br>示例：<a href="https://huakai.site/">这是个文字超链接</a><br>即把插入图片的感叹号给去掉<br>有感叹号是个图片地址<br>没有感叹号是个链接<br>4.指定图片的高和宽<br>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 img标签<br>示例图片大小：<br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="50%" height="50"><br>下面是20%，40%，80%，100%,200%,500%示例<br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="20%" height="20%"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="40%" height="40%"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="80%" height="80%"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="100%" height="100%"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="200%" height="200%"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/avatar.jpg" width="500%" height="500%"><br>可以看到最大不能超过这个主题规定的文章的宽度<br>5.如何加粗文本<br>方法：在文本前后加两个*号<br>示例：<br><strong>这句话前后有两个星号</strong><br><em><strong>这句话前后有三个</strong></em><br>三个星号是加斜加粗<br>6.菜鸟教程基础教程没有写怎么插入表情<br>自行测试，直接使用输入法自带的表情<br>❀🖼，🇨🇳，🇺🇸，，❤️，😌，😊，🩸，🍐<br>看看直接从网站上复制到md文件里：<br>😀😃😄😁😆😅🤣😂🙂🙃😉😊😇🥰😍🤩😘😗☺️😚😙🥲😋😛😜🤪😝🤑🤗🤭🤫🤔🤐🤨😐😑😶😏😒🙄😬🤥😌😔😪🤤😴😷🤒🤕🤢🤮🤧🥵🥶🥴😵🤯🤠🥳🥸😎🤓🧐😕😟🙁☹️😮😯😲😳🥺😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱😤😡😠🤬</p><p>👶🧒👦👧🧑👱👨🧔👨‍🦰👨‍🦱👨‍🦳👨‍🦲👩👩‍🦰🧑‍🦰👩‍🦱🧑‍🦱👩‍🦳🧑‍🦳👩‍🦲🧑‍🦲👱‍♀️👱‍♂️🧓👴👵🙍🙍‍♂️🙍‍♀️🙎🙎‍♂️🙎‍♀️🙅🙅‍♂️🙅‍♀️🙆🙆‍♂️🙆‍♀️💁💁‍♂️💁‍♀️🙋🙋‍♂️🙋‍♀️🧏🧏‍♂️🧏‍♀️🙇🙇‍♂️🙇‍♀️🤦🤦‍♂️🤦‍♀️🤷🤷‍♂️🤷‍♀️🧑‍⚕️👨‍⚕️👩‍⚕️🧑‍🎓👨‍🎓👩‍🎓🧑‍🏫👨‍🏫👩‍🏫🧑‍⚖️👨‍⚖️👩‍⚖️🧑‍🌾👨‍🌾👩‍🌾🧑‍🍳👨‍🍳👩‍🍳🧑‍🔧👨‍🔧👩‍🔧🧑‍🏭👨‍🏭👩‍🏭🧑‍💼👨‍💼👩‍💼🧑‍🔬👨‍🔬👩‍🔬🧑‍💻👨‍💻👩‍💻🧑‍🎤👨‍🎤👩‍🎤🧑‍🎨👨‍🎨👩‍🎨🧑‍✈️👨‍✈️👩‍✈️🧑‍🚀👨‍🚀👩‍🚀🧑‍🚒👨‍🚒👩‍🚒👮👮‍♂️👮‍♀️🕵️🕵️‍♂️🕵️‍♀️💂💂‍♂️💂‍♀️🥷👷👷‍♂️👷‍♀️🤴👸👳👳‍♂️👳‍♀️👲🧕🤵🤵‍♂️🤵‍♀️👰👰‍♂️👰‍♀️🤰🤱👩‍🍼👨‍🍼🧑‍🍼👼🎅🤶🧑‍🎄🦸🦸‍♂️🦸‍♀️🦹🦹‍♂️🦹‍♀️🧙🧙‍♂️🧙‍♀️🧚🧚‍♂️🧚‍♀️🧛🧛‍♂️🧛‍♀️🧜🧜‍♂️🧜‍♀️🧝🧝‍♂️🧝‍♀️🧞🧞‍♂️🧞‍♀️🧟🧟‍♂️🧟‍♀️💆💆‍♂️💆‍♀️💇💇‍♂️💇‍♀️🚶🚶‍♂️🚶‍♀️🧍🧍‍♂️🧍‍♀️🧎🧎‍♂️🧎‍♀️🧑‍🦯👨‍🦯👩‍🦯🧑‍🦼👨‍🦼👩‍🦼🧑‍🦽👨‍🦽👩‍🦽🏃🏃‍♂️🏃‍♀️💃🕺🕴️👯👯‍♂️👯‍♀️🧖🧖‍♂️🧖‍♀️🧘🧑‍🤝‍🧑👭👫👬💏👩‍❤️‍💋‍👨👨‍❤️‍💋‍👨👩‍❤️‍💋‍👩💑👩‍❤️‍👨👨‍❤️‍👨👩‍❤️‍👩👪👨‍👩‍👦👨‍👩‍👧👨‍👩‍👧‍👦👨‍👩‍👦‍👦👨‍👩‍👧‍👧👨‍👨‍👦👨‍👨‍👧👨‍👨‍👧‍👦👨‍👨‍👦‍👦👨‍👨‍👧‍👧👩‍👩‍👦👩‍👩‍👧👩‍👩‍👧‍👦👩‍👩‍👦‍👦👩‍👩‍👧‍👧👨‍👦👨‍👦‍👦👨‍👧👨‍👧‍👦👨‍👧‍👧👩‍👦👩‍👦‍👦👩‍👧👩‍👧‍👦👩‍👧‍👧🗣️👤👥🫂<br>👋🤚🖐️✋🖖👌🤌🤏✌️🤞🤟🤘🤙👈👉👆🖕👇☝️👍👎✊👊🤛🤜👏🙌👐🤲🤝🙏✍️💅🤳💪<br>👣👀👁️👄💋👂🦻👃👅🧠🫀🫁🦷🦴💪🦾🦿🦵🦶👓🕶️🥽🥼🦺👔👕👖🧣🧤🧥🧦👗👘🥻🩱🩲🩳👙👚👛👜👝🎒🩴👞👟🥾🥿👠👡🩰👢👑👒🎩🎓🧢🪖⛑️💄💅💍💼🌂☂️💈🛀🛌💥💫💦💨</p><p>全部 表情 人物 手势 日常 手机 公共 动物 植物 自然 饮食 文体 恐怖 旅游 物品 标志 生肖 星座 钟表 心形 花草 树叶 月亮 水果 钱币 交通 建筑 办公 箭头<br>🌹🍀🍎💰📱🌙🍁🍂🍃🌷💎🔪🔫🏀⚽⚡👄👍🔥<br>emoji表情(非图片可复制)↑返回顶部<br>😀😃😄😁😆😅🤣😂🙂🙃😉😊😇🥰😍🤩😘😗☺️😚😙🥲😋😛😜🤪😝🤑🤗🤭🤫🤔🤐🤨😐😑😶😏😒🙄😬🤥😌😔😪🤤😴😷🤒🤕🤢🤮🤧🥵🥶🥴😵🤯🤠🥳🥸😎🤓🧐😕😟🙁☹️😮😯😲😳🥺😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱😤😡😠🤬<br>emoji人物(非图片可复制)↑返回顶部<br>👶🧒👦👧🧑👱👨🧔👨‍🦰👨‍🦱👨‍🦳👨‍🦲👩👩‍🦰🧑‍🦰👩‍🦱🧑‍🦱👩‍🦳🧑‍🦳👩‍🦲🧑‍🦲👱‍♀️👱‍♂️🧓👴👵🙍🙍‍♂️🙍‍♀️🙎🙎‍♂️🙎‍♀️🙅🙅‍♂️🙅‍♀️🙆🙆‍♂️🙆‍♀️💁💁‍♂️💁‍♀️🙋🙋‍♂️🙋‍♀️🧏🧏‍♂️🧏‍♀️🙇🙇‍♂️🙇‍♀️🤦🤦‍♂️🤦‍♀️🤷🤷‍♂️🤷‍♀️🧑‍⚕️👨‍⚕️👩‍⚕️🧑‍🎓👨‍🎓👩‍🎓🧑‍🏫👨‍🏫👩‍🏫🧑‍⚖️👨‍⚖️👩‍⚖️🧑‍🌾👨‍🌾👩‍🌾🧑‍🍳👨‍🍳👩‍🍳🧑‍🔧👨‍🔧👩‍🔧🧑‍🏭👨‍🏭👩‍🏭🧑‍💼👨‍💼👩‍💼🧑‍🔬👨‍🔬👩‍🔬🧑‍💻👨‍💻👩‍💻🧑‍🎤👨‍🎤👩‍🎤🧑‍🎨👨‍🎨👩‍🎨🧑‍✈️👨‍✈️👩‍✈️🧑‍🚀👨‍🚀👩‍🚀🧑‍🚒👨‍🚒👩‍🚒👮👮‍♂️👮‍♀️🕵️🕵️‍♂️🕵️‍♀️💂💂‍♂️💂‍♀️🥷👷👷‍♂️👷‍♀️🤴👸👳👳‍♂️👳‍♀️👲🧕🤵🤵‍♂️🤵‍♀️👰👰‍♂️👰‍♀️🤰🤱👩‍🍼👨‍🍼🧑‍🍼👼🎅🤶🧑‍🎄🦸🦸‍♂️🦸‍♀️🦹🦹‍♂️🦹‍♀️🧙🧙‍♂️🧙‍♀️🧚🧚‍♂️🧚‍♀️🧛🧛‍♂️🧛‍♀️🧜🧜‍♂️🧜‍♀️🧝🧝‍♂️🧝‍♀️🧞🧞‍♂️🧞‍♀️🧟🧟‍♂️🧟‍♀️💆💆‍♂️💆‍♀️💇💇‍♂️💇‍♀️🚶🚶‍♂️🚶‍♀️🧍🧍‍♂️🧍‍♀️🧎🧎‍♂️🧎‍♀️🧑‍🦯👨‍🦯👩‍🦯🧑‍🦼👨‍🦼👩‍🦼🧑‍🦽👨‍🦽👩‍🦽🏃🏃‍♂️🏃‍♀️💃🕺🕴️👯👯‍♂️👯‍♀️🧖🧖‍♂️🧖‍♀️🧘🧑‍🤝‍🧑👭👫👬💏👩‍❤️‍💋‍👨👨‍❤️‍💋‍👨👩‍❤️‍💋‍👩💑👩‍❤️‍👨👨‍❤️‍👨👩‍❤️‍👩👪👨‍👩‍👦👨‍👩‍👧👨‍👩‍👧‍👦👨‍👩‍👦‍👦👨‍👩‍👧‍👧👨‍👨‍👦👨‍👨‍👧👨‍👨‍👧‍👦👨‍👨‍👦‍👦👨‍👨‍👧‍👧👩‍👩‍👦👩‍👩‍👧👩‍👩‍👧‍👦👩‍👩‍👦‍👦👩‍👩‍👧‍👧👨‍👦👨‍👦‍👦👨‍👧👨‍👧‍👦👨‍👧‍👧👩‍👦👩‍👦‍👦👩‍👧👩‍👧‍👦👩‍👧‍👧🗣️👤👥🫂<br>emoji手势(非图片可复制)↑返回顶部<br>👋🤚🖐️✋🖖👌🤌🤏✌️🤞🤟🤘🤙👈👉👆🖕👇☝️👍👎✊👊🤛🤜👏🙌👐🤲🤝🙏✍️💅🤳💪<br>emoji日常(非图片可复制)↑返回顶部<br>👣👀👁️👄💋👂🦻👃👅🧠🫀🫁🦷🦴💪🦾🦿🦵🦶👓🕶️🥽🥼🦺👔👕👖🧣🧤🧥🧦👗👘🥻🩱🩲🩳👙👚👛👜👝🎒🩴👞👟🥾🥿👠👡🩰👢👑👒🎩🎓🧢🪖⛑️💄💅💍💼🌂☂️💈🛀🛌💥💫💦💨<br>emoji手机(非图片可复制)↑返回顶部<br>📱📲📶📳📴☎📞📟📠🤳<br>emoji公共(非图片可复制)↑返回顶部<br>♻🏧🚮🚰♿🚹🚺🚻🚼🚾⚠🚸⛔🚫🚳🚭🚯🚱🚷🔞💈<br>emoji动物(非图片可复制)↑返回顶部<br>🙈🙉🙊💥💫💦💨🐵🐒🦍🦧🐶🐕🦮🐕‍🦺🐩🐺🦊🦝🐱🐈🐈‍⬛🦁🐯🐅🐆🐴🐎🦄🦓🦌🦬🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐🐪🐫🦙🦒🐘🦏🦛🐭🐁🐀🐹🐰🐇🐿️🦫🦔🦇🐻🐻‍❄️🐨🐼🦥🦦🦨🦘🦡🐾🦃🐔🐓🐣🐤🐥🐦🐧🕊️🦅🦆🦢🦉🦩🦚🦜🐸🐊🐢🦎🐍🐲🐉🦕🦖🐳🐋🐬🦭🐟🐠🐡🦈🐙🐚🐌🦋🐛🐜🐝🪲🐞🦗🪳🕷️🕸️🦂🦟🦠🦀🦞🦐🦑<br>emoji植物(非图片可复制)↑返回顶部<br>💐🌸💮🏵️🌹🥀🌺🌻🌼🌷🌱🌲🌳🌴🌵🌾🌿☘️🍀🍁🍂🍃<br>emoji自然(非图片可复制)↑返回顶部<br>🌍🌎🌏🌐🪨🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜☀️🌝🌞⭐🌟🌠☁️⛅⛈️🌤️🌥️🌦️🌧️🌨️🌩️🌪️🌫️🌬️🌈☂️☔⚡❄️☃️⛄☄️🔥💧🌊<br>emoji饮食(非图片可复制)↑返回顶部<br>🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🥝🍅🥥🥑🍆🥔🥕🌽🌶️🥒🥬🥦🧄🧅🍄🥜🌰🍞🥐🥖🫓🥨🥯🥞🧇🧀🍖🍗🥩🥓🍔🍟🍕🌭🥪🌮🌯🥙🧆🥚🍳🥘🍲🥣🥗🍿🧈🧂🥫🍱🍘🍙🍚🍛🍜🍝🍠🍢🍣🍤🍥🥮🍡🥟🥠🥡🦪🍦🍧🍨🍩🍪🎂🍰🧁🥧🍫🍬🍭🍮🍯🍼🥛☕🫖🍵🍶🍾🍷🍸🍹🍺🍻🥂🥃🥤🧋🧃🧉🧊🥢🍽️🍴🥄<br>emoji文体(非图片可复制)↑返回顶部<br>🧗🧗‍♂️🧗‍♀️🤺🏇⛷️🏂🏌️🏌️‍♂️🏌️‍♀️🏄🏄‍♂️🏄‍♀️🚣🚣‍♂️🚣‍♀️🏊🏊‍♂️🏊‍♀️⛹️⛹️‍♂️⛹️‍♀️🏋️🏋️‍♂️🏋️‍♀️🚴🚴‍♂️🚴‍♀️🚵🚵‍♂️🚵‍♀️🤸🤸‍♂️🤸‍♀️🤼🤼‍♂️🤼‍♀️🤽🤽‍♂️🤽‍♀️🤾🤾‍♂️🤾‍♀️🤹🤹‍♂️🤹‍♀️🧘🧘‍♂️🧘‍♀️🎪🛹🛼🛶🎗️🎟️🎫🎖️🏆🏅🥇🥈🥉⚽⚾🥎🏀🏐🏈🏉🎾🥏🎳🏏🏑🏒🥍🏓🏸🥊🥋🥅⛳⛸️🎣🎽🎿🛷🥌🎯🎱🎮🎰🎲🧩♟️🎭🎨🧵🧶🎼🎤🎧🎷🪗🎸🎹🎺🎻🥁🪘🎬🏹<br>emoji恐怖(非图片可复制)↑返回顶部<br>😈👿👹👺💀☠👻👽👾💣<br>emoji旅游(非图片可复制)↑返回顶部<br>👣🎠🎡🎢🚣🏔️⛰️🌋🗻🏕️🏖️🏜️🏝️🏞️🏟️🏛️🏗️🛖🏘️🏚️🏠🏡🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕🕍⛩🕋⛲⛺🌁🌃🏙️🌄🌅🌆🌇🌉🎠🎡🎢🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚐🚑🚒🚓🚔🚕🚖🚗🚘🚙🛻🚚🚛🚜🏎️🏍️🛵🛺🚲🛴🚏🛣️🛤️⛽🚨🚥🚦🚧⚓⛵🚤🛳️⛴️🛥️🚢✈️🛩️🛫🛬🪂💺🚁🚟🚠🚡🛰️🚀🛸🪐🌠🌌⛱️🎆🎇🎑💴💵💶💷🗿🛂🛃🛄🛅🧭<br>emoji物品(非图片可复制)↑返回顶部<br>💌💎🔪💈🚪🚽🚿🛁⌛⏳⌚⏰🎈🎉🎊🎎🎏🎐🎀🎁📯📻📱📲☎📞📟📠🔋🔌💻💽💾💿📀🎥📺📷📹📼🔍🔎🔬🔭📡💡🔦🏮📔📕📖📗📘📙📚📓📃📜📄📰📑🔖💰💴💵💶💷💸💳✉📧📨📩📤📥📦📫📪📬📭📮✏✒📝📁📂📅📆📇📈📉📊📋📌📍📎📏📐✂🔒🔓🔏🔐🔑🔨🔫🔧🔩🔗💉💊🚬🔮🚩🎌💦💨<br>emoji标志(非图片可复制)↑返回顶部<br>♠️♥️♦️♣️🃏🀄🎴🔇🔈🔉🔊📢📣📯🔔🔕🎵🎶💹🛗🏧🚮🚰♿🚹🚺🚻🚼🚾⚠️🚸⛔🚫🚳🚭🚯🚱🚷📵🔞☢️☣️⬆️↗️➡️↘️⬇️↙️⬅️<br>↖️↕️↔️↩️↪️⤴️⤵️🔃🔄🔙🔚🔛🔜🔝🛐⚛️🕉️✡️☸️☯️✝️☦️☪️☮️🕎🔯♈♉♊♋♌♍♎♏♐♑♒♓⛎🔀🔁🔂▶️⏩⏭️⏯️◀️<br>⏪⏮️🔼⏫🔽⏬<br>⏸️⏹️⏺️⏏️🎦🔅🔆📶📳📴♀️♂️✖️➕➖➗♾️‼️⁉️❓❔❕❗〰️💱<br>💲⚕️♻️⚜️🔱📛🔰⭕✅☑️✔️❌❎➰➿ 〽️✳️✴️❇️©️®️™️#️⃣*️⃣0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟🔠🔡🔢🔣🔤🅰️<br>🆎🅱️🆑🆒🆓ℹ️🆔<br>Ⓜ️🆕🆖🅾️🆗🅿️🆘🆙🆚<br>🈁🈂️🈷️🈶🈯🉐🈹🈚🈲🉑🈸🈴🈳㊗️㊙️🈺🈵🔴🟠🟡🟢🔵🟣🟤⚫⚪🟥🟧🟨🟩🟦🟪🟫⬛⬜◼️◻️◾◽▪️▫️🔶🔷🔸🔹🔺<br>🔻💠🔘🔳🔲🏁🚩🎌🏴🏳️🏳️‍🌈🏳️‍⚧️🏴‍☠️<br>emoji生肖(非图片可复制)↑返回顶部<br>🐁🐂🐅🐇🐉🐍🐎🐐🐒🐓🐕🐖<br>emoji星座(非图片可复制)↑返回顶部<br>♈♉♊♋♌♍♎♏♐♑♒♓⛎<br>emoji钟表(非图片可复制)↑返回顶部<br>🕛🕧🕐🕜🕑🕝🕒🕞🕓🕟🕔🕠🕕🕡🕖🕢🕗🕣🕘🕤🕙🕥🕚🕦⌛⏳⌚⏰⏱⏲🕰<br>emoji心形(非图片可复制)↑返回顶部<br>💘❤💓💔💕💖💗💙💚💛💜💝💞💟❣<br>emoji花草(非图片可复制)↑返回顶部<br>💐🌸💮🏵️🌹🥀🌺🌻🌼🌷🌱🌿☘️🍀<br>emoji树叶(非图片可复制)↑返回顶部<br>🌿☘️🍀🍁🍂🍃<br>emoji月亮(非图片可复制)↑返回顶部<br>🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜🌝<br>emoji水果(非图片可复制)↑返回顶部<br>🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓🥝<br>emoji钱币(非图片可复制)↑返回顶部<br>💴💵💶💷💰💸💳<br>emoji交通(非图片可复制)↑返回顶部<br>🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚏🚐🚑🚒🚓🚔🚕🚖🚗🚘🚚🚛🚜🚲⛽🚨🚥🚦🚧⚓⛵🚣🚤🚢✈💺🚁🚟🚠🚡🚀<br>emoji建筑(非图片可复制)↑返回顶部<br>🏟️🏛️🏗️🛖🏘️🏚️🏠🏡🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕🕍⛩️🕋⛲⛺🌁🌃🏙️🌄🌅🌆🌇🌉<br>emoji办公(非图片可复制)↑返回顶部<br>📱📲☎️📞📟📠🔋🔌💻🖥️🖨️⌨️🖱️🖲️💽💾💿📀🧮🎥🎞️📽️📺📷📸📹📼🔍🔎🕯️💡🔦🏮🪔📔📕📖📗📘📙📚📓📒📃📜📄📰🗞️📑🔖🏷️💰🪙💴💵💶💷💸💳🧾✉️📧📨📩📤📥📦📫📪📬📭📮🗳️✏️✒️🖋️🖊️🖌️🖍️📝📁📂🗂️📅📆🗒️🗓️📇📈📉📊📋📌📍📎🖇️📏📐✂️🗃️🗄️🗑️🔒🔓🔏🔐🔑🗝️<br>emoji箭头(非图片可复制)↑返回顶部<br>⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝</p><p>保存，hexo g hexo s 本地查看！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 学习md文章编写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>15张4K动漫壁纸测试JsDeliver加速效果</title>
+      <link href="2021/05/30/4kbizhi/"/>
+      <url>2021/05/30/4kbizhi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="加载缓慢请等待"><a href="#加载缓慢请等待" class="headerlink" title="加载缓慢请等待"></a>加载缓慢请等待</h2><p><img src="https://huakai.site/2021/05/30/4kbizhi/1.jpg" alt="吊带背心-二次元壁纸"><br><img src="https://huakai.site/2021/05/30/4kbizhi/2.jpg" alt="唯美天空-拉小提琴的少女"><br><img src="https://huakai.site/2021/05/30/4kbizhi/3.jpg" alt="初音未来-中秋-古风"><br><img src="https://huakai.site/2021/05/30/4kbizhi/4.jpg" alt="鬼刃-薇尔莉特伊芙加登"><br><img src="https://huakai.site/2021/05/30/4kbizhi/5.jpg" alt="雨天透过车窗的女孩-4k动漫壁纸"><br><img src="https://huakai.site/2021/05/30/4kbizhi/6.jpg" alt="侠盗猎车手-警察-美女"><br><img src="https://huakai.site/2021/05/30/4kbizhi/7.jpg" alt="动漫-铁路风景"><br><img src="https://huakai.site/2021/05/30/4kbizhi/8.jpg" alt="白色丝袜美少女-手机"><br><img src="https://huakai.site/2021/05/30/4kbizhi/9.jpg" alt="二次元少女-4K动漫壁纸图片"><br><img src="https://huakai.site/2021/05/30/4kbizhi/10.jpg" alt="栗花落香奈乎-蝴蝶香奈惠"><br><img src="https://huakai.site/2021/05/30/4kbizhi/11.jpg" alt="动漫-2-贞德"><br><img src="https://huakai.site/2021/05/30/4kbizhi/12.jpg" alt="清纯-高清壁纸4K"><br><img src="https://huakai.site/2021/05/30/4kbizhi/13.jpg" alt="天空-小女孩-羽毛"><br><img src="https://huakai.site/2021/05/30/4kbizhi/14.jpg" alt="尖耳朵-蓝眼"><br><img src="https://huakai.site/2021/05/30/4kbizhi/15.jpg" alt="带鱼屏-3440x1440壁纸"></p><hr><h2 id="更新测试结果"><a href="#更新测试结果" class="headerlink" title="更新测试结果"></a>更新测试结果</h2><hr><p>几乎秒开，感谢JsDeliver！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 4K壁纸 </tag>
+            
+            <tag> 测试速度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>从Windows换到MAC系统</title>
+      <link href="2021/05/28/macdiyipianwenzhang/"/>
+      <url>2021/05/28/macdiyipianwenzhang/</url>
+      
+        <content type="html"><![CDATA[<p>用了7、8个小时了，</p><p>一句话，难用<br>又折腾了一会把Win下blog文件转移到mac上<br>习惯真不是一天两天三天就能形成的，MacOS的操作逻辑和Windows有很大不同<br>一开始就用MAC感受的人应该感受不到这种差异<br>但习惯了Windows操作系统逻辑转到MAC上来的人一开始肯定不习惯。<br>下面说说不一样的地方<br>1.从APP store下载每一个软件都需要APPle ID密码和电脑密码，简直了（通过设置可以取消）<br>2.删除、卸载软件竟然需要先百度不然真不知道移到废纸篓就算卸载了，想一想win上的流氓软件，卸载需要一步两步三步最后可能还有安装上了<br>3.接上，但又觉得MAC系统很多地方又多一步骤，比如移到垃圾桶、回收站、废纸篓、比win多一步骤确认<br>4.手机平板都有的文件APP在mac上没有叫访达点进去这不就是文件吗？？？<br>5.快捷键和win有很多不同<br>6.明明有App Store，但各大公司就不入住，只能到官网上下，所以，想安装某款软件得先去APP Store搜搜有没有，没有在去官网搜搜有没有，好在大部分都可以直接访问MAC下载页面，不用进一步去找mac版本<br>7.右键没刷新菜单，难受，win养成的习惯要戒了<br>8.qq mac 版2.8分微信2.8分，由其是QQ登录界面，<br>9.待更新。。。</p><p>好难用啊，学习成本太高</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo matery主题 文章中如何加入图片</title>
+      <link href="2021/05/23/yangzhou/"/>
+      <url>2021/05/23/yangzhou/</url>
+      
+        <content type="html"><![CDATA[<p>md如何上传图片？<br>参考资料：  <a href="https://blog.csdn.net/u012150360/article/details/78475479">https://blog.csdn.net/u012150360/article/details/78475479</a></p><h2 id="这是测试"><a href="#这是测试" class="headerlink" title="这是测试"></a>这是测试</h2><p><img src="https://huakai.site/2021/05/23/yangzhou/zhiding.jpg" alt="这是测试"></p><p>md 中的代码样式：<br>![这是测试]（<a href="https://huakai.site/2021/05/23/yangzhou/zhiding.jpg">https://huakai.site/2021/05/23/yangzhou/zhiding.jpg</a></p><h2 id="详细步骤"><a href="#详细步骤" class="headerlink" title="详细步骤"></a>详细步骤</h2><p>cd blog<br>hexo n ceshi # 这样做可以在_posts文件夹下同时生成ceshi.md文件和ceshi文件夹，当然也可以手动创建这两个文件<br>将要在ceshi.md 文件中放入的图片拖进ceshi文件夹中<br>hexo d 网不好的话可能要重复hexo d 几次<br>在md文件中引用<br>访问github仓库，我们可以看见测试文件夹在日期文件夹下</p><p>点进去<br>显示路径，注意路径中的日期要改成你创建新文章的那天日期，比如我的就是2021/05/23/<br>完整的地址ht##tp#s://huakai.site/日期/ceshi/图片名称.图片格式</p><p><img src="https://huakai.site/2021/05/23/yangzhou/didian.png" alt="注意要把路径前头的https补全了"></p><p><img src="https://huakai.site/2021/05/23/yangzhou/lujing.JPG" alt="把补好的完整路径输入浏览器看能够显示,不然路劲就是有问题的"><br>不过，这样做的坏处是在本地调试无法显示图片<br>但是上传完，通过域名访问就可以正常显示了。<br>hexo g<br>hexo d</p><p>用的熟练的话可以找图片在github仓库中地址的规律<br>https://自定义域名/日期文件夹/ceshi/图片.JPG</p><p>额<br>突然发现，通过域名访问文章时，浏览器的地址就是图片的地址啊不过我通过插件把文件夹名称转为拼音了复制的时候要注意</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章编辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 插入图片 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo d 错误代码</title>
+      <link href="2021/05/23/cuowu/"/>
+      <url>2021/05/23/cuowu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="错误代码如下："><a href="#错误代码如下：" class="headerlink" title="错误代码如下："></a>错误代码如下：</h2><p>Writing objects: 100% (112/112), 18.98 KiB | 485.00 KiB/s, done.<br>Total 112 (delta 50), reused 0 (delta 0), pack-reused 0<br>error: RPC failed; curl 28 OpenSSL SSL_read: Connection was reset, errno 10054<br>send-pack: unexpected disconnect while reading sideband packet<br>fatal: the remote end hung up unexpectedly<br>Everything up-to-date<br>[41mFATAL[49m {<br>  err: Error: Spawn failed<br>      at ChildProcess.<anonymous> (C:\Users\20681\blog\node_modules\hexo-util\lib\spawn.js:51:21)<br>      at ChildProcess.emit (events.js:210:5)<br>      at ChildProcess.cp.emit (C:\Users\20681\blog\node_modules\cross-spawn\lib\enoent.js:34:29)<br>      at Process.ChildProcess._handle.onexit (internal/child_process.js:272:12) {<br>    code: 1<br>  }<br>} Something’s wrong. Maybe you can find the solution here: %s [4m<a href="https://hexo.io/docs/troubleshooting.html%1B[24m">https://hexo.io/docs/troubleshooting.html[24m</a></anonymous></p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>根据谷歌翻译Spawn failed-产生失败<br>经过判断应该是国内访问GitHub官网不稳定导致推送文件时与github连接断开所致<br>出现该代码的解决方法是：<br>重新hexo d<br>网不好的话可能会两到三次<br>或者在浏览器能够正常访问github的时候再hexo d</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 错误代码 </tag>
+            
+            <tag> 解决方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何刷新github仓库CDN</title>
+      <link href="2021/05/21/cndshuaxin/"/>
+      <url>2021/05/21/cndshuaxin/</url>
+      
+        <content type="html"><![CDATA[<h2 id="jsDelivr加速功能"><a href="#jsDelivr加速功能" class="headerlink" title="jsDelivr加速功能"></a>jsDelivr加速功能</h2><p>今天在调整主题界面的时候，发现无论如何改动\matery\source\css\matery.css中244行.bg-color的值，本地端口调试和域名地址访<br>问都无法改变<br>matery主题的背景色，通过一番搜索，发现原因是本主题利用的CND加速功能<br>matery主题自己也说明：</p><hr><h1 id="注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将此项配置注释或者删除掉"><a href="#注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将此项配置注释或者删除掉" class="headerlink" title="注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将此项配置注释或者删除掉"></a>注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将此项配置注释或者删除掉</h1><hr><h3 id="更多关于访问速度优化，请查看：https-blog-sky03-cn-posts-42790-html"><a href="#更多关于访问速度优化，请查看：https-blog-sky03-cn-posts-42790-html" class="headerlink" title="更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html"></a>更多关于访问速度优化，请查看：<a href="https://blog.sky03.cn/posts/42790.html">https://blog.sky03.cn/posts/42790.html</a></h3><hr><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>本地调试的时候将此项配置注释或者删除掉背景色就跟着变动了<br>至于CDN缓存刷新，用了网上刷新CDN缓存的方法没有作用<br>无论是curl ttps://purge.jsdelivr.net/gh/sky20681/sky20681  #刷新本地仓库<br>还是curl ttps://purge.jsdelivr.net/gh/sky20681/sky20681/css/matery.css  #刷新仓库里文件<br>都不管用<br>只能等他自己刷新了<br>只要在本地注释掉CDN加速功能，调试到自己满意的样式后，再取消注释，推送，通过本地端口和域名访问的博客样式不一样不用管它，<br>大概过个7、8个小时，通过域名访问的博客样式就更新了。</p><hr><h2 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h2><h2 id="https-segmentfault-com-a-1190000025179613"><a href="#https-segmentfault-com-a-1190000025179613" class="headerlink" title="https://segmentfault.com/a/1190000025179613"></a><a href="https://segmentfault.com/a/1190000025179613">https://segmentfault.com/a/1190000025179613</a></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CDN </tag>
+            
+            <tag> jsDelivr加速 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不蒜子统计不显示问题</title>
+      <link href="2021/05/21/busuanzi/"/>
+      <url>2021/05/21/busuanzi/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://huakai.site/2021/05/23/yangzhou/busuanzi.png" alt="卜算子统计人数不显示的问题"></p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://www.freesion.com/article/9342427591/">https://www.freesion.com/article/9342427591/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 不蒜子 </tag>
+            
+            <tag> busuanzi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本站采用的Matery主题官方地址</title>
+      <link href="2021/05/19/guanwang/"/>
+      <url>2021/05/19/guanwang/</url>
+      
+        <content type="html"><![CDATA[<h2 id="GitHub上的matery说明文档"><a href="#GitHub上的matery说明文档" class="headerlink" title="GitHub上的matery说明文档"></a>GitHub上的matery说明文档</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a></p><h2 id="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"><a href="#如果你不熟悉英语的话，下方的地址可能对你有帮助，还快" class="headerlink" title="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"></a>如果你不熟悉英语的话，下方的地址可能对你有帮助，还快</h2><p><a href="https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search">https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> matery主题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>matery主题如何调用的QQ音乐源</title>
+      <link href="2021/05/19/materyzhutiqiehuanyinle/"/>
+      <url>2021/05/19/materyzhutiqiehuanyinle/</url>
+      
+        <content type="html"><![CDATA[<h2 id="将主题默认调用的网易云音乐切换到QQ音乐"><a href="#将主题默认调用的网易云音乐切换到QQ音乐" class="headerlink" title="将主题默认调用的网易云音乐切换到QQ音乐"></a>将主题默认调用的网易云音乐切换到QQ音乐</h2><h2 id="修改themes文件夹下-config-yml文件里的相关值来切换音乐源"><a href="#修改themes文件夹下-config-yml文件里的相关值来切换音乐源" class="headerlink" title="修改themes文件夹下_config.yml文件里的相关值来切换音乐源"></a>修改themes文件夹下_config.yml文件里的相关值来切换音乐源</h2><p>首先登录QQ音乐网页版<br>登录自己QQ<br>点击我的音乐-我创建的歌单<br>随便点进去一个我创建的歌单<br>此时浏览器内的网址为：https#删掉#://y.qq.com/n/ryqq/playlist/7503537334<br>取两个值playlist和7503537334<br>替换掉原来的值<br>例如调用我自己QQ音乐歌单，配置值如下：<br>music:<br>  enable: true<br>  title: #非吸底模式有效<br>    enable: true<br>    show: 歌单分享<br>  autoHide: false    # hide automaticaly<br>  server: tencent   #require    music platform: netease（网易云音乐）, tencent（QQ音乐）, kugou（酷狗音乐）, xiami（虾米）, baidu（百度）<br>  type: playlist    #require song, playlist, album, search, artist<br>  id: 7503537334     #require    song id / playlist id / album id / search keyword<br>  fixed: false       # 开启吸底模式<br>  autoplay: false   # 是否自动播放<br>  theme: ‘#46A3FF’<br>  loop: ‘all’       # 音频循环播放, 可选值: ‘all’, ‘one’, ‘none’<br>  order: ‘random’   # 音频循环顺序, 可选值: ‘list’, ‘random’<br>  preload: ‘auto’   # 预加载，可选值: ‘none’, ‘metadata’, ‘auto’<br>  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效<br>  listFolded: false  # 列表默认折叠<br>  hideLrc: false    # 隐藏歌词</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 切换音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试Hexo框架搭建的微博更新速度</title>
+      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
+      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 上传速度 </tag>
+            
+            <tag> 更新速度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何绑定自己域名</title>
+      <link href="2021/05/19/bangdingzidingyiyuming/"/>
+      <url>2021/05/19/bangdingzidingyiyuming/</url>
+      
+        <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>github 除了生成 username.github.io/仓库名的访问方式外，还可以绑定自己购买的域名。<br>作为准备入行的小白肯定得弄一个自己的域名啊。<br>这里用的腾讯云，因为百度出来广告位第一位就是腾讯云，实力大厂啊。</p><hr><h2 id="腾讯云域名购买地址：https-buy-cloud-tencent-com-domain-fromact"><a href="#腾讯云域名购买地址：https-buy-cloud-tencent-com-domain-fromact" class="headerlink" title="腾讯云域名购买地址：https://buy.cloud.tencent.com/domain?fromact"></a>腾讯云域名购买地址：<a href="https://buy.cloud.tencent.com/domain?fromact">https://buy.cloud.tencent.com/domain?fromact</a></h2><h2 id="选域名"><a href="#选域名" class="headerlink" title="选域名"></a>选域名</h2><p>.com .net .club 荐.ltd. xyz荐.games.co荐.cc.tv.cloud.fan.sale.ren.shop.link.media.law.studio.band.cn.fyi<br>.cab.我爱你.market.news.vin.tax.shopping.mba.cash.cafe.technology.fans.集团.biz.org.cn.group.wang荐<br>.work.gold.art.cool.world.life.asia.show.name.org.info.love.net.cn.mobi.ac.cn.在线.中国.中文网.top.vip.网址.beer.fashion.luxe.com.cn<br>.yoga.online.chat.pub荐.run.city.live.pro.red.网店.pet.kim.移动.blue.ski.pink.space.tech.host.fun.site.store.website.fit.游戏.娱乐.企业<br>.商店.网站.voto.zj.cn.archi.yn.cn.vote.xz.cn.promo.xj.cn.poker.tw.cn.organic.tj.cn.sx.cn.lotto.sn.cn.green.sh.cn<br>.black.sd.cn.bio.sc.cn.social.qh.cn.zone.email.nx.cn.today.nm.cn.team.mo.cn.ln.cn.guru.jx.cn.fund.js.cn.center.<br>jl.cn.plus.hn.cn.video.hk.cn.hl.cn.wiki.design.hi.cn.ink.he.cn.icu.company.hb.cn.ha.cn.gx.cn.gz.cn.gs.cn.<br>gd.cn.fj.cn.cq.cn.bj.cn.ah.cn.press<br>qaq.red<br>加入购物车<br>29元/首年<br>qaq.网店<br>加入购物车<br>1280元/首年<br>qaq.kim<br>加入购物车<br>29元/首年<br>qaq.blue<br>加入购物车<br>29元/首年<br>qaq.pet<br>加入购物车<br>29元/首年<br>qaq.移动<br>加入购物车<br>78元/首年<br>qaq.ski<br>加入购物车<br>71元/首年</p><p>qaq三个字母这么便宜？？？但对我没什么意义<br>首先首年便宜的域名续费大多很贵，不如首次就购买5年和10年的<br>于是就花了百十块前买了10年的huakai.site<br>买好域名腾讯云还可以免费申请SSL证书，于是顺手申请了<br>等待十几分钟后，域名注册成功-域名实名成功<br>就可以去解析了，按照域名注册服务商的来<br>需要添加解析记录，<br>如何添加解析记录请参考：<a href="https://cloud.tencent.com/developer/article/1421879">https://cloud.tencent.com/developer/article/1421879</a><br>解析需要时间，过一会可以去github上操作了</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>鉴于github pages使用Jsdeliver加速后可以快速稳定访问，所以没有自购服务器<br>如果自己租国内服务器的话要去备案，注册域名服务商大多提供备案申请<br>这里到GitHub仓库页面，选择settings-pages-Custom domain<br>文本框中输入买好的域名<br>点击save后点击Enforce HTTPS（这里有问题后面再说）<br>然后就会提示 Your site is published at <a href="https://huakai.site/">https://huakai.site/</a><br>然后就可以通过自己买的域名访问github pages了</p><h2 id="出现问题"><a href="#出现问题" class="headerlink" title="出现问题"></a>出现问题</h2><p>第一个就是博客主题样式丢失，只有文字<br>重新解绑绑定依然不行<br>在本地测试正常显示<br>又开始百度<br>不过遇到这个问题的人看似不多，没什么有用的解决方案<br>回到本地文件上来<br>检查配置文件_config.yml<br>然后就发现配置文件中的URL还是原来的pages地址<br>改成自己购买的域名地址<br>hexo g &amp;&amp; d 成功</p><h2 id="再次出现问题"><a href="#再次出现问题" class="headerlink" title="再次出现问题"></a>再次出现问题</h2><p>不过过一段时间域名又无法访问了<br>再次解绑绑定，百度<br>好像没什么结果<br>过了一会儿一个文件引起我的注意，就是CANME这个文件<br>网上教程绑定域名时要在仓库新建这个文件，但是我点击Save保存后发现github会自动在根目录生成就没管他<br>又看了一下仓库变动，发现上一步骤从本地推送到仓库里把这个文件又删掉了。<br>解决方法，在本地的blog-public文件夹下新建这个CANME文件<br>这样每次推送就不会覆盖掉远端这个文件了。<br>如果还想用www开头的地址访问<br>在CANME中添加<a href="http://www.huakai.site就好了/">www.huakai.site就好了</a><br>好像这个是必须要添加的，不然会出现神奇的问题</p><h2 id="SSL证书安装"><a href="#SSL证书安装" class="headerlink" title="SSL证书安装"></a>SSL证书安装</h2><p>经过测试，发现https用的是github颁发的证书，有效期只有89天<br>弄了一会，发现没法换绑ssl，算了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站过程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 绑定域名 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何基于Hexo的matery主题搭建博客</title>
+      <link href="2021/05/19/jidachengzhe/"/>
+      <url>2021/05/19/jidachengzhe/</url>
+      
+        <content type="html"><![CDATA[<h2 id="如何进一步对主题进行修改、美化"><a href="#如何进一步对主题进行修改、美化" class="headerlink" title="如何进一步对主题进行修改、美化"></a>如何进一步对主题进行修改、美化</h2><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a><br>————————————————</p><p>版权声明：本文为CSDN博主「微笑小星」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本站在windows10下的搭建过程</title>
+      <link href="2021/05/17/2/"/>
+      <url>2021/05/17/2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="本站在win10系统下的的搭建过程"><a href="#本站在win10系统下的的搭建过程" class="headerlink" title="本站在win10系统下的的搭建过程"></a>本站在win10系统下的的搭建过程</h2><p>感谢技术大牛分享技术！<br>首先，要安装3个软件，如下：</p><hr><h2 id="安装Node-js（版本不要太高V12-X就行）、Git、Notepad"><a href="#安装Node-js（版本不要太高V12-X就行）、Git、Notepad" class="headerlink" title="安装Node.js（版本不要太高V12.X就行）、Git、Notepad++"></a>安装Node.js（版本不要太高V12.X就行）、Git、Notepad++</h2><p>接着：<br>打开cmd，输入<br>node -v    #查看node版本<br>npm -v    #查看npm版本<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器<br>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v    #查看hexo版本<br>md blog #win系统是用md新建blog，更新：在Mac系统下命令是mkdir blog<br>cd blog # 进入blog文件夹,Mac系统这里同win<br>hexo init #初始化博客，第一次失败的话重新输入该命令<br>hexo s #启动hexo服务<br>启动后重新打开一个cmd窗口，或者Git cmd窗口</p><h2 id="修改默认的主题"><a href="#修改默认的主题" class="headerlink" title="修改默认的主题"></a>修改默认的主题</h2><p>git clone <a href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a>  #下载mstery主题到用户文件夹下面,如果是 cd blog后输入的就到blog文件夹下找下载的hexo-theme-matery文件夹。<br>找到hexo-theme-matery文件夹剪贴粘贴到blog/themes文件夹下，修改文件夹名称为matery</p><p>用记事本(或者用Notepad++，MAC可以用visual studio code)打开blog文件夹下的_config.yml文件，下拉到最下面，找到theme: landscape,把landscape修改为matery,保存退出。<br>关掉所有cmd 窗口 重新打开一个cmd窗口</p><p>cd blog #还是先进blog文件夹<br>cd clean #清除默认配置数据<br>cd g 重新部署<br>cd s 打开服务<br>这里打开<a href="http://localhost:4000/">http://localhost:4000/</a> #查看博客应用的主题在浏览器中的显示效果<br>再简单的对主题进行个性化修改<br> 在blog下的配置文件_config.yml和themes/matery下的_config.yml进行简单修改<br> 比如URL换成github pages地址<br> repo换成github 仓库地址</p><h1 id="站点运行开始时间"><a href="#站点运行开始时间" class="headerlink" title="站点运行开始时间."></a>站点运行开始时间.</h1><p>将enable:disable 改为true<br>将年月日改为自己创建的日期，保存后到浏览器刷新查看效果，可以不关闭_config.yml文件，只需要保存</p><h1 id="配置首页显示”梦想”的语句"><a href="#配置首页显示”梦想”的语句" class="headerlink" title="配置首页显示”梦想”的语句."></a>配置首页显示”梦想”的语句.</h1><p>dream:<br>  enable: true<br>  showTitle: true<br>  title: 我绝不会向暴力犯罪屈服<br>  text: 这个世界有他的秩序，想要颠覆他的人没有好下场，如果你加入他们，你和你的家族都会蒙羞，好一点的话，成为贱民，受到殴打和鞭笞。糟糕的是，会被割礼或者钉在十字架上。但是我永远不会向暴力犯罪屈服。</p><h2 id="修改网站标题等内容"><a href="#修改网站标题等内容" class="headerlink" title="修改网站标题等内容"></a>修改网站标题等内容</h2><p>在blog文件夹下同样修改_config.yml里 的内容language修改为： zh-CN<br>等等</p><h2 id="上传到gitee-github"><a href="#上传到gitee-github" class="headerlink" title="上传到gitee,github"></a>上传到gitee,github</h2><p>gitee pages暂停服务整顿3月，临时转到github</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://www.bilibili.com/video/BV1Rt4y1k7it?p=5&amp;t=109">https://www.bilibili.com/video/BV1Rt4y1k7it?p=5&amp;t=109</a> # 保姆级</p><p><a href="https://www.bilibili.com/video/BV1Yb411a7ty?t=639">https://www.bilibili.com/video/BV1Yb411a7ty?t=639</a> # 启蒙</p><p><a href="https://blog.csdn.net/cungudafa/article/details/106278206">https://blog.csdn.net/cungudafa/article/details/106278206</a>  #主题美化参考</p><p><a href="https://www.dazhuanlan.com/2020/06/12/5ee27bec1a276/">https://www.dazhuanlan.com/2020/06/12/5ee27bec1a276/</a>  #主题定制</p><p><a href="https://blog.csdn.net/Sunshine_20201/article/details/104391877">https://blog.csdn.net/Sunshine_20201/article/details/104391877</a>  #主题优化</p><p><a href="https://blog.csdn.net/jspnetcn/article/details/104111651">https://blog.csdn.net/jspnetcn/article/details/104111651</a>   #如何撰写文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站过程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 搭建过程 </tag>
+            
+            <tag> 搭建流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何给网站添加看板娘</title>
+      <link href="2021/05/17/4/"/>
+      <url>2021/05/17/4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今天给网站添加看板娘"><a href="#今天给网站添加看板娘" class="headerlink" title="今天给网站添加看板娘"></a>今天给网站添加看板娘</h2><h3 id="更新：这是最初的简单版看板娘，豪华版见下方更新"><a href="#更新：这是最初的简单版看板娘，豪华版见下方更新" class="headerlink" title="更新：这是最初的简单版看板娘，豪华版见下方更新"></a>更新：这是最初的简单版看板娘，豪华版见下方更新</h3><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><hr><h2 id="https-www-cnblogs-com-fofade-p-11307644-html"><a href="#https-www-cnblogs-com-fofade-p-11307644-html" class="headerlink" title="https://www.cnblogs.com/fofade/p/11307644.html"></a><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></h2><h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></p><h2 id="更新：更换豪华版看板娘"><a href="#更新：更换豪华版看板娘" class="headerlink" title="更新：更换豪华版看板娘"></a>更新：更换豪华版看板娘</h2><p>参考资料：<a href="https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/">https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/</a></p><p>官方项目地址：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p><h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\themes\你的主题名\source目录下新建文件夹名称为live2d-widget<br>进入官方项目地址<a href="https://github.com/stevenjoezhang/live2d-widget%EF%BC%8C%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD%E9%A1%B9%E7%9B%AEcode">https://github.com/stevenjoezhang/live2d-widget，打包下载项目code</a> ，把下载的download zip文件房到刚刚新建的live2d-widget文件夹下，解压,删掉压缩包</p><p>之后就是引入链接了，见<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a> 中的3行代码<br>在这里提醒 @陈先生的小前端说的注意点：</p><p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p><p>添加<br>@陈先生的小前端 中的代码</p><h3 id="注意这里和-陈先生的小前端说的不同"><a href="#注意这里和-陈先生的小前端说的不同" class="headerlink" title="注意这里和@陈先生的小前端说的不同"></a>注意这里和@陈先生的小前端说的不同</h3><pre><code>我的按@陈先生的小前端盖好后并不能运行，看官方文档后还需要添加依赖库 Dependencies复制官方文档中的那一段代码和下方显示的一行代码总共两处代码粘贴在@陈先生的小前端的3行代码后面保存就行</code></pre><p>然后<br>保存<br>hexo g<br>hexo s<br>检查没问题后<br>hexo d</p><h2 id="致谢-1"><a href="#致谢-1" class="headerlink" title="致谢"></a>致谢</h2><p>@陈先生的小前端</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 添加看板娘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何新建多个tags标签</title>
+      <link href="2021/05/17/xinjiantagsbiaoqian/"/>
+      <url>2021/05/17/xinjiantagsbiaoqian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>md文件开头加入tags：内容 ，多个tags可以分行，如下：</p><p>tags:<br>  – 新建tags标签<br>  – 新建多个标签</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://segmentfault.com/a/1190000020067490">https://segmentfault.com/a/1190000020067490</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 新建tags标签 </tag>
+            
+            <tag> 新建多个标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对于一个小白来说如何新建一个.md文件</title>
+      <link href="2021/05/17/xinjianyigemdwenjian/"/>
+      <url>2021/05/17/xinjianyigemdwenjian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="新建一篇博客"><a href="#新建一篇博客" class="headerlink" title="新建一篇博客"></a>新建一篇博客</h2><p>其实一开始我连多个tags标签都不会，但多百度，慢慢就会了。<br>那么对小白来说，如何新建一篇博客文章呢？<br>在本地，就是在_posts文件夹下新建一个md文件<br>那么md文件又是如何新建的呢？<br>刚建站那会是复制的自带的第一篇博客的md文件,在修修改改<br>之后<br>有空了去搜索如何新建一篇文章，看完后，windows系统最便捷的竟然是右击新建一个TXT文本，后缀直接改为.md即可</p><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><p>把硕大的Windows主机卖了后，买了一个机顶盒大小的MAC Mini，暂时只知道从终端输入命令hexo new “新建的文章名称” 来新建一篇文章。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 新建md文件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇博客</title>
+      <link href="2021/05/16/1/"/>
+      <url>2021/05/16/1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="你好，这是我的第一篇博客"><a href="#你好，这是我的第一篇博客" class="headerlink" title="你好，这是我的第一篇博客"></a>你好，这是我的第一篇博客</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站过程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小白学习Python</title>
+      <link href="2021/05/16/3/"/>
+      <url>2021/05/16/3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="20210516"><a href="#20210516" class="headerlink" title="20210516"></a>20210516</h2><p>Python 不要求在每个语句的最后写分号，当然写上也没错；<br>定义变量时不需要指明类型，甚至可以给同一个变量赋值不同类型的数据</p><h2 id="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"><a href="#这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。" class="headerlink" title="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"></a>这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。</h2><p>作为一名 Python 工程师，如果不会使用 Jupyter Notebook，可能会真的太落伍了<br>time:2021051622:33开始下载安装PythonEXE安装包<br>下载错了吗<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip">https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip</a><br>才7.83M大小，解压后点击运行文件卡在CMD<br>换成<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe">https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe</a>  这个了26.99M<br>嗯，跟教材安装界面一样<br>我可不想安装Python出现掉链子，这可太打击小白了<br>setup was successfull<br>但下面出现disable path length limit，谷歌翻译：禁用路径长度限制，changes your machine configuration<br>点了一下，安装界面消失<br>安装完成以后，打开 Windows 的命令行程序（命令提示符），在窗口中输入python命令（注意字母p是小写的），如果出现 Python 的版本信息，并看到命令提示符&gt;&gt;&gt;，就说明安装成功了，如下图所示。<br>安装成功<br>嗯，教材确认安装成功</p><p>表 6 IDLE 提供的常用快捷键<br>快提键    说 明    适用范围<br>F1    打开 Python 帮助文档    Python文件窗口和Shell 均可用<br>Alt+P    浏览历史命令（上一条）    仅 Python Shell 窗口可用<br>Alt+N    浏览历史命令（下一条）    仅 Python Shell 窗口可用<br>Alt+/    自动补全前面曾经出现过的单词，如果之前有多个单词具有相同前缀，可以连续按下该快捷键，在多个单词中间循环选择    Python 文件窗口和 Shell 窗口均可用<br>Alt+3    注释代码块    仅 Python 文件窗口可用<br>Alt+4    取消代码块注释    仅 Python 文件窗口可用<br>Alt+g    转到某一行    仅 Python 文件窗口可用<br>Ctrl+Z    撤销一步操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+Shift+Z    恢复上—次的撤销操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+S    保存文件    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+]    缩进代码块    仅 Python 文件窗口可用<br>Ctrl+[    取消代码块缩进    仅 Python 文件窗口可用<br>Ctrl+F6    重新启动 Python Shell    仅 Python Shell 窗口可用</p><h2 id="Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"><a href="#Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。" class="headerlink" title="Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"></a>Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。</h2><p>除了 print() 函数，Python 解释器还提供了更多内置函数，下表列出了 Python 3.x 中的所有内置函数。</p><p>表 1 Python 3.x内置函数<br>内置函数<br>abs()    delattr()    hash()    memoryview()    set()<br>all()    dict()    help()    min()    setattr()<br>any()    dir()    hex()    next()    slicea()<br>ascii()    divmod()    id()    object()    sorted()<br>bin()    enumerate()    input()    oct()    staticmethod()<br>bool()    eval()    int()    open()    str()<br>breakpoint()    exec()    isinstance()    ord()    sum()<br>bytearray()    filter()    issubclass()    pow()    super()<br>bytes()    float()    iter()    print()    tuple()<br>callable()    format()    len()    property()    type()<br>chr()    frozenset()    list()    range()    vars()<br>classmethod()    getattr()    locals()    repr()    zip()<br>compile()    globals()    map()    reversed()    <strong>import</strong>()<br>complex()    hasattr()    max()    round()     </p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://c.biancheng.net/python/">http://c.biancheng.net/python/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 初入Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
