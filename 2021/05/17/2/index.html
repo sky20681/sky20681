@@ -399,7 +399,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    730
+                    721
                 </div>
                 
 
@@ -428,7 +428,11 @@
             <div id="articleContent">
                 <h2 id="本站在win10系统下的的搭建过程"><a href="#本站在win10系统下的的搭建过程" class="headerlink" title="本站在win10系统下的的搭建过程"></a>本站在win10系统下的的搭建过程</h2><p>感谢技术大牛分享技术！<br>首先，要安装3个软件，如下：</p>
 <hr>
-<h2 id="安装Node-js（版本不要太高V12-X就行）、Git、Notepad"><a href="#安装Node-js（版本不要太高V12-X就行）、Git、Notepad" class="headerlink" title="安装Node.js（版本不要太高V12.X就行）、Git、Notepad++"></a>安装Node.js（版本不要太高V12.X就行）、Git、Notepad++</h2><p>接着：<br>打开cmd，输入<br>node -v    #查看node版本<br>npm -v    #查看npm版本<br>$ npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器<br>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v    #查看hexo版本<br>md blog #win系统是用md新建blog，更新：在Mac系统下命令是mkdir blog<br>cd blog # 进入blog文件夹,Mac系统这里同win<br>hexo init #初始化博客，第一次失败的话重新输入该命令<br>hexo s #启动hexo服务<br>启动后重新打开一个cmd窗口，或者Git cmd窗口</p>
+<h2 id="安装Node-js（版本不要太高V12-X就行）、Git、Notepad"><a href="#安装Node-js（版本不要太高V12-X就行）、Git、Notepad" class="headerlink" title="安装Node.js（版本不要太高V12.X就行）、Git、Notepad++"></a>安装Node.js（版本不要太高V12.X就行）、Git、Notepad++</h2><p>接着：<br>打开cmd，输入<br>node -v    #查看node版本<br>npm -v    #查看npm版本</p>
+<hr>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=http://registry.npm.taobao.org</span><br></pre></td></tr></tbody></table></figure>
+<hr>
+<p>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v    #查看hexo版本<br>md blog #win系统是用md新建blog，更新：在Mac系统下命令是mkdir blog<br>cd blog # 进入blog文件夹,Mac系统这里同win<br>hexo init #初始化博客，第一次失败的话重新输入该命令<br>hexo s #启动hexo服务<br>启动后重新打开一个cmd窗口，或者Git cmd窗口</p>
 <h2 id="修改默认的主题"><a href="#修改默认的主题" class="headerlink" title="修改默认的主题"></a>修改默认的主题</h2><p>git clone <a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a>  #下载mstery主题到用户文件夹下面,如果是 cd blog后输入的就到blog文件夹下找下载的hexo-theme-matery文件夹。<br>找到hexo-theme-matery文件夹剪贴粘贴到blog/themes文件夹下，修改文件夹名称为matery</p>
 <p>用记事本(或者用Notepad++，MAC可以用visual studio code)打开blog文件夹下的_config.yml文件，下拉到最下面，找到theme: landscape,把landscape修改为matery,保存退出。<br>关掉所有cmd 窗口 重新打开一个cmd窗口</p>
 <p>cd blog #还是先进blog文件夹<br>cd clean #清除默认配置数据<br>cd g 重新部署<br>cd s 打开服务<br>这里打开<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> #查看博客应用的主题在浏览器中的显示效果<br>再简单的对主题进行个性化修改<br> 在blog下的配置文件_config.yml和themes/matery下的_config.yml进行简单修改<br> 比如URL换成github pages地址<br> repo换成github 仓库地址</p>
