@@ -345,33 +345,6 @@
     
     
     <entry>
-      <title>如何基于Hexo的matery主题搭建博客</title>
-      <link href="2021/05/19/jidachengzhe/"/>
-      <url>2021/05/19/jidachengzhe/</url>
-      
-        <content type="html"><![CDATA[<h2 id="如何进一步对主题进行修改、美化"><a href="#如何进一步对主题进行修改、美化" class="headerlink" title="如何进一步对主题进行修改、美化"></a>如何进一步对主题进行修改、美化</h2><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a><br>————————————————</p><p>版权声明：本文为CSDN博主「微笑小星」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 主题美化 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>测试Hexo框架搭建的微博更新速度</title>
       <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
       <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
@@ -399,11 +372,11 @@
     
     
     <entry>
-      <title>如何给网站添加看板娘</title>
-      <link href="2021/05/17/4/"/>
-      <url>2021/05/17/4/</url>
+      <title>如何基于Hexo的matery主题搭建博客</title>
+      <link href="2021/05/19/jidachengzhe/"/>
+      <url>2021/05/19/jidachengzhe/</url>
       
-        <content type="html"><![CDATA[<h2 id="今天给网站添加看板娘"><a href="#今天给网站添加看板娘" class="headerlink" title="今天给网站添加看板娘"></a>今天给网站添加看板娘</h2><h3 id="更新：这是最初的简单版看板娘，豪华版见下方更新"><a href="#更新：这是最初的简单版看板娘，豪华版见下方更新" class="headerlink" title="更新：这是最初的简单版看板娘，豪华版见下方更新"></a>更新：这是最初的简单版看板娘，豪华版见下方更新</h3><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><hr><h2 id="https-www-cnblogs-com-fofade-p-11307644-html"><a href="#https-www-cnblogs-com-fofade-p-11307644-html" class="headerlink" title="https://www.cnblogs.com/fofade/p/11307644.html"></a><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></h2><h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></p><h2 id="更新：更换豪华版看板娘"><a href="#更新：更换豪华版看板娘" class="headerlink" title="更新：更换豪华版看板娘"></a>更新：更换豪华版看板娘</h2><p>参考资料：<a href="https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/">https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/</a></p><p>官方项目地址：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p><h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\themes\你的主题名\source目录下新建文件夹名称为live2d-widget<br>进入官方项目地址<a href="https://github.com/stevenjoezhang/live2d-widget%EF%BC%8C%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD%E9%A1%B9%E7%9B%AEcode">https://github.com/stevenjoezhang/live2d-widget，打包下载项目code</a> ，把下载的download zip文件房到刚刚新建的live2d-widget文件夹下，解压,删掉压缩包</p><p>之后就是引入链接了，见<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a> 中的3行代码<br>在这里提醒 @陈先生的小前端说的注意点：</p><p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p><p>添加<br>@陈先生的小前端 中的代码</p><h3 id="注意这里和-陈先生的小前端说的不同"><a href="#注意这里和-陈先生的小前端说的不同" class="headerlink" title="注意这里和@陈先生的小前端说的不同"></a>注意这里和@陈先生的小前端说的不同</h3><pre><code>我的按@陈先生的小前端盖好后并不能运行，看官方文档后还需要添加依赖库 Dependencies复制官方文档中的那一段代码和下方显示的一行代码总共两处代码粘贴在@陈先生的小前端的3行代码后面保存就行</code></pre><p>然后<br>保存<br>hexo g<br>hexo s<br>检查没问题后<br>hexo d</p><h2 id="致谢-1"><a href="#致谢-1" class="headerlink" title="致谢"></a>致谢</h2><p>@陈先生的小前端</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="如何进一步对主题进行修改、美化"><a href="#如何进一步对主题进行修改、美化" class="headerlink" title="如何进一步对主题进行修改、美化"></a>如何进一步对主题进行修改、美化</h2><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a><br>————————————————</p><p>版权声明：本文为CSDN博主「微笑小星」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
       
       
       <categories>
@@ -415,7 +388,9 @@
       
         <tags>
             
-            <tag> 添加看板娘 </tag>
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -443,6 +418,31 @@
             <tag> 搭建过程 </tag>
             
             <tag> 搭建流程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何给网站添加看板娘</title>
+      <link href="2021/05/17/4/"/>
+      <url>2021/05/17/4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今天给网站添加看板娘"><a href="#今天给网站添加看板娘" class="headerlink" title="今天给网站添加看板娘"></a>今天给网站添加看板娘</h2><h3 id="更新：这是最初的简单版看板娘，豪华版见下方更新"><a href="#更新：这是最初的简单版看板娘，豪华版见下方更新" class="headerlink" title="更新：这是最初的简单版看板娘，豪华版见下方更新"></a>更新：这是最初的简单版看板娘，豪华版见下方更新</h3><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><hr><h2 id="https-www-cnblogs-com-fofade-p-11307644-html"><a href="#https-www-cnblogs-com-fofade-p-11307644-html" class="headerlink" title="https://www.cnblogs.com/fofade/p/11307644.html"></a><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></h2><h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></p><h2 id="更新：更换豪华版看板娘"><a href="#更新：更换豪华版看板娘" class="headerlink" title="更新：更换豪华版看板娘"></a>更新：更换豪华版看板娘</h2><p>参考资料：<a href="https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/">https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/</a></p><p>官方项目地址：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p><h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\themes\你的主题名\source目录下新建文件夹名称为live2d-widget<br>进入官方项目地址<a href="https://github.com/stevenjoezhang/live2d-widget%EF%BC%8C%E6%89%93%E5%8C%85%E4%B8%8B%E8%BD%BD%E9%A1%B9%E7%9B%AEcode">https://github.com/stevenjoezhang/live2d-widget，打包下载项目code</a> ，把下载的download zip文件房到刚刚新建的live2d-widget文件夹下，解压,删掉压缩包</p><p>之后就是引入链接了，见<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a> 中的3行代码<br>在这里提醒 @陈先生的小前端说的注意点：</p><p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p><p>添加<br>@陈先生的小前端 中的代码</p><h3 id="注意这里和-陈先生的小前端说的不同"><a href="#注意这里和-陈先生的小前端说的不同" class="headerlink" title="注意这里和@陈先生的小前端说的不同"></a>注意这里和@陈先生的小前端说的不同</h3><pre><code>我的按@陈先生的小前端盖好后并不能运行，看官方文档后还需要添加依赖库 Dependencies复制官方文档中的那一段代码和下方显示的一行代码总共两处代码粘贴在@陈先生的小前端的3行代码后面保存就行</code></pre><p>然后<br>保存<br>hexo g<br>hexo s<br>检查没问题后<br>hexo d</p><h2 id="致谢-1"><a href="#致谢-1" class="headerlink" title="致谢"></a>致谢</h2><p>@陈先生的小前端</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 添加看板娘 </tag>
             
         </tags>
       
@@ -497,31 +497,6 @@
     
     
     <entry>
-      <title>小白学习Python</title>
-      <link href="2021/05/16/3/"/>
-      <url>2021/05/16/3/</url>
-      
-        <content type="html"><![CDATA[<h2 id="20210516"><a href="#20210516" class="headerlink" title="20210516"></a>20210516</h2><p>Python 不要求在每个语句的最后写分号，当然写上也没错；<br>定义变量时不需要指明类型，甚至可以给同一个变量赋值不同类型的数据</p><h2 id="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"><a href="#这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。" class="headerlink" title="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"></a>这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。</h2><p>作为一名 Python 工程师，如果不会使用 Jupyter Notebook，可能会真的太落伍了<br>time:2021051622:33开始下载安装PythonEXE安装包<br>下载错了吗<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip">https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip</a><br>才7.83M大小，解压后点击运行文件卡在CMD<br>换成<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe">https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe</a>  这个了26.99M<br>嗯，跟教材安装界面一样<br>我可不想安装Python出现掉链子，这可太打击小白了<br>setup was successfull<br>但下面出现disable path length limit，谷歌翻译：禁用路径长度限制，changes your machine configuration<br>点了一下，安装界面消失<br>安装完成以后，打开 Windows 的命令行程序（命令提示符），在窗口中输入python命令（注意字母p是小写的），如果出现 Python 的版本信息，并看到命令提示符&gt;&gt;&gt;，就说明安装成功了，如下图所示。<br>安装成功<br>嗯，教材确认安装成功</p><p>表 6 IDLE 提供的常用快捷键<br>快提键    说 明    适用范围<br>F1    打开 Python 帮助文档    Python文件窗口和Shell 均可用<br>Alt+P    浏览历史命令（上一条）    仅 Python Shell 窗口可用<br>Alt+N    浏览历史命令（下一条）    仅 Python Shell 窗口可用<br>Alt+/    自动补全前面曾经出现过的单词，如果之前有多个单词具有相同前缀，可以连续按下该快捷键，在多个单词中间循环选择    Python 文件窗口和 Shell 窗口均可用<br>Alt+3    注释代码块    仅 Python 文件窗口可用<br>Alt+4    取消代码块注释    仅 Python 文件窗口可用<br>Alt+g    转到某一行    仅 Python 文件窗口可用<br>Ctrl+Z    撤销一步操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+Shift+Z    恢复上—次的撤销操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+S    保存文件    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+]    缩进代码块    仅 Python 文件窗口可用<br>Ctrl+[    取消代码块缩进    仅 Python 文件窗口可用<br>Ctrl+F6    重新启动 Python Shell    仅 Python Shell 窗口可用</p><h2 id="Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"><a href="#Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。" class="headerlink" title="Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"></a>Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。</h2><p>除了 print() 函数，Python 解释器还提供了更多内置函数，下表列出了 Python 3.x 中的所有内置函数。</p><p>表 1 Python 3.x内置函数<br>内置函数<br>abs()    delattr()    hash()    memoryview()    set()<br>all()    dict()    help()    min()    setattr()<br>any()    dir()    hex()    next()    slicea()<br>ascii()    divmod()    id()    object()    sorted()<br>bin()    enumerate()    input()    oct()    staticmethod()<br>bool()    eval()    int()    open()    str()<br>breakpoint()    exec()    isinstance()    ord()    sum()<br>bytearray()    filter()    issubclass()    pow()    super()<br>bytes()    float()    iter()    print()    tuple()<br>callable()    format()    len()    property()    type()<br>chr()    frozenset()    list()    range()    vars()<br>classmethod()    getattr()    locals()    repr()    zip()<br>compile()    globals()    map()    reversed()    <strong>import</strong>()<br>complex()    hasattr()    max()    round()     </p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://c.biancheng.net/python/">http://c.biancheng.net/python/</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 其他 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 初入Python </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第一篇博客</title>
       <link href="2021/05/16/1/"/>
       <url>2021/05/16/1/</url>
@@ -543,6 +518,31 @@
             <tag> hexo </tag>
             
             <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小白学习Python</title>
+      <link href="2021/05/16/3/"/>
+      <url>2021/05/16/3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="20210516"><a href="#20210516" class="headerlink" title="20210516"></a>20210516</h2><p>Python 不要求在每个语句的最后写分号，当然写上也没错；<br>定义变量时不需要指明类型，甚至可以给同一个变量赋值不同类型的数据</p><h2 id="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"><a href="#这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善-Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。" class="headerlink" title="这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。"></a>这个世界上总有那么一小撮人，他们或者不慕名利，或者为了达到某种目的，会不断地加强和改善 Python。千万不要认为所有人都是只图眼前利益的，总有一些精英会放长线钓大鱼，总有一些极客会做一些炫酷的事情。</h2><p>作为一名 Python 工程师，如果不会使用 Jupyter Notebook，可能会真的太落伍了<br>time:2021051622:33开始下载安装PythonEXE安装包<br>下载错了吗<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip">https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip</a><br>才7.83M大小，解压后点击运行文件卡在CMD<br>换成<a href="https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe">https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe</a>  这个了26.99M<br>嗯，跟教材安装界面一样<br>我可不想安装Python出现掉链子，这可太打击小白了<br>setup was successfull<br>但下面出现disable path length limit，谷歌翻译：禁用路径长度限制，changes your machine configuration<br>点了一下，安装界面消失<br>安装完成以后，打开 Windows 的命令行程序（命令提示符），在窗口中输入python命令（注意字母p是小写的），如果出现 Python 的版本信息，并看到命令提示符&gt;&gt;&gt;，就说明安装成功了，如下图所示。<br>安装成功<br>嗯，教材确认安装成功</p><p>表 6 IDLE 提供的常用快捷键<br>快提键    说 明    适用范围<br>F1    打开 Python 帮助文档    Python文件窗口和Shell 均可用<br>Alt+P    浏览历史命令（上一条）    仅 Python Shell 窗口可用<br>Alt+N    浏览历史命令（下一条）    仅 Python Shell 窗口可用<br>Alt+/    自动补全前面曾经出现过的单词，如果之前有多个单词具有相同前缀，可以连续按下该快捷键，在多个单词中间循环选择    Python 文件窗口和 Shell 窗口均可用<br>Alt+3    注释代码块    仅 Python 文件窗口可用<br>Alt+4    取消代码块注释    仅 Python 文件窗口可用<br>Alt+g    转到某一行    仅 Python 文件窗口可用<br>Ctrl+Z    撤销一步操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+Shift+Z    恢复上—次的撤销操作    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+S    保存文件    Python 文件窗口和 Shell 窗口均可用<br>Ctrl+]    缩进代码块    仅 Python 文件窗口可用<br>Ctrl+[    取消代码块缩进    仅 Python 文件窗口可用<br>Ctrl+F6    重新启动 Python Shell    仅 Python Shell 窗口可用</p><h2 id="Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"><a href="#Python-要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。" class="headerlink" title="Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。"></a>Python 要求属于同一作用域中的各行代码，它们的缩进量必须一致，但具体缩进量为多少，并不做硬性规定。</h2><p>除了 print() 函数，Python 解释器还提供了更多内置函数，下表列出了 Python 3.x 中的所有内置函数。</p><p>表 1 Python 3.x内置函数<br>内置函数<br>abs()    delattr()    hash()    memoryview()    set()<br>all()    dict()    help()    min()    setattr()<br>any()    dir()    hex()    next()    slicea()<br>ascii()    divmod()    id()    object()    sorted()<br>bin()    enumerate()    input()    oct()    staticmethod()<br>bool()    eval()    int()    open()    str()<br>breakpoint()    exec()    isinstance()    ord()    sum()<br>bytearray()    filter()    issubclass()    pow()    super()<br>bytes()    float()    iter()    print()    tuple()<br>callable()    format()    len()    property()    type()<br>chr()    frozenset()    list()    range()    vars()<br>classmethod()    getattr()    locals()    repr()    zip()<br>compile()    globals()    map()    reversed()    <strong>import</strong>()<br>complex()    hasattr()    max()    round()     </p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://c.biancheng.net/python/">http://c.biancheng.net/python/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 初入Python </tag>
             
         </tags>
       
