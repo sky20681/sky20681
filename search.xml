@@ -8,7 +8,7 @@
       <link href="2021/06/28/404/"/>
       <url>2021/06/28/404/</url>
       
-        <content type="html"><![CDATA[<p>matter主题教程如下：</p><p><img src="https://huakai.site/2021/06/28/404/404.png" alt="新建404页面"></p><p>按照教程新建后，经过测试，发现并不能正常访问404页面，显示的是GitHub 404页面<br>如图：</p><p><img src="https://huakai.site/2021/06/28/404/405.png" alt="404"></p><p>经过一番搜索，发现需要把Git生成的静态404页面放到GitHub的仓库的跟目录下<br>解决方法：<br>把本地source/404文件下的404.md文件剪贴或者复制到上一级目录，即和CNAME文件在同一目录，然后删除404文件夹。<br>这样，通过hexo g生成的404.html文件在public下面，而不是原来的404文件夹下面<br>通过hexo d即可把404.html上传到仓库的根目录。<br>然后输入一个并不存在的文章页面的时候，即可访问主题的404页面。</p><p>404页面测试地址：<a href="https://huakai.site/8888888888">https://huakai.site/8888888888</a></p>]]></content>
+        <content type="html"><![CDATA[<p>matery主题教程如下：</p><p><img src="https://huakai.site/2021/06/28/404/404.png" alt="新建404页面"></p><p>按照教程新建后，经过测试，发现并不能正常访问404页面，显示的是GitHub 404页面<br>如图：</p><p><img src="https://huakai.site/2021/06/28/404/405.png" alt="404"></p><p>经过一番搜索，发现需要把Git生成的静态404页面放到GitHub的仓库的根目录下。<br>原来按照hexo new page 404命令会在source文件夹下生成404文件夹，在404文件夹下生成404.md<br>但是这样直接hexo g &amp; d 后，会导致404.html在404文件夹下<br>解决方法：<br>把本地source/404文件下的404.md文件剪贴或者复制到上一级目录，即和CNAME文件在同一目录，然后删除404文件夹。<br>这样，通过hexo g生成的404.html文件会在public文件夹下面，而不是在404文件夹下面<br>然后hexo d即可把404.html上传到仓库的根目录。</p><p>测试：输入一个并不存在的文章页面的时候，即可访问主题的404页面。</p><p>404页面测试地址：<a href="https://huakai.site/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E5%9C%B0%E5%9D%80">https://huakai.site/这是一个不存在的地址</a></p>]]></content>
       
       
       
