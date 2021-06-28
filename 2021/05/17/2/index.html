@@ -399,14 +399,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    732
+                    787
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -426,13 +426,19 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="本站在win10系统下的的搭建过程"><a href="#本站在win10系统下的的搭建过程" class="headerlink" title="本站在win10系统下的的搭建过程"></a>本站在win10系统下的的搭建过程</h2><p>感谢技术大牛分享技术！<br>首先，要安装3个软件，如下：</p>
+                <h2 id="本站在win10系统下的的搭建过程"><a href="#本站在win10系统下的的搭建过程" class="headerlink" title="本站在win10系统下的的搭建过程"></a>本站在win10系统下的的搭建过程</h2><p>*步骤一：<br>安装3个软件，如下：<br>安装Node.js（版本不要太高！！V12.X就行，CNPM淘宝镜像不支持高版本）、<br>Git、<br>Notepad++</p>
 <hr>
-<h2 id="安装Node-js（版本不要太高！！V12-X就行，CNPM淘宝镜像不支持高版本）、Git、Notepad"><a href="#安装Node-js（版本不要太高！！V12-X就行，CNPM淘宝镜像不支持高版本）、Git、Notepad" class="headerlink" title="安装Node.js（版本不要太高！！V12.X就行，CNPM淘宝镜像不支持高版本）、Git、Notepad++"></a>安装Node.js（版本不要太高！！V12.X就行，CNPM淘宝镜像不支持高版本）、Git、Notepad++</h2><p>接着：<br>打开cmd，输入<br>node -v    #查看node版本<br>npm -v    #查看npm版本</p>
+<h3 id="步骤二："><a href="#步骤二：" class="headerlink" title="*步骤二："></a>*步骤二：</h3><p>打开cmd，输入<br>node -v      <font color="#660000">查看node版本</font><br><br>npm -v <font color="#660000">查看npm版本</font><br></p>
 <hr>
+<h3 id="步骤三"><a href="#步骤三" class="headerlink" title="*步骤三"></a>*步骤三</h3><p>安装CNPM淘宝镜像源，cmd输入命令：</p>
 <figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=http://registry.npm.taobao.org</span><br></pre></td></tr></tbody></table></figure>
 <hr>
-<p>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v    #查看hexo版本<br>md blog #win系统是用md新建blog，更新：在Mac系统下命令是mkdir blog<br>cd blog # 进入blog文件夹,Mac系统这里同win<br>hexo init #初始化博客，第一次失败的话重新输入该命令<br>hexo s #启动hexo服务<br>启动后重新打开一个cmd窗口，或者Git cmd窗口</p>
+<h3 id="步骤四"><a href="#步骤四" class="headerlink" title="*步骤四"></a>*步骤四</h3><p>接着输入cmd命令：</p>
+<p>cnpm -v     <font color="#660000">#查看cnpm版本</font><br><br>cnpm install -g hexo-cli   <font color="#660000">#安装hexo框架</font><br><br>hexo -v     <font color="#660000">#查看hexo版本</font><br><br>md blog （#win系统是用md新建blog，在Mac系统下命令是mkdir blog）</p>
+<p>cd blog <font color="#660000"># 进入blog文件夹,Mac系统这里同win</font><br><br>hexo init<br><font color="#660000">初始化博客，第一次失败的话重新输入该命令</font><br><br>hexo s <font color="#660000">启动hexo服务</font><br></p>
+<h3 id="步骤四-1"><a href="#步骤四-1" class="headerlink" title="*步骤四"></a>*步骤四</h3><p>到这里已经可以通过本地端口查看博客了，浏览器输入地址：localhost:4000</p>
+<p>端口被占用百度解决😊</p>
+<h2 id="修饰"><a href="#修饰" class="headerlink" title="修饰"></a>修饰</h2><p>重新打开一个cmd窗口，或者Git cmd窗口</p>
 <h2 id="修改默认的主题"><a href="#修改默认的主题" class="headerlink" title="修改默认的主题"></a>修改默认的主题</h2><p>git clone <a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a>  #下载mstery主题到用户文件夹下面,如果是 cd blog后输入的就到blog文件夹下找下载的hexo-theme-matery文件夹。<br>找到hexo-theme-matery文件夹剪贴粘贴到blog/themes文件夹下，修改文件夹名称为matery</p>
 <p>用记事本(或者用Notepad++，MAC可以用visual studio code)打开blog文件夹下的_config.yml文件，下拉到最下面，找到theme: landscape,把landscape修改为matery,保存退出。<br>关掉所有cmd 窗口 重新打开一个cmd窗口</p>
 <p>cd blog #还是先进blog文件夹<br>cd clean #清除默认配置数据<br>cd g 重新部署<br>cd s 打开服务<br>这里打开<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> #查看博客应用的主题在浏览器中的显示效果<br>再简单的对主题进行个性化修改<br> 在blog下的配置文件_config.yml和themes/matery下的_config.yml进行简单修改<br> 比如URL换成github pages地址<br> repo换成github 仓库地址</p>
@@ -924,7 +930,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">7.3k</span>
+                        class="white-color">7.4k</span>
             
             
             
