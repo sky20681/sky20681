@@ -4,11 +4,32 @@
   
     
     <entry>
+      <title>新建404页面</title>
+      <link href="2021/06/28/404/"/>
+      <url>2021/06/28/404/</url>
+      
+        <content type="html"><![CDATA[<p>matter主题教程如下：</p><p><img src="https://huakai.site/2021/06/28/404/404.png" alt="新建404页面"></p><p>按照教程新建后，经过测试，发现并不能正常访问404页面，显示的是GitHub 404页面<br>如图：</p><p><img src="https://huakai.site/2021/06/28/404/405.png" alt="404"></p><p>经过一番搜索，发现需要把Git生成的静态404页面放到GitHub的仓库的跟目录下<br>解决方法：<br>把本地source/404文件下的404.md文件剪贴或者复制到上一级目录，即和CNAME文件在同一目录，然后删除404文件夹。<br>这样，通过hexo g生成的404.html文件在public下面，而不是原来的404文件夹下面<br>通过hexo d即可把404.html上传到仓库的根目录。<br>然后输入一个并不存在的文章页面的时候，即可访问主题的404页面。</p><p>404页面测试地址：<a href="https://huakai.site/8888888888">https://huakai.site/8888888888</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 404 </tag>
+            
+            <tag> 新建页面 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>B站视频</title>
       <link href="2021/06/27/bzhanshipin/"/>
       <url>2021/06/27/bzhanshipin/</url>
       
-        <content type="html"><![CDATA[<p>一个可爱的马尾女生！</p><iframe src="//player.bilibili.com/player.html?aid=333553977&amp;bvid=BV1Rw411Z7Cg&amp;cid=352787813&amp;page=1" height="600" width="100%" <="" iframe=""></iframe>]]></content>
+        <content type="html"><![CDATA[<p>一个可爱的马尾女生！</p><iframe src="//player.bilibili.com/player.html?aid=333553977&amp;bvid=BV1Rw411Z7Cg&amp;cid=352787813&amp;page=1" height="600" width="100%" < iframe></iframe>]]></content>
       
       
       
@@ -270,31 +291,6 @@
     
     
     <entry>
-      <title>本站采用的Matery主题官方地址</title>
-      <link href="2021/05/19/guanwang/"/>
-      <url>2021/05/19/guanwang/</url>
-      
-        <content type="html"><![CDATA[<h2 id="GitHub上的matery说明文档"><a href="#GitHub上的matery说明文档" class="headerlink" title="GitHub上的matery说明文档"></a>GitHub上的matery说明文档</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a></p><h2 id="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"><a href="#如果你不熟悉英语的话，下方的地址可能对你有帮助，还快" class="headerlink" title="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"></a>如果你不熟悉英语的话，下方的地址可能对你有帮助，还快</h2><p><a href="https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search">https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 主题美化 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> matery主题 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>matery主题如何调用的QQ音乐源</title>
       <link href="2021/05/19/materyzhutiqiehuanyinle/"/>
       <url>2021/05/19/materyzhutiqiehuanyinle/</url>
@@ -312,6 +308,31 @@
         <tags>
             
             <tag> 切换音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>本站采用的Matery主题官方地址</title>
+      <link href="2021/05/19/guanwang/"/>
+      <url>2021/05/19/guanwang/</url>
+      
+        <content type="html"><![CDATA[<h2 id="GitHub上的matery说明文档"><a href="#GitHub上的matery说明文档" class="headerlink" title="GitHub上的matery说明文档"></a>GitHub上的matery说明文档</h2><p><a href="https://github.com/blinkfox/hexo-theme-matery">https://github.com/blinkfox/hexo-theme-matery</a></p><h2 id="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"><a href="#如果你不熟悉英语的话，下方的地址可能对你有帮助，还快" class="headerlink" title="如果你不熟悉英语的话，下方的地址可能对你有帮助，还快"></a>如果你不熟悉英语的话，下方的地址可能对你有帮助，还快</h2><p><a href="https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search">https://gitee.com/yafine66/hexo-theme-matery?_from=gitee_search</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> matery主题 </tag>
             
         </tags>
       
@@ -345,33 +366,6 @@
     
     
     <entry>
-      <title>测试Hexo框架搭建的微博更新速度</title>
-      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
-      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 其他 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 上传速度 </tag>
-            
-            <tag> 更新速度 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>如何基于Hexo的matery主题搭建博客</title>
       <link href="2021/05/19/jidachengzhe/"/>
       <url>2021/05/19/jidachengzhe/</url>
@@ -391,6 +385,33 @@
             <tag> blog </tag>
             
             <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试Hexo框架搭建的微博更新速度</title>
+      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
+      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 上传速度 </tag>
+            
+            <tag> 更新速度 </tag>
             
         </tags>
       
