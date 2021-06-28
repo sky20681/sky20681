@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>嵌入视频</title>
+      <link href="2021/06/28/qianrushipin/"/>
+      <url>2021/06/28/qianrushipin/</url>
+      
+        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中，便可以白嫖B站的服务器资源<br>不过，这样在博客页面播放只能以最低的分辨率360P播放<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样以高清1080P播放插入页面的视频呢？<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，很方便。点击播放是1080P的！！！</p><iframe width="720" height="100%" frameborder="0" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen=""></iframe>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 嵌入视频 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>新建404页面</title>
       <link href="2021/06/28/404/"/>
       <url>2021/06/28/404/</url>
