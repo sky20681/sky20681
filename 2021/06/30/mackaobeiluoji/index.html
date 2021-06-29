@@ -9,7 +9,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="如何基于Hexo的matery主题搭建博客, 小白">
+    <meta name="keywords" content="mac拷贝逻辑, 小白">
     <meta name="description" content="小白的建站过程">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -21,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>如何基于Hexo的matery主题搭建博客 | huakai</title>
+    <title>mac拷贝逻辑 | huakai</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">
@@ -235,12 +235,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">如何基于Hexo的matery主题搭建博客</h1>
+                    <h1 class="description center-align post-title">mac拷贝逻辑</h1>
                 </div>
             </div>
         </div>
@@ -354,29 +354,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/blog/">
-                                <span class="chip bg-color">blog</span>
-                            </a>
-                        
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" class="post-category">
-                                主题美化
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -385,21 +368,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-05-19
+                    2021-06-30
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-05-30
+                    2021-06-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    83
+                    470
                 </div>
                 
 
@@ -426,8 +409,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="如何进一步对主题进行修改、美化"><a href="#如何进一步对主题进行修改、美化" class="headerlink" title="如何进一步对主题进行修改、美化"></a>如何进一步对主题进行修改、美化</h2><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a><br>————————————————</p>
-<p>版权声明：本文为CSDN博主「微笑小星」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>
+                <p>今天在GitHub上又创建一个仓库并绑定了域名：voicegame.top<br>由于之前ssh绑定在之前的仓库下，所以创建了一个新仓库后无法向里面推送代码<br>重新生成ssh绑定到新仓库后，又发现老仓库推送不了了<br>又搞了一会。<br>解决方法：<br>把本地和GitHub仓库里的ssh文件夹和密钥删掉，重新部署在总的设置里。<br>在个人头像-个人资料-里有个设置，不是仓库里的设置。<br>然后按照官方文档重新生成密钥，并把公钥部署在总设置里。然后就可以同一个账号向自己不同的仓库推送了<br>官方文档：<a target="_blank" rel="noopener" href="https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh">https://docs.github.com/cn/github/authenticating-to-github/connecting-to-github-with-ssh</a><br>不要根据网上的代码，因为有的人是不同的账号向同一仓库推送，而且方法千奇百怪。<br>大概搞了几小时，测试后完美解决。<br>但就在准备收工时，发现老网站变成空白页面了.<br>通过hexo g命令生成的html文件全都是0kb</p>
+<p>又是一番百度，学到了一个命令hexo g –debug<br>经过脑翻错误信息，说某个文件不存在<br>猛的想起这个文件被拷到新仓库中去了。<br>真想大白。</p>
+<hr>
+<p>之前都是在外置硬盘和本地硬盘之间拖移文件。<br>MAC交互逻辑是win上的复制+粘贴<br>也就是在不同硬盘间拖移文件是复制+粘贴，两个盘都有一份文件</p>
+<hr>
+<hr>
+<p>可是在同一个硬盘间文件拖移<br>他的交互逻辑竟然是  剪贴+粘贴<br>导致老仓库文件被剪到新仓库中去了<br>我真的被这沙雕设计气晕<br>不知道win是不是这样</p>
+<hr>
+<p>同一行为两种设计语言，脑子有大病！</p>
 
                 
             </div>
@@ -444,7 +434,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">微笑小星</a>
+                    <a href="/about" rel="external nofollow noreferrer">HuaKai</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -454,7 +444,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://huakai.site/2021/05/19/jidachengzhe/">https://huakai.site/2021/05/19/jidachengzhe/</a>
+                    <a href="https://huakai.site/2021/06/30/mackaobeiluoji/">https://huakai.site/2021/06/30/mackaobeiluoji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -467,7 +457,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">微笑小星</a>
+                    <a href="/about" target="_blank">HuaKai</a>
                     !
                 </span>
             </div>
@@ -491,15 +481,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/blog/">
-                                    <span class="chip bg-color">blog</span>
-                                </a>
-                            
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -669,49 +651,39 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/05/19/bangdingzidingyiyuming/">
+                <a href="/2021/06/30/mackaobeiluoji/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/23.jpg" class="responsive-img" alt="如何绑定自己域名">
+                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/11.jpg" class="responsive-img" alt="mac拷贝逻辑">
                         
-                        <span class="card-title">如何绑定自己域名</span>
+                        <span class="card-title">mac拷贝逻辑</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            github pages绑定自己的域名的过程
+                            
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-30
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/" class="post-category">
-                                    建站过程
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            HuaKai
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/">
-                        <span class="chip bg-color">绑定域名</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -722,48 +694,32 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/17/2/">
+                <a href="/2021/06/29/lianggecangku/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/13.jpg" class="responsive-img" alt="本站在windows10下的搭建过程">
+                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/6.jpg" class="responsive-img" alt="两个仓库">
                         
-                        <span class="card-title">本站在windows10下的搭建过程</span>
+                        <span class="card-title">两个仓库</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            基于node.js、Git、Hexo、Matery主题搭建的个人博客
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-29
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/" class="post-category">
-                                    建站过程
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            HuaKai
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/">
-                        <span class="chip bg-color">搭建过程</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B/">
-                        <span class="chip bg-color">搭建流程</span>
-                    </a>
-                    
                 </div>
                 
             </div>
