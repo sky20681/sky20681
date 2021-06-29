@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>文章指定封面图片</title>
+      <link href="2021/06/29/zhidingfengmian/"/>
+      <url>2021/06/29/zhidingfengmian/</url>
+      
+        <content type="html"><![CDATA[<p>如果封面图片是下面的图片则说明指定成功！<br><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 指定封面图片 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>live2D桌宠</title>
       <link href="2021/06/28/live2d/"/>
       <url>2021/06/28/live2d/</url>
@@ -27,7 +52,7 @@
       <link href="2021/06/28/qianrushipin/"/>
       <url>2021/06/28/qianrushipin/</url>
       
-        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen=""></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
       
       
       
@@ -336,31 +361,6 @@
     
     
     <entry>
-      <title>matery主题如何调用的QQ音乐源</title>
-      <link href="2021/05/19/materyzhutiqiehuanyinle/"/>
-      <url>2021/05/19/materyzhutiqiehuanyinle/</url>
-      
-        <content type="html"><![CDATA[<h2 id="将主题默认调用的网易云音乐切换到QQ音乐"><a href="#将主题默认调用的网易云音乐切换到QQ音乐" class="headerlink" title="将主题默认调用的网易云音乐切换到QQ音乐"></a>将主题默认调用的网易云音乐切换到QQ音乐</h2><h2 id="修改themes文件夹下-config-yml文件里的相关值来切换音乐源"><a href="#修改themes文件夹下-config-yml文件里的相关值来切换音乐源" class="headerlink" title="修改themes文件夹下_config.yml文件里的相关值来切换音乐源"></a>修改themes文件夹下_config.yml文件里的相关值来切换音乐源</h2><p>首先登录QQ音乐网页版<br>登录自己QQ<br>点击我的音乐-我创建的歌单<br>随便点进去一个我创建的歌单<br>此时浏览器内的网址为：https#删掉#://y.qq.com/n/ryqq/playlist/7503537334<br>取两个值playlist和7503537334<br>替换掉原来的值<br>例如调用我自己QQ音乐歌单，配置值如下：<br>music:<br>  enable: true<br>  title: #非吸底模式有效<br>    enable: true<br>    show: 歌单分享<br>  autoHide: false    # hide automaticaly<br>  server: tencent   #require    music platform: netease（网易云音乐）, tencent（QQ音乐）, kugou（酷狗音乐）, xiami（虾米）, baidu（百度）<br>  type: playlist    #require song, playlist, album, search, artist<br>  id: 7503537334     #require    song id / playlist id / album id / search keyword<br>  fixed: false       # 开启吸底模式<br>  autoplay: false   # 是否自动播放<br>  theme: ‘#46A3FF’<br>  loop: ‘all’       # 音频循环播放, 可选值: ‘all’, ‘one’, ‘none’<br>  order: ‘random’   # 音频循环顺序, 可选值: ‘list’, ‘random’<br>  preload: ‘auto’   # 预加载，可选值: ‘none’, ‘metadata’, ‘auto’<br>  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效<br>  listFolded: false  # 列表默认折叠<br>  hideLrc: false    # 隐藏歌词</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 主题美化 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 切换音乐 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>本站采用的Matery主题官方地址</title>
       <link href="2021/05/19/guanwang/"/>
       <url>2021/05/19/guanwang/</url>
@@ -386,25 +386,23 @@
     
     
     <entry>
-      <title>测试Hexo框架搭建的微博更新速度</title>
-      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
-      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
+      <title>matery主题如何调用的QQ音乐源</title>
+      <link href="2021/05/19/materyzhutiqiehuanyinle/"/>
+      <url>2021/05/19/materyzhutiqiehuanyinle/</url>
       
-        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="将主题默认调用的网易云音乐切换到QQ音乐"><a href="#将主题默认调用的网易云音乐切换到QQ音乐" class="headerlink" title="将主题默认调用的网易云音乐切换到QQ音乐"></a>将主题默认调用的网易云音乐切换到QQ音乐</h2><h2 id="修改themes文件夹下-config-yml文件里的相关值来切换音乐源"><a href="#修改themes文件夹下-config-yml文件里的相关值来切换音乐源" class="headerlink" title="修改themes文件夹下_config.yml文件里的相关值来切换音乐源"></a>修改themes文件夹下_config.yml文件里的相关值来切换音乐源</h2><p>首先登录QQ音乐网页版<br>登录自己QQ<br>点击我的音乐-我创建的歌单<br>随便点进去一个我创建的歌单<br>此时浏览器内的网址为：https#删掉#://y.qq.com/n/ryqq/playlist/7503537334<br>取两个值playlist和7503537334<br>替换掉原来的值<br>例如调用我自己QQ音乐歌单，配置值如下：<br>music:<br>  enable: true<br>  title: #非吸底模式有效<br>    enable: true<br>    show: 歌单分享<br>  autoHide: false    # hide automaticaly<br>  server: tencent   #require    music platform: netease（网易云音乐）, tencent（QQ音乐）, kugou（酷狗音乐）, xiami（虾米）, baidu（百度）<br>  type: playlist    #require song, playlist, album, search, artist<br>  id: 7503537334     #require    song id / playlist id / album id / search keyword<br>  fixed: false       # 开启吸底模式<br>  autoplay: false   # 是否自动播放<br>  theme: ‘#46A3FF’<br>  loop: ‘all’       # 音频循环播放, 可选值: ‘all’, ‘one’, ‘none’<br>  order: ‘random’   # 音频循环顺序, 可选值: ‘list’, ‘random’<br>  preload: ‘auto’   # 预加载，可选值: ‘none’, ‘metadata’, ‘auto’<br>  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效<br>  listFolded: false  # 列表默认折叠<br>  hideLrc: false    # 隐藏歌词</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://blog.csdn.net/tianjuewudi/article/details/112504019">https://blog.csdn.net/tianjuewudi/article/details/112504019</a></p>]]></content>
       
       
       <categories>
           
-          <category> 其他 </category>
+          <category> 主题美化 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 上传速度 </tag>
-            
-            <tag> 更新速度 </tag>
+            <tag> 切换音乐 </tag>
             
         </tags>
       
@@ -457,6 +455,33 @@
             <tag> blog </tag>
             
             <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试Hexo框架搭建的微博更新速度</title>
+      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
+      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 上传速度 </tag>
+            
+            <tag> 更新速度 </tag>
             
         </tags>
       
@@ -563,35 +588,6 @@
     
     
     <entry>
-      <title>第一篇博客</title>
-      <link href="2021/05/16/1/"/>
-      <url>2021/05/16/1/</url>
-      
-        <content type="html"><![CDATA[<h2 id="你好，这是我的第一篇博客"><a href="#你好，这是我的第一篇博客" class="headerlink" title="你好，这是我的第一篇博客"></a>你好，这是我的第一篇博客</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 建站过程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
-            
-            <tag> hexo </tag>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>小白学习Python</title>
       <link href="2021/05/16/3/"/>
       <url>2021/05/16/3/</url>
@@ -617,23 +613,27 @@
     
     
     <entry>
-      <title>文章指定封面图片</title>
-      <link href="2018/09/07/zhidingfengmian/"/>
-      <url>2018/09/07/zhidingfengmian/</url>
+      <title>第一篇博客</title>
+      <link href="2021/05/16/1/"/>
+      <url>2021/05/16/1/</url>
       
-        <content type="html"><![CDATA[<p>如果封面图片是下面的图片则说明指定成功！<br><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="你好，这是我的第一篇博客"><a href="#你好，这是我的第一篇博客" class="headerlink" title="你好，这是我的第一篇博客"></a>你好，这是我的第一篇博客</h2>]]></content>
       
       
       <categories>
           
-          <category> 其他 </category>
+          <category> 建站过程 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 指定封面图片 </tag>
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
