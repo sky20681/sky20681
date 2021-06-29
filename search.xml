@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>文章指定封面图片</title>
+      <title>如何指定文章的封面图片</title>
       <link href="2021/06/29/zhidingfengmian/"/>
       <url>2021/06/29/zhidingfengmian/</url>
       
-        <content type="html"><![CDATA[<p>如果封面图片是下面的图片则说明指定成功！<br><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<p>如果封面图片是下面的图片则说明指定成功！<br><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p><h4 id="hexo博客matery主题，只需要在编写md文件时，设置如下"><a href="#hexo博客matery主题，只需要在编写md文件时，设置如下" class="headerlink" title="hexo博客matery主题，只需要在编写md文件时，设置如下"></a>hexo博客matery主题，只需要在编写md文件时，设置如下</h4><h2 id="bash"><a href="#bash" class="headerlink" title="```bash"></a>```bash</h2><p>title: 给文章指定封面图片<br>date: 2021-06-29 19:25:00<br>author: 花开<br>img: <a href="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg">https://huakai.site/2021/06/29/zhidingfengmian/19.jpg</a><br>top: false<br>cover: true #是否添加到封面轮播图<br>coverImg: <a href="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg">https://huakai.site/2021/06/29/zhidingfengmian/19.jpg</a><br>toc: false<br>mathjax: false<br>summary: 如何给文章指定一个封面<br>categories: 其他<br>tags:</p><ul><li>指定封面图片</li></ul><hr>]]></content>
       
       
       <categories>
