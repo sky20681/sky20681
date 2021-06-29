@@ -27,7 +27,7 @@
       <link href="2021/06/28/qianrushipin/"/>
       <url>2021/06/28/qianrushipin/</url>
       
-        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen=""></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
       
       
       
@@ -386,6 +386,33 @@
     
     
     <entry>
+      <title>测试Hexo框架搭建的微博更新速度</title>
+      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
+      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 上传速度 </tag>
+            
+            <tag> 更新速度 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何绑定自己域名</title>
       <link href="2021/05/19/bangdingzidingyiyuming/"/>
       <url>2021/05/19/bangdingzidingyiyuming/</url>
@@ -430,33 +457,6 @@
             <tag> blog </tag>
             
             <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试Hexo框架搭建的微博更新速度</title>
-      <link href="2021/05/19/ceshituisongdaogengxinshijian/"/>
-      <url>2021/05/19/ceshituisongdaogengxinshijian/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"><a href="#测试从本地推送到github仓库后，再到博客页面显示更新内容的时间" class="headerlink" title="测试从本地推送到github仓库后，再到博客页面显示更新内容的时间"></a>测试从本地推送到github仓库后，再到博客页面显示更新内容的时间</h2><hr><p>计时：<br>经过计时器计时，手动刷新页面，约<font size="9">58</font>秒<br>这个速度还是很快的哈</p><hr><p>就差个每次在本地写完文章后自动推送到远端仓库的脚本了，这个学完Python应该不难</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 其他 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 上传速度 </tag>
-            
-            <tag> 更新速度 </tag>
             
         </tags>
       
@@ -517,27 +517,6 @@
     
     
     <entry>
-      <title>如何新建多个tags标签</title>
-      <link href="2021/05/17/xinjiantagsbiaoqian/"/>
-      <url>2021/05/17/xinjiantagsbiaoqian/</url>
-      
-        <content type="html"><![CDATA[<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>md文件开头加入tags：内容 ，多个tags可以分行，如下：</p><p>tags:<br>  – 新建tags标签<br>  – 新建多个标签</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://segmentfault.com/a/1190000020067490">https://segmentfault.com/a/1190000020067490</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 新建tags标签 </tag>
-            
-            <tag> 新建多个标签 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>对于一个小白来说如何新建一个.md文件</title>
       <link href="2021/05/17/xinjianyigemdwenjian/"/>
       <url>2021/05/17/xinjianyigemdwenjian/</url>
@@ -555,6 +534,27 @@
         <tags>
             
             <tag> 新建md文件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何新建多个tags标签</title>
+      <link href="2021/05/17/xinjiantagsbiaoqian/"/>
+      <url>2021/05/17/xinjiantagsbiaoqian/</url>
+      
+        <content type="html"><![CDATA[<h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><p>md文件开头加入tags：内容 ，多个tags可以分行，如下：</p><p>tags:<br>  – 新建tags标签<br>  – 新建多个标签</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://segmentfault.com/a/1190000020067490">https://segmentfault.com/a/1190000020067490</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 新建tags标签 </tag>
+            
+            <tag> 新建多个标签 </tag>
             
         </tags>
       
@@ -609,6 +609,31 @@
         <tags>
             
             <tag> 初入Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章指定封面图片</title>
+      <link href="2018/09/07/zhidingfengmian/"/>
+      <url>2018/09/07/zhidingfengmian/</url>
+      
+        <content type="html"><![CDATA[<p>如果封面图片是下面的图片则说明指定成功！<br><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 指定封面图片 </tag>
             
         </tags>
       
