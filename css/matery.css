@@ -576,7 +576,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: #26feff;
     z-index: 2;
 }
 
@@ -1850,7 +1850,7 @@ footer a {
 }
 
 footer .copy-right {
-    color: #dbdbdb;
+    color: #000000;
 }
 
 /*搜索层样式*/
