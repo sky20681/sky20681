@@ -395,7 +395,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    476
+                    487
                 </div>
                 
 
@@ -428,7 +428,7 @@
 <p>官方项目地址：<a target="_blank" rel="noopener" href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p>
 <h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\source目录下新建文件夹名称为live2d-widget或者下载官方压缩包解压到blog/source目录下<br><code>即进入官方项目地址https://github.com/stevenjoezhang/live2d-widget，打包下载项目code ，把下载的download zip文件(mac到右边下载release包tar.gz格式的)放到刚blog/source文件夹下，解压,删掉压缩包，重命名为live2d-widget</code></p>
 <p>完成后完整的路径是blog/source/live2d-widget</p>
-<p>之后就是引入链接了，在head.ejs中添加两行代码</p>
+<p>之后就是引入链接了，在head.ejs中添加两行代码(插到末尾不过要在head上方)</p>
 <figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure>
 <p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p>
 <h2 id="可能需要引入依赖，不过我这个主题不需要"><a href="#可能需要引入依赖，不过我这个主题不需要" class="headerlink" title="可能需要引入依赖，不过我这个主题不需要"></a>可能需要引入依赖，不过我这个主题不需要</h2><p><code>依赖 Dependencies</code></p>
@@ -729,19 +729,19 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/05/17/xinjianyigemdwenjian/">
+                <a href="/2021/05/17/xinjiantagsbiaoqian/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/7.jpg" class="responsive-img" alt="对于一个小白来说如何新建一个.md文件">
+                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/17.jpg" class="responsive-img" alt="如何新建多个tags标签">
                         
-                        <span class="card-title">对于一个小白来说如何新建一个.md文件</span>
+                        <span class="card-title">如何新建多个tags标签</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            新建一个md文件只需新建一个文本文档直接改拓展名
+                            
                         
                     </div>
                     <div class="publish-info">
@@ -750,12 +750,8 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
-                                    其他
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            HuaKai
                             
                         </span>
                     </div>
@@ -763,8 +759,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%96%B0%E5%BB%BAmd%E6%96%87%E4%BB%B6/">
-                        <span class="chip bg-color">新建md文件</span>
+                    <a href="/tags/%E6%96%B0%E5%BB%BAtags%E6%A0%87%E7%AD%BE/">
+                        <span class="chip bg-color">新建tags标签</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%96%B0%E5%BB%BA%E5%A4%9A%E4%B8%AA%E6%A0%87%E7%AD%BE/">
+                        <span class="chip bg-color">新建多个标签</span>
                     </a>
                     
                 </div>
