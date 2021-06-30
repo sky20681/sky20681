@@ -392,14 +392,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-28
+                    2021-06-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1k
+                    1.2k
                 </div>
                 
 
@@ -445,9 +445,12 @@
 <h1 id="站点运行开始时间"><a href="#站点运行开始时间" class="headerlink" title="站点运行开始时间."></a>站点运行开始时间.</h1><p>将enable:disable 改为true<br>将年月日改为自己创建的日期，保存后到浏览器刷新查看效果，可以不关闭_config.yml文件，只需要保存</p>
 <h1 id="配置首页显示”梦想”的语句"><a href="#配置首页显示”梦想”的语句" class="headerlink" title="配置首页显示”梦想”的语句."></a>配置首页显示”梦想”的语句.</h1><p>dream:<br>  enable: true<br>  showTitle: true<br>  title: 我绝不会向暴力犯罪屈服<br>  text: 这个世界有他的秩序，想要颠覆他的人没有好下场，如果你加入他们，你和你的家族都会蒙羞，好一点的话，成为贱民，受到殴打和鞭笞。糟糕的是，会被割礼或者钉在十字架上。但是我永远不会向暴力犯罪屈服。</p>
 <h2 id="修改网站标题等内容"><a href="#修改网站标题等内容" class="headerlink" title="修改网站标题等内容"></a>修改网站标题等内容</h2><p>在blog文件夹下同样修改_config.yml里 的内容language修改为： zh-CN<br>等等</p>
+<h2 id="去掉banner颜色遮照"><a href="#去掉banner颜色遮照" class="headerlink" title="去掉banner颜色遮照"></a>去掉banner颜色遮照</h2><p>在theme主题目录下，source/css目录下找到matery.css文件,ctrl+F快捷键查找.bg-cover:after，注释掉即可。<br><code>/* .bg-cover:after {</code><br>    <code>-webkit-animation: rainbow 60s infinite;</code><br>    <code>animation: rainbow 60s infinite;</code><br><code>} */</code></p>
+<h2 id="主题的其他修改详见："><a href="#主题的其他修改详见：" class="headerlink" title="主题的其他修改详见："></a>主题的其他修改详见：</h2><p><a target="_blank" rel="noopener" href="https://blinkfox.github.io/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/">https://blinkfox.github.io/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/</a></p>
 <h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h2><p>gitee pages暂停服务整顿3月，使用的是github提供的静态部署网站服务github pages<br>新建GitHub账号，新建一个仓库</p>
-<p>正确的配置好blog根目录下的_config.yml文件里的网站URL、repo地址（复制GitHub提供给你的仓库https地址（第一次hexo d 的时候需要输入GitHub账号密码）<br>初始化git，即配置git的用户名和邮箱地址<br>设置用户名：<br>git config –global user.name “GitHub用户名”<br>设置邮箱：<br>git config –global user.email “邮箱地址”</p>
-<p>都完成后，关掉所有cmd窗口<br>重新打开cmd<br>输入<br>cd blog<br>hexo d<br>弹出的窗口输入GitHub账号密码<br>MAC 需要用管理员权限<br>先输入<br>sudo su<br>直接输入密码后回车，这里不显示输入密码过程的<br>然后跟win一样<br>cd blog<br>hexo d<br>弹出的窗口输入GitHub账号密码<br>通过ssh，上传代码<br>win参考<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_33514421/article/details/83048051">https://blog.csdn.net/qq_33514421/article/details/83048051</a><br>MAC 参考<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/Capgras/article/details/100540501">https://blog.csdn.net/Capgras/article/details/100540501</a><br>遇到问题参考<br><a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a></p>
+<p>正确的配置好blog根目录下的_config.yml文件里的网站URL、repo地址和<code>分支</code>:<br><code>deploy:</code><br>  <code>type: 'git'</code><br>  <code>repo: git@github.com:sky20681/sky20681.git</code><br>  <code>branch: master</code><br>（如果repo是用的GitHub提供给你的仓库https地址（第一次hexo d 的时候需要输入GitHub账号密码）<br>初始化git，即配置git的用户名和邮箱地址<br>设置用户名：<br>git config –global user.name “GitHub用户名”<br>设置邮箱：<br>git config –global user.email “邮箱地址”</p>
+<p>都完成后，关掉所有cmd窗口<br>重新打开cmd</p>
+<p>输入<br>cd blog<br>hexo d<br><code>如果报错(ERROR Deployer not found: git)</code><br><code>解决办法cd blog 接着输入命令：npm install --save hexo-deployer-git</code><br>弹出的窗口输入GitHub账号密码<br>MAC 需要用管理员权限<br>先输入<br>sudo su<br>直接输入密码后回车，这里不显示输入密码过程的<br>然后跟win一样<br>cd blog<br>hexo d<br>弹出的窗口输入GitHub账号密码<br>通过ssh，上传代码<br>win参考<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_33514421/article/details/83048051">https://blog.csdn.net/qq_33514421/article/details/83048051</a><br>MAC 参考<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/Capgras/article/details/100540501">https://blog.csdn.net/Capgras/article/details/100540501</a><br>遇到问题参考<br><a target="_blank" rel="noopener" href="http://www.baidu.com/">www.baidu.com</a></p>
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Rt4y1k7it?p=5&amp;t=109">https://www.bilibili.com/video/BV1Rt4y1k7it?p=5&amp;t=109</a> # 保姆级</p>
 <p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?t=639">https://www.bilibili.com/video/BV1Yb411a7ty?t=639</a> # 启蒙</p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/cungudafa/article/details/106278206">https://blog.csdn.net/cungudafa/article/details/106278206</a>  #主题美化参考</p>
@@ -930,7 +933,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">12.9k</span>&nbsp;字
+                class="white-color">13k</span>&nbsp;字
             
             
             
