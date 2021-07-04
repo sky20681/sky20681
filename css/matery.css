@@ -41,7 +41,7 @@ busuanzi_container_site_uv{
 body {
     background-color: #eaeaea;
     margin: 0;
-    color: #34495e;
+    color: rgb(0, 0, 0);
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -255,7 +255,7 @@ mark {
 }
 
 .white-color {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .progress-bar {
@@ -576,7 +576,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #26feff;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -698,7 +698,7 @@ header .go-back i {
 }
 
 .carousel-post .title {
-    font-size: 2.6rem;
+    font-size: 2.7rem;
 }
 
 .dream {
@@ -1846,7 +1846,7 @@ footer .social-statis {
 }
 
 footer a {
-    color: #fff;
+    color: #fc0101;
 }
 
 footer .copy-right {
