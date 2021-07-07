@@ -96,11 +96,44 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="https://huakai.site/categories/建站过程/">
+          
+          <span>建站过程</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://huakai.site/categories/主题美化/">
+          
+          <span>主题美化</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://huakai.site/categories/文章编辑/">
+          
+          <span>文章编辑</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://huakai.site/categories/其他/">
+          
+          <span>其他</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -110,7 +143,7 @@
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
       
-      <span>归档</span>
+      <span>时间轴</span>
     </a>
     
   </li>
@@ -121,7 +154,7 @@
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
-      <span>关于</span>
+      <span>关于我</span>
     </a>
     
   </li>
@@ -255,12 +288,48 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="https://huakai.site/categories/建站过程/ " style="margin-left:75px">
+				  
+		          <span>建站过程</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="https://huakai.site/categories/主题美化/ " style="margin-left:75px">
+				  
+		          <span>主题美化</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="https://huakai.site/categories/文章编辑/ " style="margin-left:75px">
+				  
+		          <span>文章编辑</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="https://huakai.site/categories/其他/ " style="margin-left:75px">
+				  
+		          <span>其他</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -270,7 +339,7 @@
 			
 			    <i class="fa-fw fas fa-archive"></i>
 			
-			归档
+			时间轴
 		</a>
           
         </li>
@@ -281,7 +350,7 @@
 			
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
-			关于
+			关于我
 		</a>
           
         </li>
@@ -402,104 +471,10 @@
 
 
 
-<main class="post-container content">
+<main class="container content">
 
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
-        position: absolute;
-        right: 23.5vw;
-        display: block;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
+    <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -531,14 +506,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-28
+                    2021-07-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    9
+                    256
                 </div>
                 
 
@@ -562,11 +537,29 @@
         
 
         
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
+        
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>游戏：polybridge2<br>造桥世界第一</p>
-<iframe src="//player.bilibili.com/player.html?aid=333553977&amp;bvid=BV1Rw411Z7Cg&amp;cid=352787813&amp;page=1" height="600" width="100%"></iframe>
+                <p>游戏：polybridge2<br>造桥世界第一<br>up主：<a target="_blank" rel="noopener" href="https://space.bilibili.com/2844419?spm_id_from=333.788.b_765f7570696e666f.2">不愧是我叶楠雄</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=333553977&amp;bvid=BV1Rw411Z7Cg&amp;cid=352787813&amp;page=1&amp;high_quality=1" height="600" width="100%"></iframe>
+<br>
+<br>
+<br>
+<br>
+<iframe src="//player.bilibili.com/player.html?aid=458445518&amp;bvid=BV1n5411p7iT&amp;cid=275262668&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="600" width="100%"> </iframe>
+
+
+
+<h2 id="本文的md代码如下："><a href="#本文的md代码如下：" class="headerlink" title="本文的md代码如下："></a>本文的md代码如下：</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: B站视频</span><br><span class="line">date: 2021-06-27 19:11:15</span><br><span class="line">tags:</span><br><span class="line">    - Bilibili</span><br><span class="line">summary: 一个可爱的双马尾女生！</span><br><span class="line">toc: false</span><br><span class="line">---</span><br><span class="line">游戏：polybridge2</span><br><span class="line">造桥世界第一</span><br><span class="line">up主：[不愧是我叶楠雄](https://space.bilibili.com/2844419?spm_id_from=333.788.b_765f7570696e666f.2)</span><br><span class="line"></span><br><span class="line">&lt;iframe src="//player.bilibili.com/player.html?aid=333553977&amp;bvid=BV1Rw411Z7Cg&amp;cid=352787813&amp;page=1&amp;high_quality=1" height = 600 width = 100%  &gt;&lt;/iframe&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;iframe src="//player.bilibili.com/player.html?aid=458445518&amp;bvid=BV1n5411p7iT&amp;cid=275262668&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height = 600 width = 100%&gt; &lt;/iframe&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<hr>
+<p>小tips1：在B站提供的嵌入式代码中加入<code>height = 600 width = 100%</code>可以控制视频框的高度和宽度，数字是绝对高度，宽度是百分比的话可以随页面缩放<br>小tips2：在src视频的地址后面添加<code>&amp;high_quality=1</code>，可以使默认的360P变为720P哦</p>
+<p>大tips：西瓜视频提供本地1080P播放不用跳转</p>
 
                 
             </div>
@@ -919,100 +912,6 @@
 <!-- 代码块收缩 -->
 
 
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
-
     
 
 </main>
@@ -1035,7 +934,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">13.6k</span>&nbsp;字
+                class="white-color">13.9k</span>&nbsp;字
             
             
             
