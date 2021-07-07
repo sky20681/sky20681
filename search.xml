@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>在线生成彩虹字</title>
+      <link href="2021/07/06/caihongzi/"/>
+      <url>2021/07/06/caihongzi/</url>
+      
+        <content type="html"><![CDATA[<h5 id="效果展示："><a href="#效果展示：" class="headerlink" title="效果展示："></a>效果展示：</h5><hr><h2 id="藏在心底的爱，心满了，就从眼里溢出。"><a href="#藏在心底的爱，心满了，就从眼里溢出。" class="headerlink" title="藏在心底的爱，心满了，就从眼里溢出。"></a><font color="#FF8000">藏</font><font color="#F1720E">在</font><font color="#E3641C">心</font><font color="#D5562A">底</font><font color="#C74838">的</font><font color="#B93A46">爱</font><font color="#AB2C54">，</font><font color="#A01E62">心</font><font color="#A01070">满</font><font color="#A0027E">了</font><font color="#A0008C">，</font><font color="#A0009A">就</font><font color="#A000A8">从</font><font color="#A000B6">眼</font><font color="#A000C4">里</font><font color="#A000D2">溢</font><font color="#A000E0">出</font><font color="#A000EE">。</font></h2><hr><h6 id="生成地址：http-code-cozv-cn-html-4"><a href="#生成地址：http-code-cozv-cn-html-4" class="headerlink" title="生成地址：http://code.cozv.cn/html/4/"></a>生成地址：<a href="http://code.cozv.cn/html/4/">http://code.cozv.cn/html/4/</a></h6>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>本站的横幅图片欣赏</title>
       <link href="2021/07/06/bannertupian/"/>
       <url>2021/07/06/bannertupian/</url>
@@ -21,7 +34,7 @@
       <link href="2021/07/06/cfyouxi/"/>
       <url>2021/07/06/cfyouxi/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://huakai.site/2021/07/06/cfyouxi/cf.png"><br>网游的生命周期真的长啊！！</p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://huakai.site/2021/07/06/cfyouxi/cf.png"><br>为什么还不凉凉啊🙃</p>]]></content>
       
       
       
@@ -604,6 +617,31 @@
     
     
     <entry>
+      <title>如何给网站添加看板娘</title>
+      <link href="2021/05/17/4/"/>
+      <url>2021/05/17/4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="今天给网站添加看板娘"><a href="#今天给网站添加看板娘" class="headerlink" title="今天给网站添加看板娘"></a>今天给网站添加看板娘</h2><h3 id="更新：这是最初的简单版看板娘，豪华版见下方更新"><a href="#更新：这是最初的简单版看板娘，豪华版见下方更新" class="headerlink" title="更新：这是最初的简单版看板娘，豪华版见下方更新"></a>更新：这是最初的简单版看板娘，豪华版见下方更新</h3><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><hr><h2 id="https-www-cnblogs-com-fofade-p-11307644-html"><a href="#https-www-cnblogs-com-fofade-p-11307644-html" class="headerlink" title="https://www.cnblogs.com/fofade/p/11307644.html"></a><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></h2><h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></p><h2 id="更新：更换豪华版看板娘"><a href="#更新：更换豪华版看板娘" class="headerlink" title="更新：更换豪华版看板娘"></a>更新：更换豪华版看板娘</h2><p>参考资料：<a href="https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/">https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/</a></p><p>官方项目地址：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p><h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\source目录下新建文件夹名称为live2d-widget或者下载官方压缩包解压到blog/source目录下<br><code>即进入官方项目地址https://github.com/stevenjoezhang/live2d-widget，打包下载项目code ，把下载的download zip文件(mac到右边下载release包tar.gz格式的)放到刚blog/source文件夹下，解压,删掉压缩包，重命名为live2d-widget</code></p><p>完成后完整的路径是blog/source/live2d-widget</p><p>之后就是引入链接了，在head.ejs中添加两行代码(插到末尾不过要在head上方)</p><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p><h2 id="可能需要引入依赖，不过我这个主题不需要"><a href="#可能需要引入依赖，不过我这个主题不需要" class="headerlink" title="可能需要引入依赖，不过我这个主题不需要"></a>可能需要引入依赖，不过我这个主题不需要</h2><p><code>依赖 Dependencies</code></p><p><code>本插件需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样式表已在页面中加载。以 Font Awesome v4 为例，请在 &lt;head&gt; 中加入：</code><br><code>Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an example, please add the following in &lt;head&gt;:</code></p><p><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"&gt;</code><br><code>否则图标将无法正常显示。（如果网页中已经加载了任何版本的 Font Awesome，就不要重复加载了）</code></p><p>然后<br>保存<br>cd blog<br>hexo g<br>hexo s<br>检查没问题后<br>hexo d</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 添加看板娘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>本站在windows10下的搭建过程</title>
       <link href="2021/05/17/2/"/>
       <url>2021/05/17/2/</url>
@@ -623,31 +661,6 @@
             <tag> 搭建过程 </tag>
             
             <tag> 搭建流程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>如何给网站添加看板娘</title>
-      <link href="2021/05/17/4/"/>
-      <url>2021/05/17/4/</url>
-      
-        <content type="html"><![CDATA[<h2 id="今天给网站添加看板娘"><a href="#今天给网站添加看板娘" class="headerlink" title="今天给网站添加看板娘"></a>今天给网站添加看板娘</h2><h3 id="更新：这是最初的简单版看板娘，豪华版见下方更新"><a href="#更新：这是最初的简单版看板娘，豪华版见下方更新" class="headerlink" title="更新：这是最初的简单版看板娘，豪华版见下方更新"></a>更新：这是最初的简单版看板娘，豪华版见下方更新</h3><h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><hr><h2 id="https-www-cnblogs-com-fofade-p-11307644-html"><a href="#https-www-cnblogs-com-fofade-p-11307644-html" class="headerlink" title="https://www.cnblogs.com/fofade/p/11307644.html"></a><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></h2><h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p><a href="https://www.cnblogs.com/fofade/p/11307644.html">https://www.cnblogs.com/fofade/p/11307644.html</a></p><h2 id="更新：更换豪华版看板娘"><a href="#更新：更换豪华版看板娘" class="headerlink" title="更新：更换豪华版看板娘"></a>更新：更换豪华版看板娘</h2><p>参考资料：<a href="https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/">https://www.chensheng.group/2020/07/27/135-hexo%E7%9C%8B%E6%9D%BF%E5%A8%98/</a></p><p>官方项目地址：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p><h3 id="我的步骤："><a href="#我的步骤：" class="headerlink" title="我的步骤："></a>我的步骤：</h3><p>进入cmd把之前的live2d卸载掉，命令行代码如下：<br>cd blog<br>npm uninstall hexo-helper-live2d<br>在blog\source目录下新建文件夹名称为live2d-widget或者下载官方压缩包解压到blog/source目录下<br><code>即进入官方项目地址https://github.com/stevenjoezhang/live2d-widget，打包下载项目code ，把下载的download zip文件(mac到右边下载release包tar.gz格式的)放到刚blog/source文件夹下，解压,删掉压缩包，重命名为live2d-widget</code></p><p>完成后完整的路径是blog/source/live2d-widget</p><p>之后就是引入链接了，在head.ejs中添加两行代码(插到末尾不过要在head上方)</p><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><p>有一些主题,路径在/themes/主题名字/layout/_partial/head.ejs目录下<br>我的next主题,是在/themes/next/layout/_layout.swing目录下</p><h2 id="可能需要引入依赖，不过我这个主题不需要"><a href="#可能需要引入依赖，不过我这个主题不需要" class="headerlink" title="可能需要引入依赖，不过我这个主题不需要"></a>可能需要引入依赖，不过我这个主题不需要</h2><p><code>依赖 Dependencies</code></p><p><code>本插件需要 Font Awesome (v4 或 v5) 图标支持，请确保相关样式表已在页面中加载。以 Font Awesome v4 为例，请在 &lt;head&gt; 中加入：</code><br><code>Font Awesome (v4 or v5) is required for this plugin. Take Font Awesome v4 as an example, please add the following in &lt;head&gt;:</code></p><p><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"&gt;</code><br><code>否则图标将无法正常显示。（如果网页中已经加载了任何版本的 Font Awesome，就不要重复加载了）</code></p><p>然后<br>保存<br>cd blog<br>hexo g<br>hexo s<br>检查没问题后<br>hexo d</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 主题美化 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 添加看板娘 </tag>
             
         </tags>
       
