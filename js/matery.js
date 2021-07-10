@@ -15,6 +15,7 @@ $(function () {
     /*菜单切换*/
     $('.sidenav').sidenav();
 
+
     /* 修复文章卡片 div 的宽度. */
     let fixPostCardWidth = function (srcId, targetId) {
         let srcDiv = $('#' + srcId);
