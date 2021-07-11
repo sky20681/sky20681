@@ -9,6 +9,9 @@ busuanzi_container_site_uv{
     .container {
         width: 95%;
     }
+    .fullscreen {
+        display: none;
+    }
 }
 
 /*中等屏幕下(平板类)的样式*/
@@ -304,7 +307,12 @@ header .brand-logo .logo-img {
 header .brand-logo .logo-span {
     font-size: 1.6rem;
 }
-
+/* 友链对齐*/
+.frind-ship .title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 /*修改顶部 logo 的文字垂直对齐为 top，避免默认 middle 看起来偏下*/
 header .brand-logo .waves-effect {
     vertical-align: top;
@@ -2145,3 +2153,40 @@ footer .copy-right {
     padding: 0;
     margin: 0;
 }
+
+/* 滚动条开始 */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(235, 50, 50,100%);  /* 滚动条背景色和透明度 */
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #23a1f5;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(90, 217, 240, 0.945) 25%,
+      transparent 25%,
+      rgb(25, 239, 247) 50%,
+      transparent 25%,
+      rgba(9, 232, 248, 0.897) 75%,
+      transparent 75%,
+      transparent
+      
+    );
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  
+  ::-moz-selection {
+    color: #fff;
+    background-color: #49b1f5;
+  }
+  /* 滚动条结束 */
