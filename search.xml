@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>文字闪烁</title>
-      <link href="2021/07/11/wenzishanshuo/"/>
-      <url>2021/07/11/wenzishanshuo/</url>
-      
-        <content type="html"><![CDATA[<h2 id="文字闪烁"><a href="#文字闪烁" class="headerlink" title="文字闪烁"></a><div class="magicColor"><p>文字闪烁</p><p></p></div></h2><blockquote><p>著作权归作者所有。<br>商业转载请联系作者获得授权，非商业转载请注明出处。<br>作者：HCLonely<br>链接：<a href="https://blog.hclonely.com/posts/8f55ce4c/">https://blog.hclonely.com/posts/8f55ce4c/</a><br>来源：HCLonely Blog</p></blockquote><script>function magicColor(mode,t){    t=t||10;    let elem=document.getElementsByClassName("magic-color");    if(!elem){        setTimeout(function(){            magicColor(mode,t-1);        },400);        return;    }    if(window.mcHandler==undefined){        window.mcHandler={elements:[]};        window.mcHandler.colorIndex=0;        window.mcHandler.run=function(mode){            let color=mode=="random"?("rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+",1)"):["#CC0000","#9999CC","#CC3366","#669999","#FFCC00","#00CCCC","#CC00CC"][(window.mcHandler.colorIndex++)%7];            for(var i=0,L=window.mcHandler.elements.length;i<L;i++)window.mcHandler.elements[i].style.color=color;        }    }    window.mcHandler.elements=elem;    if(window.mcHandler.timer==undefined){        window.mcHandler.timer=setInterval(()=>{window.mcHandler.run(mode)},500);    }}magicColor(random);//random为随机颜色，否则为固定颜色随机；上方“闪烁（变色）”字样为固定颜色随机</script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章编辑 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 文字闪烁 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>加载动画</title>
       <link href="2021/07/11/jiazaidonghua/"/>
       <url>2021/07/11/jiazaidonghua/</url>
