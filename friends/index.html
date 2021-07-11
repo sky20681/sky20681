@@ -53,7 +53,8 @@
 </style>
 
  
-<script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"></script><!--嘿嘿-->
+<script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/night.js"></script><!--开启夜间模式-->
 <body>
    
 
@@ -135,7 +136,6 @@
         </a>
       </li>
       
-
     </ul>
     
   </li>
@@ -177,7 +177,6 @@
         </a>
       </li>
       
-
     </ul>
     
   </li>
@@ -257,7 +256,6 @@
         </a>
       </li>
       
-
     </ul>
     
   </li>
@@ -267,10 +265,15 @@
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
     </a>
   </li>
-
   <li id="fullscreen_li" class="fullscreen nav-show">
     <a href="javascript:void(0);" class="modal-trigger waves-effect waves-light"> 
       <i id="fullscreen" class="fa fa-expand" title="全屏" style="zoom: 0.90;"></i> 
+     </a> 
+   </li>
+
+   <li id="nightMode" class="">
+    <a onclick="switchNightMode()"> 
+      <i class="fa fa-moon" title="阴间模式" id="nightMode" aria-hidden="false"  ></i> <!--阴间模式-->
      </a> 
    </li>
 </ul>
@@ -1225,7 +1228,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7.2k</span>&nbsp;字
+                class="white-color">7.9k</span>&nbsp;字
             
             
             
@@ -1425,13 +1428,15 @@ $(function () {
     </a>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile/Hexo/js/mouse_snow.min.js"></script> <!--鼠标跟随特效-->
+
+
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/libs/aos/aos.js"></script>
     <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"><!--FontAwesome-->
 
     <!-- Baidu Analytics -->
 

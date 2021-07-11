@@ -2190,3 +2190,220 @@ footer .copy-right {
     background-color: #49b1f5;
   }
   /* 滚动条结束 */
+
+  /* 渐变 note 标签样式 */
+  .tip {
+    position: relative;
+    color: #fff;
+    background: #20a0ff;
+    background: -webkit-gradient(linear,left top,right top,from(#20a0ff),to(#20b8ff));
+    background: -webkit-linear-gradient(left,#20a0ff,#20b8ff);
+    background: linear-gradient(90deg,#20a0ff,#20b8ff);
+    padding: 6px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 5px rgba(32,160,255,.5);
+    box-shadow: 0 3px 5px rgba(32,160,255,.5);
+    margin-bottom: 20px
+}
+
+.tip p {
+    margin: 5px 0!important
+}
+
+.tip:before {
+    background: #20a0ff;
+    background: -webkit-gradient(linear,left bottom,left top,from(#0092ff),to(#20b8ff));
+    background: -webkit-linear-gradient(bottom,#0092ff,#20b8ff);
+    background: linear-gradient(0deg,#0092ff,#20b8ff);
+    border-radius: 50%;
+    color: #fff;
+    content: "\f129";
+    font-size: 12px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 24.5px;
+    left: -12px;
+    top: -12px;
+    -webkit-box-shadow: 0 0 0 2.5px #fff;
+    box-shadow: 0 0 0 2.5px #fff;
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    text-align: center
+}
+
+.btn,.getit a {
+    position: relative
+}
+
+.well .tip:before {
+    -webkit-box-shadow: 0 0 0 2.5px #f7f8f9;
+    box-shadow: 0 0 0 2.5px #f7f8f9
+}
+
+.tip ol {
+    margin: 0
+}
+
+.tip.success {
+    background: #61be33;
+    background: -webkit-gradient(linear,left top,right top,from(#61be33),to(#8fce44));
+    background: -webkit-linear-gradient(left,#61be33,#8fce44);
+    background: linear-gradient(90deg,#61be33,#8fce44);
+    text-shadow: 0 -1px #61be33;
+    -webkit-box-shadow: 0 3px 5px rgba(104,195,59,.5);
+    box-shadow: 0 3px 5px rgba(104,195,59,.5)
+}
+
+.tip.success:before {
+    background: -webkit-gradient(linear,left bottom,left top,from(#52bb1d),to(#95d34b));
+    background: -webkit-linear-gradient(bottom,#52bb1d,#95d34b);
+    background: linear-gradient(0deg,#52bb1d,#95d34b);
+    content: "\f00c";
+    text-shadow: 0 -1px #61be33
+}
+
+.tip.warning {
+    background: #ff953f;
+    background: -webkit-gradient(linear,left top,right top,from(#ff953f),to(#ffb449));
+    background: -webkit-linear-gradient(left,#ff953f,#ffb449);
+    background: linear-gradient(90deg,#ff953f,#ffb449);
+    text-shadow: 0 -1px #ff953f;
+    -webkit-box-shadow: 0 3px 5px rgba(255,154,73,.5);
+    box-shadow: 0 3px 5px rgba(255,154,73,.5)
+}
+
+.tip.warning:before {
+    background: -webkit-gradient(linear,left bottom,left top,from(#ff8f35),to(#ffc149));
+    background: -webkit-linear-gradient(bottom,#ff8f35,#ffc149);
+    background: linear-gradient(0deg,#ff8f35,#ffc149);
+    content: "\f12a";
+    text-shadow: 0 -1px #ff953f
+}
+
+.tip.error {
+    background: #ff4949;
+    background: -webkit-gradient(linear,left top,right top,from(#ff4949),to(#ff7849));
+    background: -webkit-linear-gradient(left,#ff4949,#ff7849);
+    background: linear-gradient(90deg,#ff4949,#ff7849);
+    text-shadow: 0 -1px #ff4949;
+    -webkit-box-shadow: 0 3px 5px rgba(255,73,73,.5);
+    box-shadow: 0 3px 5px rgba(255,73,73,.5)
+}
+
+.tip.error:before {
+    background: -webkit-gradient(linear,left bottom,left top,from(#ff3838),to(#ff7849));
+    background: -webkit-linear-gradient(bottom,#ff3838,#ff7849);
+    background: linear-gradient(0deg,#ff3838,#ff7849);
+    content: "\f00d";
+    text-shadow: 0 -1px #ff4949
+}
+/* 渐变 note 标签样式结束 */
+
+/* 夜间模式开始 */
+<style type="text/css">
+    /* 深色模式的颜色设置，需要自己手动逐个添加并适配 */
+    .night page,
+    .night colophon,
+    .night vcomments .vbtn,
+    .night .art-content #archives .al_mon_list .al_mon,
+    .night .art-content #archives .al_mon_list span,
+    .night body,
+    .night .art-content #archives .al_mon_list .al_mon,
+    .night .art-content #archives .al_mon_list span,
+    .night button,
+    .night .art .art-content #archives a,
+    .night textarea,
+    .night strong,
+    .night a,
+    .night p,
+    .night .label {
+        color: rgba(255, 255, 255, .6);
+    }
+
+    .night #page,
+    .night body,
+    .night #colophon,
+    .night #main-container,
+    .night #page .yya,
+    .night #content,
+    .night #contentss,
+    .night #footer {
+        background-color: #12121c;
+    }
+    .night strong,
+    .night img {
+        filter: brightness(.7);
+    }
+
+    /* CSS 切换的日出日落样式，不需要修改，如果不需要动画可以手动删除这一部分 */
+    .Cuteen_DarkSky,
+    .Cuteen_DarkSky:before {
+        content: "";
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 88888888
+    }
+
+    .Cuteen_DarkSky {
+        background: linear-gradient(#feb8b0, #fef9db)
+    }
+
+    .Cuteen_DarkSky:before {
+        transition: 2s ease all;
+        opacity: 0;
+        background: linear-gradient(#4c3f6d, #6c62bb, #93b1ed)
+    }
+
+    .DarkMode .Cuteen_DarkSky:before {
+        opacity: 1
+    }
+
+    .Cuteen_DarkPlanet {
+        z-index: 99999999;
+        position: fixed;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        -webkit-animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
+        animation: CuteenPlanetMove 2s cubic-bezier(.7, 0, 0, 1);
+        transform-origin: center bottom
+    }
+
+    @-webkit-keyframes CuteenPlanetMove {
+        0% {
+            transform: rotate(0)
+        }
+
+        to {
+            transform: rotate(360deg)
+        }
+    }
+
+    @keyframes CuteenPlanetMove {
+        0% {
+            transform: rotate(0)
+        }
+
+        to {
+            transform: rotate(360deg)
+        }
+    }
+
+    .Cuteen_DarkPlanet:after {
+        position: absolute;
+        left: 35%;
+        top: 40%;
+        width: 9.375rem;
+        height: 9.375rem;
+        border-radius: 50%;
+        content: "";
+        background: linear-gradient(#fefefe, #fffbe8)
+    }
+   
+</style>
+ /* sun and noon.end */
