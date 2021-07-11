@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>文字闪烁</title>
+      <link href="2021/07/11/wenzishanshuo/"/>
+      <url>2021/07/11/wenzishanshuo/</url>
+      
+        <content type="html"><![CDATA[<h2 id="文字闪烁"><a href="#文字闪烁" class="headerlink" title="文字闪烁"></a><div class="magicColor"><p>文字闪烁</p><p></p></div></h2><blockquote><p>著作权归作者所有。<br>商业转载请联系作者获得授权，非商业转载请注明出处。<br>作者：HCLonely<br>链接：<a href="https://blog.hclonely.com/posts/8f55ce4c/">https://blog.hclonely.com/posts/8f55ce4c/</a><br>来源：HCLonely Blog</p></blockquote><script>function magicColor(mode,t){    t=t||10;    let elem=document.getElementsByClassName("magic-color");    if(!elem){        setTimeout(function(){            magicColor(mode,t-1);        },400);        return;    }    if(window.mcHandler==undefined){        window.mcHandler={elements:[]};        window.mcHandler.colorIndex=0;        window.mcHandler.run=function(mode){            let color=mode=="random"?("rgb("+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+","+Math.floor(Math.random()*256)+",1)"):["#CC0000","#9999CC","#CC3366","#669999","#FFCC00","#00CCCC","#CC00CC"][(window.mcHandler.colorIndex++)%7];            for(var i=0,L=window.mcHandler.elements.length;i<L;i++)window.mcHandler.elements[i].style.color=color;        }    }    window.mcHandler.elements=elem;    if(window.mcHandler.timer==undefined){        window.mcHandler.timer=setInterval(()=>{window.mcHandler.run(mode)},500);    }}magicColor(random);//random为随机颜色，否则为固定颜色随机；上方“闪烁（变色）”字样为固定颜色随机</script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章编辑 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文字闪烁 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>加载动画</title>
+      <link href="2021/07/11/jiazaidonghua/"/>
+      <url>2021/07/11/jiazaidonghua/</url>
+      
+        <content type="html"><![CDATA[<div class="tip"><p>给网站添加加载动画</p><p></p></div><blockquote><p>著作权归作者所有。<br>商业转载请联系作者获得授权，非商业转载请注明出处。<br>作者：HCLonely<br>链接：<a href="https://blog.hclonely.com/posts/57bd67ce/">https://blog.hclonely.com/posts/57bd67ce/</a><br>来源：HCLonely Blog</p></blockquote><blockquote><p>将以下内容添加到<code>&lt;</code>head<code>&gt;</code>标签内：Tips:我是加到了layout.ejs文件里了</p></blockquote><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/loading.min.css"&gt;</span><br></pre></td></tr></tbody></table></figure><blockquote><p>将以下内容添加到<code>&lt;</code>body<code>&gt;</code>标签后面：</p></blockquote><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id="loading-box"&gt;</span><br><span class="line">  &lt;div class="loading-left-bg"&gt;&lt;/div&gt;</span><br><span class="line">  &lt;div class="loading-right-bg"&gt;&lt;/div&gt;</span><br><span class="line">  &lt;div class="spinner-box"&gt;</span><br><span class="line">    &lt;div class="configure-border-1"&gt;</span><br><span class="line">      &lt;div class="configure-core"&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class="configure-border-2"&gt;</span><br><span class="line">      &lt;div class="configure-core"&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class="loading-word"&gt;加载中...&lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></tbody></table></figure><blockquote><p>将以下内容添加到<code>&lt;</code>body<code>&gt;</code>标签前面：</p></blockquote><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  var endLoading = function () {</span><br><span class="line">    document.body.style.overflow = 'auto';</span><br><span class="line">    document.getElementById('loading-box').classList.add("loaded");</span><br><span class="line">  }</span><br><span class="line">  window.addEventListener('load',endLoading);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure><div class="tip warning"><p>再次申明本文为非商业转载，版权属于原作者</p><p></p></div><p>作者：HCLonely<br>链接：<a href="https://blog.hclonely.com/posts/57bd67ce/">https://blog.hclonely.com/posts/57bd67ce/</a><br>来源：HCLonely Blog<br>著作权归作者所有。<br>商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主题美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 加载动画 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>artitalk美化</title>
       <link href="2021/07/11/artitalkmeihua/"/>
       <url>2021/07/11/artitalkmeihua/</url>

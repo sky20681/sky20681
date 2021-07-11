@@ -37,7 +37,6 @@
     <script src="/live2d-widget/autoload.js"></script>
 
 
-
 <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
@@ -55,7 +54,7 @@
  
 <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"></script><!--嘿嘿-->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css"><!--加载动画-->
 <body>
 
     <div id="loading-box">
@@ -68,7 +67,7 @@
         <div class="configure-border-2">
           <div class="configure-core"></div>
         </div>
-        <div class="loading-word">加载中...</div>
+        <div class="loading-word">疯狂加载中...</div>
       </div>
     </div>
    
@@ -285,7 +284,7 @@
       <i id="fullscreen" class="fa fa-expand" title="全屏" style="zoom: 0.90;"></i> 
      </a> 
    </li>
-
+  
 
 </ul>
 
@@ -1303,7 +1302,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7.9k</span>&nbsp;字
+                class="white-color">8.4k</span>&nbsp;字
             
             
             
@@ -1322,8 +1321,9 @@
             </span>
             
             <br>
+            <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第一颗心-->
             
-            <span id="sitetime">载入运行时间...</span>
+            <span id="sitetime">正在载入运行时间...</span>
             <script>
                 function siteTime() {
                     var seconds = 1000;
@@ -1365,8 +1365,10 @@
                     }
                 }
                 setInterval(siteTime, 1000);
+
             </script>
             
+            <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第二颗心-->
             <br>
             
         </div>
@@ -1505,6 +1507,7 @@ $(function () {
 
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/libs/aos/aos.js"></script>
