@@ -22,15 +22,15 @@
 
 
     <title>MAtery主题如何更改字体 | huakai</title>
-    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681@latest/css/my.css"><!--加载动画-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/diy.css">
 
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>  
@@ -79,7 +79,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">huakai</span>
                 </a>
@@ -290,7 +290,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">huakai</div>
         <div class="logo-desc">
@@ -513,7 +513,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -583,7 +583,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    861
+                    887
                 </div>
                 
 
@@ -612,13 +612,13 @@
             <div id="articleContent">
                 <h2 id="麻溜的开始吧"><a href="#麻溜的开始吧" class="headerlink" title="麻溜的开始吧"></a><center><font color="#FF0000">麻</font><font color="#D5002A">溜</font><font color="#AB0054">的</font><font color="#81007E">开</font><font color="#5700A8">始</font><font color="#2D00D2">吧</font></center></h2><div class="tip warning"><p>默认的就好看，没事别瞎折腾</p><p></p></div>
 
-<div class="tip success"><p>准备工作1</p><p></p></div>
+<div class="tip success"><p>准备工作</p><p></p></div>
 ---
 
 <p>挑选一款心仪的字体<br>这里我挑了几款好看的<br><img src="https://huakai.site/2021/07/13/bokeziti/1.png"><br>然后拿告白体做演示把🐶</p>
 <p><img src="https://huakai.site/2021/07/13/bokeziti/0.png" alt="精选"></p>
 <hr>
-<div class="tip success"><p>准备工作2</p><p></p></div>
+<div class="tip success"><p>准备工作</p><p></p></div>
 
 <hr>
 <p>接着在hexo根目录的source中新建font文件夹，把下载好的ttf格式的字体放进去，以防万一，在根目录的网站_config.yml配置文件中，跳过这整个文件夹渲染，如下：</p>
@@ -662,8 +662,13 @@
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># CDN访问加速 </span><br><span class="line"># 第一次使用本功能，一定要先配置url，再`hexo cl &amp;&amp; hexo g &amp;&amp; hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！</span><br><span class="line"># 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）</span><br><span class="line"># URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名</span><br><span class="line"># 如果想关闭此功能，将 url地址 注释或删除即可！</span><br><span class="line">#</span><br><span class="line"># 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉</span><br><span class="line"># 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html</span><br><span class="line"># 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx</span><br></pre></td></tr></tbody></table></figure>
 
 <p>hexo s启动本地端口查看</p>
-<p>接着介绍更改字体大小<br>edge浏览器按F12，点击这个图标后，到网页上点击文字，看是哪个参数在调控它的大小，手动修改数值到满意大小，然后到本地文件上修改</p>
+<div class="tip success"><p>接着介绍更改字体大小</p><p></p></div>
+
+<p>edge浏览器按F12，点击这个图标后，到网页上点击文字，看是哪个参数在调控它的大小，手动修改数值到满意大小，然后到本地文件上修改</p>
 <p><img src="https://huakai.site/2021/07/13/bokeziti/3.png"></p>
+<p>tips:<br>VS code,按F1搜索MArkdown插件可以实时查看，不用再下载专用的markdown编辑器了</p>
+<p><img src="https://huakai.site/2021/07/13/bokeziti/4.png"></p>
+<p><img src="https://huakai.site/2021/07/13/bokeziti/2.png"></p>
 
                 
             </div>
@@ -740,12 +745,12 @@
                     
                 </div>
                 <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/share/css/share.min.css">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 <div id="article-share">
 
     
     <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/share/js/social-share.min.js"></script>
+    <script src="/libs/share/js/social-share.min.js"></script>
     
 
     
@@ -863,10 +868,10 @@
                         <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
                     </ul>
                     <div id="alipay">
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
                     </div>
                     <div id="wechat">
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
                     </div>
                 </div>
             </div>
@@ -914,7 +919,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/3.jpg" class="responsive-img" alt="MAtery主题如何更改字体">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="MAtery主题如何更改字体">
                         
                         <span class="card-title">MAtery主题如何更改字体</span>
                     </div>
@@ -968,7 +973,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/26.jpg" class="responsive-img" alt="自由之思想，独立之精神">
+                        <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="自由之思想，独立之精神">
                         
                         <span class="card-title">自由之思想，独立之精神</span>
                     </div>
@@ -1007,7 +1012,7 @@
 
 
 <!-- 代码块功能依赖 -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/codeBlock/codeBlockFuction.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 
 <!-- 代码语言 -->
 
@@ -1017,7 +1022,7 @@
 
 <!-- 代码块收缩 -->
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/codeBlock/codeShrink.js"></script>
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
 
     
@@ -1248,12 +1253,12 @@ $(function () {
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"><!--跳动的心-->
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/matery.js"></script>
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"><!--FontAwesome图标-->
 
     <!-- Baidu Analytics -->
@@ -1261,10 +1266,10 @@ $(function () {
     <!-- Baidu Push -->
 
     
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/others/clicklove.js" async="async"></script>
+    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
-    <script async src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/others/busuanzi.pure.mini.js"></script>
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1279,7 +1284,7 @@ $(function () {
     <script type="text/javascript" color="99, 184, 255"
         pointColor="0,0,0" opacity='1'
         zIndex="-1" count="299"
-        src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/background/canvas-nest.js"></script>
+        src="/libs/background/canvas-nest.js"></script>
     
 
     
@@ -1287,7 +1292,7 @@ $(function () {
     
 
     
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/instantpage/instantpage.js" type="module"></script>
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
   
     <script> 
