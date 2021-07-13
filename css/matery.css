@@ -232,10 +232,13 @@ mark {
     background-color: #fcf8e3;
     padding: .2em;
 }
+/*加入卡片星星背景图片 可以自己选*/
 
+/*加入卡片星星背景图片 可以自己选*/
 .card {
-    border-radius: 10px;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+    background: url(https://codecheng-1305009997.cos.ap-chengdu.myqcloud.com/img/20210504193531.jfif) top;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(42, 89, 165, .1), 0 5px 15px rgba(71, 159, 188, .07) !important;
 }
 
 .card .card-image img {
@@ -569,8 +572,11 @@ header .go-back i {
     animation: rainbow 60s infinite;
 } */
 
+/*添加背景像素纹*/
+.bg-cover::before {
+    background-image: url('https://cdn.jsdelivr.net/gh/sky20681/blog/img/wenli.png');
+ } 
 
-.bg-cover:before,
 .bg-cover:after {
     position: absolute;
     z-index: 1;
