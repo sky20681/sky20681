@@ -42,9 +42,9 @@ busuanzi_container_site_uv{
 }
 
 body {
-    background-color: #eaeaea;
+    background-color: #ffffff;
     margin: 0;
-    color: rgb(0, 0, 0);
+    color: #000000;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -102,10 +102,10 @@ hr {
 }
 
 blockquote {
-    border-left: 5px solid #42b983;
+    border-left: 5px solid #fcc4c4;
     padding: 1rem 0.8rem 0.2rem 0.8rem;
-    color: #666;
-    background-color: rgba(66, 185, 131, .1);
+    color: #000;
+    background-color: rgb(255 235 232);
 }
 
 pre {
@@ -254,11 +254,11 @@ mark {
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #0ab0ff !important;
 }
 
 .white-color {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 30, 30);
 }
 
 .progress-bar {
@@ -393,8 +393,8 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #ffffff;
+    border: 1px solid #ff9a9a;
     background-color: transparent;
     border-radius: 30px;
     box-shadow: none;
@@ -584,7 +584,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #ffffff;
+    color: #a0edff;
     z-index: 2;
 }
 
@@ -597,9 +597,9 @@ header .go-back i {
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 1.4em;
-    color: #eee;
+    font-size: 2rem;
+    line-height: 1em;
+    color: #ffa9a9;
 }
 
 .bg-cover .post-title {
@@ -884,7 +884,7 @@ header .go-back i {
 
 article a {
     margin-right: 0 !important;
-    color: #525f7f;
+    color: #000000;
     text-transform: none !important;
 }
 
@@ -1073,8 +1073,8 @@ article .article-tags .chip {
     border-radius: 15px;
     margin-right: 5px;
     margin-bottom: 2px;
-    color: #42b983;
-    background: #fff;
+    color: #000000;
+    background: #24bcf8
     border: 1px solid;
     transition: all 0.6s ease-in-out;
 }
@@ -1091,7 +1091,7 @@ article .article-tags .chip {
 
 #artDetail .post-cate a {
     padding-right: 5px;
-    color: #42b983;
+    color: #58b9ff;
     font-weight: 500;
 }
 
@@ -1100,7 +1100,7 @@ article .article-tags .chip {
 }
 
 #artDetail .post-info {
-    color: #525f7f;
+    color: #559ebb;
 }
 
 #artDetail .post-info .post-category {
@@ -1115,7 +1115,7 @@ article .article-tags .chip {
 }
 
 #artDetail .post-info .post-date {
-    color: #525f7f;
+    color: #559ebb;
 }
 
 #artDetail .post-info .post-word-count {
@@ -1172,8 +1172,8 @@ article .article-tags .chip {
 }
 
 #artDetail .reprint a {
-    font-size: 1.05rem;
-    color: #42b983;
+    font-size: 1.30rem;
+    color: #00abff;
     font-weight: 500;
 }
 
@@ -1189,7 +1189,7 @@ article .article-tags .chip {
 
 #articleContent a {
     padding: 0 2px;
-    color: #42b983;
+    color: #004dff;
     font-weight: 500;
     text-decoration: underline;
     word-wrap: break-word;
@@ -1308,7 +1308,7 @@ thead {
 }
 
 .chip-container .chip-default {
-    color: #34495e;
+    color: #000000;
 }
 
 .chip-container .chip-active {
@@ -1623,7 +1623,7 @@ thead {
 }
 
 .post-statis .statis .count a {
-    color: #42b983;
+    color: #5ce8ff;
 }
 
 .post-statis .statis .name {
@@ -2156,7 +2156,7 @@ footer .copy-right {
 
 /* 滚动条开始 */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
     height: 8px;
   }
   
