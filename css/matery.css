@@ -822,7 +822,10 @@ header .go-back i {
 
 .post-cover {
 	height: 100vh !important;
-}/*.bg-cover:after{-webkit-animation:rainbow 60s infinite;animation:rainbow 60s infinite;}*/.bg-cover:before,.bg-cover:after {
+}/*.bg-cover:after{
+	-webkit-animation:rainbow 60s infinite;animation:rainbow 60s infinite;
+}*/
+.bg-cover:before,.bg-cover:after {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
