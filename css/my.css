@@ -45,4 +45,92 @@ hr:hover::before{
 }
 ​
 
+/* Here is your custom css styles. */body {
+	cursor: url(https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur),auto;
+	background-color: @theme_background;
+	...... ......
+}/*跳动文字css*/.Pshake {
+	display: inline-block;
+	will-change: transform;
+	-webkit-transform-origin: center center;
+	-ms-transform-origin: center center;
+	transform-origin: center center;
+	-webkit-animation: Pshake_Crazy 1s ease-in-out infinite;
+	animation: Pshake_Crazy 1s ease-in-out infinite;
+}
 
+@keyframes Pshake_Crazy {
+	10% {
+		transform: translate(-0.5px,-0.5px) rotate(0.5deg);
+	}
+
+	20% {
+		transform: translate(-0.5px,1.5px) rotate(0.5deg);
+	}
+
+	30% {
+		transform: translate(1.5px,0.5px) rotate(0.5deg);
+	}
+
+	40% {
+		transform: translate(1.5px,-0.5px) rotate(-0.5deg);
+	}
+
+	50% {
+		transform: translate(2.5px,1.5px) rotate(1.5deg);
+	}
+
+	60% {
+		transform: translate(-0.5px,-0.5px) rotate(-0.5deg);
+	}
+
+	70% {
+		transform: translate(-0.5px,2.5px) rotate(1.5deg);
+	}
+
+	80% {
+		transform: translate(2.5px,-1.5px) rotate(-0.5deg);
+	}
+
+	90% {
+		transform: translate(1.5px,-0.5px) rotate(1.5deg);
+	}
+
+	0%,100% {
+		transform: translate(0,0) rotate(0);
+	}
+}/* 添加背景像素纹*/.bg-cover::before {
+	background-image: url('https://codecheng-1305009997.cos.ap-chengdu.myqcloud.com/img/20210504115955.png');
+}/* 文章顶部hr 剪刀*/hr {
+	position: relative;
+	margin: 2rem auto;
+	width: calc(100% - 4px);
+	border: 2px dashed #a4d8fa;
+	background: #fff;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+hr:before {
+	position: absolute;
+	top: -10px;
+	left: 5%;
+	z-index: 1;
+	color: #49b1f5;
+	content: "💨";
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 20px;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+hr:hover::before {
+	left: 95%;
+}/*动态背景css样式*/
