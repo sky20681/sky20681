@@ -1062,11 +1062,13 @@ article .card-image {
 	position: relative;
 	z-index: 1;
 	transition: all 0.5s;
-}/*配合卡片隐出*/article .card-image:hover {
+}/*配合卡片隐出*/
+article .card-image:hover {
 	box-shadow: 3px 3px 5px #999;
 }
 
-article .card-image:before,article .card-image:after {
+article .card-image:before,
+article .card-image:after {
 	content: '';
 	background: radial-gradient(circle at 23% 70%,rgba(255,255,255,0.7),#fff 30%);
 	width: 150%;
@@ -2792,9 +2794,10 @@ article .card-image:hover .box-content h3::before {
 	display: none;
 }
 
-article .card-image-V:before,article .card-image-V:after {
+article .card-image-V:before,
+article .card-image-V:after {
 	top: -10.5%;
-
+/*结界*/
 }.tip {
     position: relative;
     color: #fff;
