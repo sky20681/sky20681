@@ -2640,6 +2640,13 @@ footer .copy-right {
 	-webkit-transform: rotate(360deg);
 	-o-transform: rotate(360deg);
 }
+/* 友链对齐*/
+.frind-ship .title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  }
+
 
 /* 滚动条开始 */
 ::-webkit-scrollbar {
