@@ -87,7 +87,7 @@ h5,h6 {
 }
 
 h3,h4,h5,h6 {
-	font-family: Georgia,'Noto Serif SC',serif !important;
+	font-family: myfont
 	font-weight: 600;
 	margin: 3rem 0;
 	margin-bottom: 1.5rem;
@@ -1208,7 +1208,9 @@ article .article-tags .chip {
 
 .paging .disabled i {
 	color: #999 !important;
-}/*文章详情样式*/@-webkit-keyframes rightan {
+}/*文章详情样式*/
+
+@-webkit-keyframes rightan {
 	from {
 		bottom: 0%;
 		opacity: 0;
