@@ -614,14 +614,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    981
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    5 分
+                    7 分
                 </div>
                 
 
@@ -655,6 +655,31 @@
 <blockquote>
 <p>参考资料：<a target="_blank" rel="noopener" href="https://www.hesifan.top/posts/39737.html#toc-heading-4">https://www.hesifan.top/posts/39737.html#toc-heading-4</a></p>
 </blockquote>
+<hr>
+<div class="tip error"><p>categories显示无腰封</p><p></p></div>
+<br>
+
+<p>虽然按照参考资料的网址正确的显示了首页文章卡片腰封效果，但在检查的时候发现分类的卡片没有腰封文字</p>
+<p><img src="https//huakai.site/2021/07/15/wenzhangyaofeng/0.png"></p>
+<blockquote>
+<p>通过检查有腰封和无腰封的html文件，对比发现没有更改layout/categories.ejs文件中文章卡片的样式</p>
+</blockquote>
+<p><img src="https//huakai.site/2021/07/15/wenzhangyaofeng/1.png"></p>
+<blockquote>
+<p>解决方法：在layout/categories.ejs也加入相关腰封代码</p>
+</blockquote>
+<p>首先去index.ejs中找出和原index.ejs的不同,分离出腰封样式代码</p>
+<p>如下：</p>
+<figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--有腰封的卡片样式--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&lt;%- url_for(post.path) %&gt;"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"card-image card-image-V"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"box-content"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">"title"</span>&gt;</span>阅读全文<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"post"</span> <span class="attr">style</span>=<span class="string">"width: 180px"</span>&gt;</span>&lt;%= post.title %&gt;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        &lt;% if (post.img) { %&gt;</span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"&lt;%- url_for(post.img) %&gt;"</span> <span class="attr">class</span>=<span class="string">"responsive-img"</span> <span class="attr">alt</span>=<span class="string">"&lt;%= post.title %&gt;"</span>&gt;</span></span><br><span class="line">        &lt;% } else { %&gt;</span><br><span class="line"></span><br><span class="line">        &lt;%</span><br><span class="line">            var featureimg = '/medias/featureimages/0.jpg';</span><br><span class="line">            var featureImages = theme.featureImages;</span><br><span class="line">            if (!featureImages || featureImages.length == 0) {</span><br><span class="line">                return featureimg;</span><br><span class="line">            }</span><br><span class="line">            featureimg = featureImages[Math.abs(hashCode(post.title) % featureImages.length)]</span><br><span class="line">        %&gt;</span><br><span class="line">        <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"&lt;%- theme.jsDelivr.url %&gt;&lt;%- url_for(featureimg) %&gt;"</span> <span class="attr">class</span>=<span class="string">"responsive-img"</span> <span class="attr">alt</span>=<span class="string">"&lt;%= post.title %&gt;"</span>&gt;</span></span><br><span class="line">        &lt;% } %&gt;</span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"card-title title-V"</span>&gt;</span>&lt;%= post.title %&gt;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--有腰封的卡片样式--&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+
+
+<blockquote>
+<p>然后去layout/category.ejs文件中替换</p>
+</blockquote>
+<p>如果不是替换的话，显示如下：<br><img src="https//huakai.site/2021/07/15/wenzhangyaofeng/2.png"></p>
+<p>那么删掉标记的代码，留下有腰封文字的代码就行</p>
+<div class="tip success"><p>成功显示</p><p></p></div>
+
 
                 
             </div>
@@ -1035,7 +1060,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">10.2k</span>&nbsp;字
+                class="white-color">10.6k</span>&nbsp;字
             
             
             
