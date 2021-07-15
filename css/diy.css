@@ -16,3 +16,11 @@
  .diyfont{
     font-family: 'myfont';
 }
+
+/*鼠标样式*/
+*{
+    cursor: url("/medias/mouse.ico"),auto!important;
+}
+:active{
+    cursor: url("/medias/mouse2.png"),auto!important;
+}
