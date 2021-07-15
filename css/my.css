@@ -31,9 +31,9 @@ hr:before {
     left: 5%;
     z-index: 1;
     color: #49b1f5;
-    content: "💨";
+    content: "🐬";
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 20px;
+    font-size: 40px;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
