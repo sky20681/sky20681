@@ -603,7 +603,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-07-15
+                    2021-07-16
                 </div>
                 
 
@@ -671,7 +671,7 @@
 <ul>
 <li>如果你能够通过 <code>ssh</code> 访问你的主机，请把整个仓库克隆到服务器上。执行：<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /path/to/your/webroot</span><br><span class="line"><span class="comment"># Clone this repository</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/stevenjoezhang/live2d-widget.git</span><br></pre></td></tr></tbody></table></figure></li>
 <li>如果你的主机无法用 <code>ssh</code> 连接（例如一般的虚拟主机），请选择 <code>Download ZIP</code>，然后通过 <code>ftp</code> 等方式上传到主机上，再解压到网站的目录下。</li>
-<li>如果你是通过 Hexo 等工具部署的静态博客，请在博客源文件（即 <code>source</code>）目录下，执行前述的 <code>git clone</code> 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。为了避免这些文件被 Hexo 插件错误地修改，可能需要设置 <code>skip_render</code>。</li>
+<li>如果你是通过 Hexo 等工具部署的静态博客，请在博客源文件（即 <code>source</code>）目录下(<code>这里是hexo根目录，不是主题里的source文件夹</code>)，执行前述的 <code>git clone</code> 命令。重新部署博客时，相关文件就会自动上传到对应的路径下。为了避免这些文件被 Hexo 插件错误地修改，可能需要设置 <code>skip_render</code>。</li>
 </ul>
 <p>这样，整个项目就可以通过你的服务器 IP 或者域名从公网访问了。不妨试试能否正常地通过浏览器打开 <code>autoload.js</code> 和 <code>live2d.min.js</code> 等文件，并确认这些文件的内容是完整和正确的。<br>一切正常的话，接下来修改一些配置就行了。（需要通过服务器上的文本编辑器修改；你也可以先在本地完成这一步骤，再上传到服务器上）<br>修改 <code>autoload.js</code> 中的常量 <code>live2d_path</code> 为 <code>live2d-widget</code> 这一目录的 URL。比如说，如果你能够通过</p>
 <figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://example.com/path/to/live2d-widget/live2d.min.js</span><br></pre></td></tr></tbody></table></figure>
