@@ -121,7 +121,7 @@ hr:before {
 	left: 5%;
 	z-index: 1;
 	color: #49b1f5;
-	content: "💨";
+	content: "🐬";
 	font: normal normal normal 14px/1 FontAwesome;
 	font-size: 20px;
 	-webkit-transition: all 1s ease-in-out;
