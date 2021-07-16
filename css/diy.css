@@ -2,11 +2,7 @@
 /* 自定义css存放处*/
 @font-face {    
     font-family: 'myfont';    
-    src: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa望江南.ttf'),
-    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/告白体.ttf'),
-    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa初吻.ttf'),
-    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa奶糖初恋体.ttf'),
-    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa甜茶.ttf');
+    src: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/告白体.ttf');
  }
  
  body{
