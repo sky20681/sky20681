@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>水波纹</title>
-      <link href="2021/07/16/shuibowen/"/>
-      <url>2021/07/16/shuibowen/</url>
-      
-        <content type="html"><![CDATA[<div class="full-landing-image"></div><script>    $(".full-landing-image").ripples({        resolution: 800,        perturbance: 0.05,    });</script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>自定义md头部信息</title>
       <link href="2021/07/15/hexonpage/"/>
       <url>2021/07/15/hexonpage/</url>
