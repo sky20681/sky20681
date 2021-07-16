@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>水波纹</title>
+      <link href="2021/07/16/shuibowen/"/>
+      <url>2021/07/16/shuibowen/</url>
+      
+        <content type="html"><![CDATA[<h2 id="跟着教程做了一个水波纹网页"><a href="#跟着教程做了一个水波纹网页" class="headerlink" title="跟着教程做了一个水波纹网页"></a><center>跟着教程做了一个水波纹网页</center></h2><blockquote><p>地址: <a href="https://huakai.site/me/water">水波纹</a></p></blockquote>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自定义md头部信息</title>
       <link href="2021/07/15/hexonpage/"/>
       <url>2021/07/15/hexonpage/</url>
@@ -524,9 +537,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> blog </tag>
+            
+            <tag> hexo </tag>
             
             <tag> Git </tag>
             
