@@ -33,7 +33,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: auto;
 	color: #000000;
-	font-family: myfont;
+	font-family: Georgia,'Noto Serif SC',Helvetica,Arial,Menlo,Monaco,monospace,serif;
 }}/* 让每一级标题更加明显，添加标注 */h1 {
 	margin: 48px 0 22px -5px;
 	font-size: 2.0rem;
@@ -1050,7 +1050,7 @@ article .card {
 }
 
 article .card-image {
-	font-family: myfont;
+	font-family: Georgia,'Noto Serif SC',Helvetica,Arial,Menlo,Monaco,monospace,serif;
 	background-color: #222;
 	border-radius: 8px;
 	overflow: hidden;
