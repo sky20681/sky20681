@@ -5,13 +5,13 @@ $(function () {
     var $notice = $('<div class="codecopy_notice"></div>')
     $('.code-area').prepend($copyIcon)
     $('.code-area').prepend($notice)
-    // “复制成功”字出现
+    // “复制”相关信息
     function copy(text, ctx) {
         if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
             try {
                 document.execCommand('copy') // Security exception may be thrown by some browsers.
                 $(ctx).prev('.codecopy_notice')
-                    .text("复制成功")
+                    .text("你都复制了什么呀🤔")
                     .animate({
                         opacity: 1,
                         top: 30
