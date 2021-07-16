@@ -65,7 +65,14 @@ h2 {
 	font-weight: bold;
 	line-height: 2rem;
 }
-
+h1,h2 {
+	font-family: myfont
+	font-size: 2.0rem;
+	font-weight: bold;
+	line-height: 2rem;
+	/*text-align: center;*/
+	text-transform: uppercase;
+}
 h3 {
 	font-size: 1.75rem;
 }
