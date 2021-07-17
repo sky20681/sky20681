@@ -74,11 +74,11 @@ h1,h2 {
 	/*text-transform: uppercase;*/
 }
 h3 {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 
 h4 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 h5,h6 {
@@ -371,7 +371,7 @@ mark {
 }
 
 .card {
-	background: url(https://codecheng-1305009997.cos.ap-chengdu.myqcloud.com/img/20210504192008.png) top;
+	background: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/background-img.png) top;
 	border-radius: 25px;
 	box-shadow: 0 15px 35px rgba(42,89,165,.1),0 5px 15px rgba(71,159,188,.07) !important;
 	transition: all 0.3s;
