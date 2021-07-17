@@ -37,8 +37,8 @@ pre[class*="language-"],
 /* Code blocks */
 pre[class*="language-"] {
 	border-radius: .5em;
-	border: .3em solid hsl(0, 0%, 33%); /* #282A2B */
-	box-shadow: 1px 1px .5em black inset;
+	border: .3em solid hsl(183deg, 100%, 50%); /* #282A2B */
+	box-shadow: 2px 2px .5em #f7fb00 inset;
 	margin: .5em 0;
 	overflow: auto;
 	padding: 1em;
@@ -118,7 +118,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 .style .token.string,
 .token.variable,
 .token.inserted {
-	color: hsl(76, 21%, 52%); /* #8F9D6A */
+	color: #00daff; /* #8F9D6A */
 }
 
 .token.atrule {

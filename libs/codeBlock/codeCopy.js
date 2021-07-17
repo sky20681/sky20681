@@ -11,7 +11,7 @@ $(function () {
             try {
                 document.execCommand('copy') // Security exception may be thrown by some browsers.
                 $(ctx).prev('.codecopy_notice')
-                    .text("你都复制了什么呀🤔")
+                    .text("你都复制了什么呀？？？")
                     .animate({
                         opacity: 1,
                         top: 30

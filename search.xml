@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何代码高亮</title>
+      <link href="2021/07/17/daimagaoliang/"/>
+      <url>2021/07/17/daimagaoliang/</url>
+      
+        <content type="html"><![CDATA[<h1 id="matery主题不知什么原因，代码显示如下："><a href="#matery主题不知什么原因，代码显示如下：" class="headerlink" title="matery主题不知什么原因，代码显示如下："></a><center>matery主题不知什么原因，代码显示如下：</center></h1><p><img src="https://cdn.jsdelivr.net/sky20681/sky20681/2021/07/17/daimagaoliang/1.png"><br><img src="https://cdn.jsdelivr.net/sky20681/sky20681/2021/07/17/daimagaoliang/0.png"><br><img src="https://cdn.jsdelivr.net/sky20681/sky20681/2021/07/17/daimagaoliang/2.png"></p><p>原来是没有卸载原hexo自带的高亮和禁用主题的高亮</p><h2 id="修改如下："><a href="#修改如下：" class="headerlink" title="修改如下："></a><center>修改如下：</center></h2><p>如果你的博客中曾经安装过 <code>hexo-prism-plugin</code> 的插件，那么你须要执行 <code>npm uninstall hexo-prism-plugin</code> 来卸载掉它，否则生成的代码中会有<code>&amp;#123; 和 &amp;#125;</code>的转义字符。</p><p>然后，修改 Hexo 根目录下 <code>_config.yml </code>文件中 highlight.enable 的值为 false，并将 prismjs.enable 的值设置为 true，主要配置如下：</p><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token property">highlight</span><span class="token punctuation">:</span>  <span class="token property">enable</span><span class="token punctuation">:</span> false  <span class="token property">line_number</span><span class="token punctuation">:</span> true  <span class="token property">auto_detect</span><span class="token punctuation">:</span> false  <span class="token property">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span>  <span class="token property">wrap</span><span class="token punctuation">:</span> true  <span class="token property">hljs</span><span class="token punctuation">:</span> false<span class="token property">prismjs</span><span class="token punctuation">:</span>  <span class="token property">enable</span><span class="token punctuation">:</span> true  <span class="token property">preprocess</span><span class="token punctuation">:</span> true  <span class="token property">line_number</span><span class="token punctuation">:</span> true  <span class="token property">tab_replace</span><span class="token punctuation">:</span> <span class="token string">''</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>Matery主题中默认的 prismjs 主题是 Tomorrow Night，如果你想定制自己的主题，可以前往 <a href="https://prismjs.com/download.html#themes=prism-funky&amp;languages=markup+css+clike+javascript">prismjs</a> 下载页面 定制下载自己喜欢的主题 css 文件，然后将此 css 主题文件取名为 prism.css，替换掉 hexo-theme-matery 主题文件夹中的 source/libs/prism/prism.css 文件即可。</p><p>然后到主题配置下启用代码复制/折叠/收缩等，如下：</p><pre class="line-numbers language-css" data-language="css"><code class="language-css"># 代码块相关<span class="token property">code</span><span class="token punctuation">:</span>  <span class="token property">lang</span><span class="token punctuation">:</span> false # 代码块是否显示名称  <span class="token property">copy</span><span class="token punctuation">:</span> true # 代码块是否可复制  <span class="token property">shrink</span><span class="token punctuation">:</span> true # 代码块是否可以收缩  <span class="token property">break</span><span class="token punctuation">:</span> true # 代码是否折行<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 如何美化代码框 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 代码高亮 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>添加tidio聊天框</title>
       <link href="2021/07/17/tianjiatidio/"/>
       <url>2021/07/17/tianjiatidio/</url>
