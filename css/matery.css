@@ -371,7 +371,7 @@ mark {
 }
 
 .card {
-	background: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/background-img2.jpg) top;
+	background: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/background-img.png) top;
 	border-radius: 25px;
 	box-shadow: 0 15px 35px rgba(42,89,165,.1),0 5px 15px rgba(71,159,188,.07) !important;
 	transition: all 0.3s;
