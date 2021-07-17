@@ -633,7 +633,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    391
+                    389
                 </div>
                 
 
@@ -650,6 +650,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/prism/prism.css">
+        
 
         
 
@@ -661,10 +664,42 @@
 </blockquote>
 <p>由于本主题已经集成artitalk，所以只要修改主题中的几个配置就行</p>
 <h2 id="matery"><a href="#matery" class="headerlink" title="matery"></a>matery</h2><p>在主题配置文件中找到artitalk配置，修改如下：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 说说 https://artitalk.js.org/</span><br><span class="line">artitalk:</span><br><span class="line">  enable: true</span><br><span class="line">  appId: 在leancloud中查看</span><br><span class="line">  appKey: 在leancloud中查看</span><br><span class="line">  color1: linear-gradient(45deg, rgb(251 205 205) 35%, rgb(138 195 255) 85%)  #说说背景色1</span><br><span class="line">  color2: linear-gradient(45deg, rgb(191 255 209) 15%, rgb(154 228 245) 85%)   #说说背景色2</span><br><span class="line">  color3: rgb(0, 0, 0) #说说字体颜色</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-none"><code class="language-none"># 说说 https://artitalk.js.org/
+artitalk:
+  enable: true
+  appId: 在leancloud中查看
+  appKey: 在leancloud中查看
+  color1: linear-gradient(45deg, rgb(251 205 205) 35%, rgb(138 195 255) 85%)  #说说背景色1
+  color2: linear-gradient(45deg, rgb(191 255 209) 15%, rgb(154 228 245) 85%)   #说说背景色2
+  color3: rgb(0, 0, 0) #说说字体颜色<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>同步在/themes/matery/layout/_widget/artitalk.ejs中引用主题配置</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type="text/javascript" src="https://unpkg.com/artitalk"&gt;&lt;/script&gt;</span><br><span class="line">&lt;div id="artitalk_main"&gt;&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    new Artitalk({</span><br><span class="line">        appId: '&lt;%- theme.artitalk.appId %&gt;',</span><br><span class="line">        appKey: '&lt;%- theme.artitalk.appKey %&gt;',</span><br><span class="line">        color1: '&lt;%- theme.artitalk.color1 %&gt;',</span><br><span class="line">        color2: '&lt;%- theme.artitalk.color2 %&gt;',</span><br><span class="line">        color3: '&lt;%- theme.artitalk.color3 %&gt;',</span><br><span class="line">        atEmoji: {</span><br><span class="line">                  baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",</span><br><span class="line">                  bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",</span><br><span class="line">                  bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",</span><br><span class="line">                  chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",</span><br><span class="line">                  daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",</span><br><span class="line">                  dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",</span><br><span class="line">                  dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",</span><br><span class="line">                  dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",</span><br><span class="line">                  doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",</span><br><span class="line">                  facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",</span><br><span class="line">                  fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",</span><br><span class="line">                  fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",</span><br><span class="line">                },</span><br><span class="line">                </span><br><span class="line">    })</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">&lt;script type="text/javascript" src="https://unpkg.com/artitalk"&gt;&lt;/script&gt;
+&lt;div id="artitalk_main"&gt;&lt;/div&gt;
+&lt;script&gt;
+    new Artitalk({
+        appId: '&lt;%- theme.artitalk.appId %&gt;',
+        appKey: '&lt;%- theme.artitalk.appKey %&gt;',
+        color1: '&lt;%- theme.artitalk.color1 %&gt;',
+        color2: '&lt;%- theme.artitalk.color2 %&gt;',
+        color3: '&lt;%- theme.artitalk.color3 %&gt;',
+        atEmoji: {
+                  baiyan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/baiyan.png",
+                  bishi: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bishi.png",
+                  bizui: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/bizui.png",
+                  chan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/chan.png",
+                  daku: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/daku.png",
+                  dalao: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalao.png",
+                  dalian: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dalian.png",
+                  dianzan: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/dianzan.png",
+                  doge: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/doge.png",
+                  facai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/facai.png",
+                  fadai: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fadai.png",
+                  fanu: "https://cdn.jsdelivr.net/gh/Artitalk/Artitalk-emoji/fanu.png",
+                },
+                
+    })
+&lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>成功折腾完毕<br><img src="https://huakai.site/2021/07/11/artitalkmeihua/1.png"> </p>
 

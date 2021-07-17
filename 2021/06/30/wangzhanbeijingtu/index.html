@@ -633,7 +633,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    190
+                    189
                 </div>
                 
 
@@ -650,6 +650,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/prism/prism.css">
+        
 
         
 
@@ -659,7 +662,10 @@
 <p>但是本站这个不知道当时是从哪个魔改版本下的，导致background设置成true后网站并不会显示背景图。<br>经过对比生成的index.html代码，找到一个不知是否正确的解决办法：</p>
 <h2 id="就是"><a href="#就是" class="headerlink" title="就是"></a>就是</h2><hr>
 <p>直接在无法设置网站背景图的本地路径blog/themes/matery/layout/layout.ejs中插入如下代码，在body上头空行中插</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial(<span class="string">'_partial/head'</span>) %&gt;</span><br><span class="line">&lt;% <span class="keyword">if</span> (theme.background.enable) { %&gt;</span><br><span class="line">    &lt;%- partial(<span class="string">'_partial/background'</span>) %&gt;</span><br><span class="line"> &lt;% } %&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token operator">&lt;</span>%- partial<span class="token punctuation">(</span><span class="token string">'_partial/head'</span><span class="token punctuation">)</span> %<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>% <span class="token keyword">if</span> <span class="token punctuation">(</span>theme.background.enable<span class="token punctuation">)</span> <span class="token punctuation">{</span> %<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>%- partial<span class="token punctuation">(</span><span class="token string">'_partial/background'</span><span class="token punctuation">)</span> %<span class="token operator">&gt;</span>
+ <span class="token operator">&lt;</span>% <span class="token punctuation">}</span> %<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <hr>
 <p>然后到主题配置文件config.yml中启用和关闭后的hexo g均可生成或关闭背景图片OKKKK</p>
 

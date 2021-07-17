@@ -637,7 +637,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    932
+                    929
                 </div>
                 
 
@@ -653,6 +653,9 @@
         </div>
         <hr class="clearfix">
 
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/prism/prism.css">
         
 
         
@@ -678,7 +681,24 @@
 
 <p>文字的格式需要CSS来调整，在matery主题/source/css文件夹下新建一个diy.css文件</p>
 <p>放入如下代码：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">/* Here is your diy css styles. */</span><br><span class="line">/* 自定义css存放处*/</span><br><span class="line">@font-face {    </span><br><span class="line">    font-family: 'myfont';    </span><br><span class="line">    src: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa望江南.ttf'),</span><br><span class="line">    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/告白体.ttf'),</span><br><span class="line">    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa初吻.ttf'),</span><br><span class="line">    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa奶糖初恋体.ttf'),</span><br><span class="line">    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa甜茶.ttf');</span><br><span class="line"> }</span><br><span class="line"> </span><br><span class="line"> body{</span><br><span class="line">     font-family: 'myfont' ;</span><br><span class="line"> }</span><br><span class="line"></span><br><span class="line"> .diyfont{</span><br><span class="line">    font-family: 'myfont';</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">/* Here is your diy css styles. */
+/* 自定义css存放处*/
+@font-face {    
+    font-family: 'myfont';    
+    src: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa望江南.ttf'),
+    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/告白体.ttf'),
+    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa初吻.ttf'),
+    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa奶糖初恋体.ttf'),
+    url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa甜茶.ttf');
+ }
+ 
+ body{
+     font-family: 'myfont' ;
+ }
+
+ .diyfont{
+    font-family: 'myfont';
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>当然啦，这里几款字体的下载链接如下：</p>
 <p><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa%E6%9C%9B%E6%B1%9F%E5%8D%97.ttf">https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/Aa望江南.ttf</a></p>
 <p><a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/%E5%91%8A%E7%99%BD%E4%BD%93.ttf">https://cdn.jsdelivr.net/gh/sky20681/sky20681/font/告白体.ttf</a></p>
@@ -691,7 +711,7 @@
 <p>新建完CSS后，需要引用他</p>
 </blockquote>
 <p>在/themes/matery/layout/_partial/head.ejs文件中插入引用，由于还没有远程部署，我们推导出它的http链接：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/diy.css"&gt;</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-none"><code class="language-none">&lt;link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/diy.css"&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>也可以部署一下，然后打开链接看能否正常显示</p>
 <blockquote>
@@ -708,7 +728,15 @@
 <p>打开链接测试链接的准确性</p>
 <p>不出意外，推送后，打开网站并没有什么改变<br>这是因为CDN缓存的神奇</p>
 <p>这时候，需要注销掉CDN缓存,在本地查看效果</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># CDN访问加速 </span><br><span class="line"># 第一次使用本功能，一定要先配置url，再`hexo cl &amp;&amp; hexo g &amp;&amp; hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！</span><br><span class="line"># 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）</span><br><span class="line"># URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名</span><br><span class="line"># 如果想关闭此功能，将 url地址 注释或删除即可！</span><br><span class="line">#</span><br><span class="line"># 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉</span><br><span class="line"># 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html</span><br><span class="line"># 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx</span><br></pre></td></tr></tbody></table></figure>
+<pre class="line-numbers language-none"><code class="language-none"># CDN访问加速 
+# 第一次使用本功能，一定要先配置url，再`hexo cl &amp;&amp; hexo g &amp;&amp; hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
+# 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
+# URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
+# 如果想关闭此功能，将 url地址 注释或删除即可！
+#
+# 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉
+# 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
+# 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>hexo s启动本地端口查看</p>
 <div class="tip success"><p>接着介绍更改字体大小</p><p></p></div>
