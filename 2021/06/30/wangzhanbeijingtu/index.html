@@ -626,7 +626,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-30
+                    2021-07-17
                 </div>
                 
 
@@ -663,16 +663,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>下载的最新版本V2.00的matery主题源码，可以直接在主题目录下的config.yml搜索网站背景图添加！</p>
-<p>但是本站这个不知道当时是从哪个魔改版本下的，导致background设置成true后网站并不会显示背景图。<br>经过对比生成的index.html代码，找到一个不知是否正确的解决办法：</p>
+                <h2 id="下载的最新版本V2-00的matery主题源码，可以直接在主题目录下的config-yml搜索网站背景图添加！"><a href="#下载的最新版本V2-00的matery主题源码，可以直接在主题目录下的config-yml搜索网站背景图添加！" class="headerlink" title="下载的最新版本V2.00的matery主题源码，可以直接在主题目录下的config.yml搜索网站背景图添加！"></a><center>下载的最新版本V2.00的matery主题源码，可以直接在主题目录下的config.yml搜索网站背景图添加！</center></h2><p>但是本站这个不知道当时是从哪个魔改版本下的，导致background设置成true后网站并不会显示背景图。<br>经过对比生成的index.html代码，找到一个不知是否正确的解决办法：</p>
 <h2 id="就是"><a href="#就是" class="headerlink" title="就是"></a>就是</h2><hr>
+<blockquote>
 <p>直接在无法设置网站背景图的本地路径blog/themes/matery/layout/layout.ejs中插入如下代码，在body上头空行中插</p>
+</blockquote>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token operator">&lt;</span>%- partial<span class="token punctuation">(</span><span class="token string">'_partial/head'</span><span class="token punctuation">)</span> %<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span>% <span class="token keyword">if</span> <span class="token punctuation">(</span>theme.background.enable<span class="token punctuation">)</span> <span class="token punctuation">{</span> %<span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span>%- partial<span class="token punctuation">(</span><span class="token string">'_partial/background'</span><span class="token punctuation">)</span> %<span class="token operator">&gt;</span>
  <span class="token operator">&lt;</span>% <span class="token punctuation">}</span> %<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <hr>
-<p>然后到主题配置文件config.yml中启用和关闭后的hexo g均可生成或关闭背景图片OKKKK</p>
+<p><font color="#FF0000">然</font><font color="#FA0005">后</font><font color="#F5000A">到</font><font color="#F0000F">主</font><font color="#EB0014">题</font><font color="#E60019">配</font><font color="#E1001E">置</font><font color="#DC0023">文</font><font color="#D70028">件</font><font color="#D2002D">c</font><font color="#CD0032">o</font><font color="#C80037">n</font><font color="#C3003C">f</font><font color="#BE0041">i</font><font color="#B90046">g</font><font color="#B4004B">.</font><font color="#AF0050">y</font><font color="#AA0055">m</font><font color="#A5005A">l</font><font color="#A0005F">中</font><font color="#9B0064">启</font><font color="#960069">用</font><font color="#91006E">和</font><font color="#8C0073">关</font><font color="#870078">闭</font><font color="#82007D">后</font><font color="#7D0082">的</font><font color="#780087">h</font><font color="#73008C">e</font><font color="#6E0091">x</font><font color="#690096">o</font><font color="#64009B"> </font><font color="#5F00A0">g</font><font color="#5A00A5">均</font><font color="#5500AA">可</font><font color="#5000AF">生</font><font color="#4B00B4">成</font><font color="#4600B9">或</font><font color="#4100BE">关</font><font color="#3C00C3">闭</font><font color="#3700C8">背</font><font color="#3200CD">景</font><font color="#2D00D2">图</font><font color="#2800D7">片</font><font color="#2300DC">O</font><font color="#1E00E1">K</font><font color="#1900E6">K</font><font color="#1400EB">K</font><font color="#0F00F0">K</font></p>
 
                 
             </div>
