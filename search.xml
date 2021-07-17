@@ -92,7 +92,7 @@
       <link href="2021/07/14/ip/"/>
       <url>2021/07/14/ip/</url>
       
-        <content type="html"><![CDATA[<h2 id><a href="#" class="headerlink" title></a><img src="https://tool.lu/netcard/" alt="IP签名"></h2><p>在md文件中编辑markdown代码：</p><figure class="highlight markdown"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">IP签名</span>](<span class="link">https://tool.lu/netcard/</span>)</span><br></pre></td></tr></tbody></table></figure><p>参考资料：<a href="https://tool.lu/ip/">https://tool.lu/ip/</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://tool.lu/netcard/" alt="IP签名"></h2><p>在md文件中编辑markdown代码：</p><figure class="highlight markdown"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">IP签名</span>](<span class="link">https://tool.lu/netcard/</span>)</span><br></pre></td></tr></tbody></table></figure><p>参考资料：<a href="https://tool.lu/ip/">https://tool.lu/ip/</a></p>]]></content>
       
       
       
@@ -138,7 +138,7 @@
       <link href="2021/07/12/ziyou/"/>
       <url>2021/07/12/ziyou/</url>
       
-        <content type="html"><![CDATA[<h2 id="自由之思想，独立之精神"><a href="#自由之思想，独立之精神" class="headerlink" title="自由之思想，独立之精神"></a><marquee behavior="scroll" direction="up" height="27px" scrollamount="1"><center>自由之思想，独立之精神</center></marquee></h2><br><p align="right">---《死亡诗社》</p><blockquote><p>自由之思想，独立之精神</p></blockquote><br><center><div class="tip"><p>自由之思想，独立之精神</p><p></p></div><br><center><font color="#FF0000">自</font><font color="#E80017">由</font><font color="#D1002E">之</font><font color="#BA0045">思</font><font color="#A3005C">想</font><font color="#8C0073">，</font><font color="#75008A">独</font><font color="#5E00A1">立</font><font color="#4700B8">之</font><font color="#3000CF">精</font><font color="#1900E6">神</font><div class="myfont"> Hello World! 这个网站很酷 zhangxiaocai.cn </div></center></center>]]></content>
+        <content type="html"><![CDATA[<h2 id="自由之思想，独立之精神"><a href="#自由之思想，独立之精神" class="headerlink" title="自由之思想，独立之精神"></a><marquee behavior="scroll" direction="up" height="27px" scrollamount="1"><center>自由之思想，独立之精神</center></marquee></h2><br><p align="right">---《死亡诗社》</p><blockquote><p>自由之思想，独立之精神</p></blockquote><br><center><div class="tip"><p>自由之思想，独立之精神</p><p></p></div><br><center><font color="#FF0000">自</font><font color="#E80017">由</font><font color="#D1002E">之</font><font color="#BA0045">思</font><font color="#A3005C">想</font><font color="#8C0073">，</font><font color="#75008A">独</font><font color="#5E00A1">立</font><font color="#4700B8">之</font><font color="#3000CF">精</font><font color="#1900E6">神</font><div class="myfont"> Hello World! 这个网站很酷 zhangxiaocai.cn </div></center></center><p></p>]]></content>
       
       
       <categories>
@@ -395,7 +395,7 @@
       <link href="2021/06/28/qianrushipin/"/>
       <url>2021/06/28/qianrushipin/</url>
       
-        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>我们知道，B站现在播放视频暂时还没有广告，还贴心的提供了两种分享方式，</p><p><img src="https://huakai.site/2021/06/28/qianrushipin/share.png"></p><p>这样我们上传自己的视频到B站，然后直接复制嵌入代码粘到我们博客中播放，便可以白嫖B站的服务器资源<br>不过在博客页面播放只能以最低的分辨率360P播放，切换高分辨率时会跳回到B站<br>例如：<a href="https://huakai.site/2021/06/27/bzhanshipin/">默认360P播放</a></p><p>那么怎么样在博客页面以1080P播放而不跳转呢<br>这里可以利用西瓜视频的资源。<br>西瓜同样提供了嵌入代码，嵌入代码提供一键复制。<br>如下：<br><img src="https://huakai.site/2021/06/28/qianrushipin/share2.png"></p><p>他的自动的分辨率就是1080P不知道是不是根据带宽来的，也可以手动调到1080P而不会跳回西瓜去播放。</p><p>显示如下：</p><iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height="600" width="100%" allowfullscreen=""></iframe><p>可能要改一下代码以符合个人博客的样式<br>我的如下：</p><pre><code class="java">&lt;iframe frameborder="no" src="https://www.ixigua.com/iframe/6966945257938223627?autoplay=0" height = 600 width = 100% allowfullscreen &gt;&lt;/iframe&gt;</code></pre>]]></content>
       
       
       <categories>
