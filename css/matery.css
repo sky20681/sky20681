@@ -805,7 +805,7 @@ header .go-back i {
 	position: relative;
 	display: flex;
 	align-items: center;
-	height: 65vh;
+	height: 100vh;
 	padding: 0;
 	border: 0;
 	overflow: hidden;
