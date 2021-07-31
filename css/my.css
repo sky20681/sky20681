@@ -43,10 +43,7 @@ hr:hover::before{
 }
 ​
 
-/* Here is your custom css styles. */body {
-	cursor: url(https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur),auto;
-	background-color: @theme_background;
-	...... ......
+
 }/*跳动文字css*/.Pshake {
 	display: inline-block;
 	will-change: transform;
@@ -98,7 +95,7 @@ hr:hover::before{
 		transform: translate(0,0) rotate(0);
 	}
 }/* 添加背景像素纹*/.bg-cover::before {
-	background-image: url('https://codecheng-1305009997.cos.ap-chengdu.myqcloud.com/img/20210504115955.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/wenli.png');
 }/* 文章顶部hr 剪刀*/hr {
 	position: relative;
 	margin: 2rem auto;
