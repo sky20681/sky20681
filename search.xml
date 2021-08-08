@@ -71,7 +71,7 @@
       <link href="2021/08/04/yumingyouxiang/"/>
       <url>2021/08/04/yumingyouxiang/</url>
       
-        <content type="html"><![CDATA[<h2 id="今天介绍一种以自己网站域名为后缀的邮箱的方法"><a href="#今天介绍一种以自己网站域名为后缀的邮箱的方法" class="headerlink" title="今天介绍一种以自己网站域名为后缀的邮箱的方法"></a>今天介绍一种以自己网站域名为后缀的邮箱的方法</h2><blockquote><p>一种方法是使用宝塔面板的域名系统源码<br><a href="https://blog.csdn.net/qq_39298644/article/details/105835649">使用宝塔搭建自己的邮箱服务器-宝塔邮局</a></p></blockquote><p>另一种是使用企业微信绑定自己网站即可获得以自己网站域名为后缀的企业邮箱，注册企业微信后绑定域名，然后用企业微信扫码注册企业邮箱，地址：<a href="https://exmail.qq.com/">https://exmail.qq.com</a><br>遇到问题多查看使用文档：比如，域名用的是腾讯云自家的就比较方便，不是腾讯云的看下面：<br><a href="https://work.weixin.qq.com/help?person_id=1&amp;doc_id=653&amp;helpType=exmail">https://work.weixin.qq.com/help?person_id=1&amp;doc_id=653&amp;helpType=exmail</a><br>最后，我分配给我的邮箱地址为<a href="mailto:huakai@huakai.site">huakai@huakai.site</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="分享两种以自己网站域名为后缀的邮箱的方法"><a href="#分享两种以自己网站域名为后缀的邮箱的方法" class="headerlink" title="分享两种以自己网站域名为后缀的邮箱的方法"></a>分享两种以自己网站域名为后缀的邮箱的方法</h2><blockquote><p>一种方法是使用宝塔面板的域名系统源码<br><a href="https://blog.csdn.net/qq_39298644/article/details/105835649">使用宝塔搭建自己的邮箱服务器-宝塔邮局</a></p></blockquote><blockquote><p>另一种是注册企业微信然后在应用管理里找到企业邮箱绑定自己网站即可获得以自己网站域名为后缀的企业邮箱，地址：<a href="https://exmail.qq.com/">https://exmail.qq.com</a>  </p></blockquote>]]></content>
       
       
       <categories>
@@ -677,7 +677,7 @@
       <link href="2021/06/29/zhidingfengmian/"/>
       <url>2021/06/29/zhidingfengmian/</url>
       
-        <content type="html"><![CDATA[<div class="tip success"><p>如果封面图片是下面的图片则说明指定成功！</p><p></p></div>![](https://huakai.site/2021/06/29/zhidingfengmian/19.jpg)<h4 id="hexo博客matery主题，只需要在编写md文件时，设置如下"><a href="#hexo博客matery主题，只需要在编写md文件时，设置如下" class="headerlink" title="hexo博客matery主题，只需要在编写md文件时，设置如下"></a>hexo博客matery主题，只需要在编写md文件时，设置如下</h4><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">---title: 如何指定文章的封面图片date: 2021-06-29 19:25:00author: 花开img: /2021/06/29/zhidingfengmian/19.jpgtop: falsecover: truecoverImg: /2021/06/29/zhidingfengmian/19.jpgtoc: falsemathjax: falsesummary: 如何指定文章的封面图片，并添加到封面轮播图categories: 其他tags:  - 指定封面图片---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<div class="tip success"><p>如果封面图片是下面的图片则说明指定成功！</p><p></p></div><p><img src="https://huakai.site/2021/06/29/zhidingfengmian/19.jpg"></p><h4 id="hexo博客matery主题，只需要在编写md文件时，设置如下"><a href="#hexo博客matery主题，只需要在编写md文件时，设置如下" class="headerlink" title="hexo博客matery主题，只需要在编写md文件时，设置如下"></a>hexo博客matery主题，只需要在编写md文件时，设置如下</h4><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">---title: 如何指定文章的封面图片date: 2021-06-29 19:25:00author: 花开img: /2021/06/29/zhidingfengmian/19.jpgtop: falsecover: truecoverImg: /2021/06/29/zhidingfengmian/19.jpgtoc: falsemathjax: falsesummary: 如何指定文章的封面图片，并添加到封面轮播图categories: 其他tags:  - 指定封面图片---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
       <categories>
