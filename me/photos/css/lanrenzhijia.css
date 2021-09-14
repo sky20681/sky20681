@@ -10,12 +10,12 @@ body {
 	font-size:12px;
 	overflow:hidden;
 }
-a.pd_next_photo {
+a.pd_next_photo,a.pd_loading {
 	z-index:999999;
 	cursor:pointer;
 	border:1px solid #aaa;
-	width:50px;
-	height:50px;
+	width:100px;
+	height:100px;
 	position:absolute;
 	top:50%;
 	left:50%;
@@ -27,12 +27,12 @@ a.pd_next_photo {
 }
 a.pd_loading {
 	display:none;
-	background:#B8B8B8 url(../images/loading.gif) no-repeat 50% 50%;
+	background:#B8B8B8 url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images//loading.gif") no-repeat 50% 50%;
 	animation-duration: 2s;
 	width: auto;
 }
 a.pd_next_photo {
-	background:#B8B8B8 url(../images/next.png) no-repeat 50% 50%;
+	background:#B8B8B8 url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/next.png") no-repeat 50% 50%;
 }
 a.pd_next_photo:hover, a.pd_loading:hover {
 	opacity:1.0;
@@ -57,20 +57,20 @@ a.pd_next_photo:hover, a.pd_loading:hover {
 	border-radius:8px;
 }
 .pd_options_bar a.viewall {
-	background-image: url(../images/viewall.png);
+	background-image: url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/viewall.png");
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: center;
 }
 .pd_options_bar a.shuffle {
 
-	background-image: url(../images/shuffle.png);
+	background-image: url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/shuffle.png");
 	background-repeat: no-repeat;
 	background-position-x: left;
 	background-position-y: center;
 }
 .pd_options_bar a.backdesk {
-	background: url(../images/backdesk.png) no-repeat 10px 50%;
+	background: url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/backdesk.png") no-repeat 10px 50%;
 }
 .pd_options_bar a.viewall:hover, .pd_options_bar a.shuffle:hover, .pd_options_bar a.backdesk:hover {
 	opacity:1.0;
@@ -113,7 +113,7 @@ a.pd_next_photo:hover, a.pd_loading:hover {
 	right:-16px;
 	top:2px;
 	cursor:pointer;
-	background:#fff url(../images/close.png) no-repeat center center;
+	background:#fff url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/close.png") no-repeat center center;
 	-moz-border-radius:0px 8px 8px 0px;
 	-webkit-border-top-right-radius:8px;
 	-webkit-border-bottom-right-radius:8px;
@@ -124,7 +124,7 @@ a.pd_next_photo:hover, a.pd_loading:hover {
 	box-shadow:1px 1px 5px #555;
 }
 .pd_paperball {
-	background:transparent url(../images/paperball.png) no-repeat center center;
+	background:transparent url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images/paperball.png") no-repeat center center;
 	position:absolute;
 }
 span.reference {
