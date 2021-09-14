@@ -26,7 +26,7 @@ a.pd_next_photo {
 	border-radius:8px;
 }
 a.pd_loading {
-	display:none;
+	display:inline-block;
 	background:#B8B8B8 url("https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/photos/images//loading.gif") no-repeat 50% 50%;
 	animation-duration: 2s;
 	width: auto; 
@@ -167,3 +167,4 @@ a.diyclass {
 	border-radius:8px;
 
 }
+

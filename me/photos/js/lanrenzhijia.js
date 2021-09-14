@@ -356,7 +356,7 @@
 						'rotate'	: r+'deg',
 						'shadow'	: '1px 1px 5px #555'
 					};
-					$photo.stop(true).animate(param,500,function(){
+					$photo.stop(true).animate(param,00,function(){
 						++navPage;
 						var $photo = $(this);
 						
@@ -369,8 +369,8 @@
 							bindEvents();
 						}
 					}).find('img').animate({
-						'width'		: '500px',
-						'height'	: '170px'
+						'width'		: '700px', //查看全部图片后的图片大小
+						'height'	: '100%'
 					},500);
 				}
 				
