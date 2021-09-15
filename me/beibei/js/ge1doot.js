@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////////
 
 // ===== ge1doot global =====
-/* 代码整理：懒人之家 www.lanrenzhijia.com */
+/* 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷之锟斤拷 www.lanrenzhijia.com */
 var ge1doot = ge1doot || {
 	json: null,
 	screen: null,
@@ -263,4 +263,5 @@ window.requestAnimFrame = (function(){
 			window.setTimeout(run, 16);
 		};
 })();
-/* 代码整理：懒人之家 www.lanrenzhijia.com */
+/* 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷之锟斤拷 www.lanrenzhijia.com */
+
