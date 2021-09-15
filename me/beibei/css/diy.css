@@ -1,0 +1,25 @@
+a.diyclass {
+    background-color: khaki; /* 背景颜色*/
+
+	padding:0px 15px 0px 15px;
+	line-height:45px;
+	text-decoration:none;
+	font-size:24px;
+	color:#333;
+	text-shadow:1px 1px 1px #f0f0f0;
+	height:50px;
+
+	margin:5px 10px 0px 0px;
+	-moz-box-shadow:1px 1px 2px #666;
+	-webkit-box-shadow:1px 1px 2px #666;
+	box-shadow: 2px 2px 4px #3bf9f0;
+	opacity:0.8;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+}
+.hhh {
+    clear:both;width:100%;
+    text-align: center;  
+	background-image: linear-gradient(-400deg, #FFDEE9 27%, #B5FFFC 100%);
+} 
