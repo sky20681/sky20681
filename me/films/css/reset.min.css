@@ -1,0 +1,60 @@
+li {
+    margin:0;padding:0;border:0;font-size:100%;
+    font:inherit;vertical-align:baseline}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block
+}
+
+body {
+    line-height:1
+}
+
+ol,ul {
+    list-style:none
+}
+
+blockquote,q {
+    quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content:'';content:none
+}
+
+table {
+    border-collapse:collapse;border-spacing:0
+}
+
+.diyclass a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    color: aliceblue;
+    text-align: center;
+}
+.diyclass a:hover {
+    color: aqua;
+}
+
+.back {
+    color:aqua;
+    display: block;
+    font-size: 35px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 150px;
+    text-align: right;
+    
+}
+.back:hover {
+    color: rgb(11, 255, 85);
+}
+
+.title {
+    padding-bottom: 20px !important;
+    font-size: 40px;
+    display: block;
+}
