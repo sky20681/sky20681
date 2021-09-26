@@ -240,11 +240,11 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/contact" class="waves-effect waves-light">
+    <a href="/bb" class="waves-effect waves-light">
       
       <i class="fas fa-comments" style="zoom: 0.8;"></i>
       
-      <span>留言板</span>
+      <span>花开说</span>
     </a>
     
   </li>
@@ -535,7 +535,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/contact" class="waves-effect waves-light">
+		<a href="/bb" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-comments"></i>
 			
@@ -1614,6 +1614,7 @@
             
             
             <br>
+            
             <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第一颗心-->
             
             <span id="sitetime">正在载入运行时间...</span>
@@ -1648,7 +1649,7 @@
                     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
-                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("year").innerHTML = todayYear
                         document.getElementById("sitetime").innerHTML = "本站已跌跌撞撞运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     } else {
@@ -1661,8 +1662,11 @@
             </script>
             
             <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第二颗心-->
+
             <br>
+            <span id="slogan" data-text="Maybe we'll be stronger"></span>
             
+
         </div>
         <div class="col s12 m4 l4 social-link ">
 
@@ -1680,6 +1684,7 @@
 
 
 </div>
+
     </div>
 
 </footer>
@@ -1852,9 +1857,6 @@ $(function () {
       </script>
 
    <!--加载动画-->
-
-
-
 
 <body>
 </html>

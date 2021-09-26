@@ -240,11 +240,11 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/contact" class="waves-effect waves-light">
+    <a href="/bb" class="waves-effect waves-light">
       
       <i class="fas fa-comments" style="zoom: 0.8;"></i>
       
-      <span>留言板</span>
+      <span>花开说</span>
     </a>
     
   </li>
@@ -535,7 +535,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/contact" class="waves-effect waves-light">
+		<a href="/bb" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-comments"></i>
 			
@@ -1216,7 +1216,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["开天辟地","hexo","文字滚动","matery","4K壁纸","测试速度","Git","node.js","B站UP主视频分享","AI合成语音"]
+                data: ["开天辟地","hexo","文字滚动","matery","Git","node.js","404","新建页面","画师作品欣赏","B站UP主视频分享"]
             }
         ],
         yAxis: [
@@ -1328,6 +1328,7 @@
             
             
             <br>
+            
             <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第一颗心-->
             
             <span id="sitetime">正在载入运行时间...</span>
@@ -1362,7 +1363,7 @@
                     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
-                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("year").innerHTML = todayYear
                         document.getElementById("sitetime").innerHTML = "本站已跌跌撞撞运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     } else {
@@ -1375,8 +1376,11 @@
             </script>
             
             <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第二颗心-->
+
             <br>
+            <span id="slogan" data-text="Maybe we'll be stronger"></span>
             
+
         </div>
         <div class="col s12 m4 l4 social-link ">
 
@@ -1394,6 +1398,7 @@
 
 
 </div>
+
     </div>
 
 </footer>
@@ -1566,9 +1571,6 @@ $(function () {
       </script>
 
    <!--加载动画-->
-
-
-
 
 <body>
 </html>
