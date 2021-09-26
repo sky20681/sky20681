@@ -1,39 +1,41 @@
 
-  .earth {
-    perspective: 400vmin;
-    transform-style: preserve-3d;
-    width: min(16vmin, 320px);
-    height: min(16vmin, 320px);
+/*旋转地球*/
 
-  }
-  
-  .earth::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    left: 0%;
-    background: url(https://www.jq22.com/newjs/DON8Y_eUMAAV4pi.jpg) repeat-x;
-    background-size: cover;
-    border-radius: 50%;
-    animation: rotate 30s infinite linear;
-    box-shadow: -80px -15px 80px 10px rgba(0,0,0,.9) inset, -10px 0px 15px -7px #f0df1759;
-  }
-  
-  
-  @keyframes rotate {
-    0% {
-      background-position: 0px 0px;
-    }
-    100% {
-      background-position:1200px 0px;
-    }
-  }
+.earth {
+  perspective: 400vmin;
+  transform-style: preserve-3d;
+  width: min(16vmin, 320px);
+  height: min(16vmin, 320px);
 
-  
-  div.diyearth {
-	position: relative;
-	right: 300px;
-    top: -68px;
+}
+
+.earth::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background: url(https://www.jq22.com/newjs/DON8Y_eUMAAV4pi.jpg) repeat-x;
+  background-size: cover;
+  border-radius: 50%;
+  animation: rotate 30s infinite linear;
+  box-shadow: -80px -15px 80px 10px rgba(0,0,0,.9) inset, -10px 0px 15px -7px #f0df1759;
+}
+
+
+@keyframes rotate {
+  0% {
+    background-position: 0px 0px;
   }
+  100% {
+    background-position:1200px 0px;
+  }
+}
+
+
+div.diyearth {
+position: relative;
+right: 300px;
+  top: -68px;
+}
