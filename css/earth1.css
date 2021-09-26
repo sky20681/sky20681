@@ -17,11 +17,11 @@
   height: 100%;
   top: 0%;
   left: 0%;
-  background: url(https://www.jq22.com/newjs/DON8Y_eUMAAV4pi.jpg) repeat-x;
+  background: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/earth.jpg) repeat-x;
   background-size: cover;
   border-radius: 50%;
   animation: rotate 30s infinite linear;
-  box-shadow: -80px -15px 80px 10px rgba(0,0,0,.9) inset, -10px 0px 15px -7px #f0df1759;
+  box-shadow: -50px -15px 80px 10px rgba(0,0,0,.9) inset, -10px 0px 15px -7px #f0df1759;
 }
 
 
