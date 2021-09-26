@@ -1,12 +1,13 @@
-
 /*旋转地球*/
-
 .earth {
   perspective: 400vmin;
   transform-style: preserve-3d;
-  width: min(16vmin, 320px);
-  height: min(16vmin, 320px);
-
+  position: relative;
+  top: -130px;
+  left: 700px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
 }
 
 .earth::before {
@@ -34,8 +35,4 @@
 }
 
 
-div.diyearth {
-position: relative;
-right: 300px;
-  top: -68px;
-}
+
