@@ -33,6 +33,12 @@
     background-position:1200px 0px;
   }
 }
+/*飞机*/
+.airplane {
+  position: relative;
+  top: -200px;
+  left: 1400px;
+  z-index: -1;
 
-
+}
 
