@@ -775,8 +775,8 @@
                 <h2 id="本篇文章简要介绍hexo-n-“page”-如何自定义md文件头部内容"><a href="#本篇文章简要介绍hexo-n-“page”-如何自定义md文件头部内容" class="headerlink" title="本篇文章简要介绍hexo n “page” 如何自定义md文件头部内容"></a>本篇文章简要介绍hexo n “page” 如何自定义md文件头部内容</h2><div class="tip warning"><p>直接开始把</p><p></p></div>
 
 <h2 id="在hexo根目录有一个scaffolds文件夹"><a href="#在hexo根目录有一个scaffolds文件夹" class="headerlink" title="在hexo根目录有一个scaffolds文件夹"></a>在hexo根目录有一个scaffolds文件夹</h2><h3 id="其实挨个打开来看，心里就略知一二这是干嘛的了"><a href="#其实挨个打开来看，心里就略知一二这是干嘛的了" class="headerlink" title="其实挨个打开来看，心里就略知一二这是干嘛的了"></a>其实挨个打开来看，心里就略知一二这是干嘛的了</h3><h4 id="测试一番，在page-md-中"><a href="#测试一番，在page-md-中" class="headerlink" title="测试一番，在page.md 中"></a>测试一番，在page.md 中</h4><p>直接增加每次需要的md文件头部信息<br>我的如下：</p>
-<pre class="line-numbers language-md" data-language="md"><code class="language-md"><span class="token front-matter-block"><span class="token punctuation">---</span>
-<span class="token font-matter yaml language-yaml">title: {{ title }}
+<pre class="line-numbers language-md" data-language="md"><code class="language-md">---
+title: {{ title }}
 date: {{ date }}
 summary:
 tags:
@@ -787,8 +787,8 @@ img:
 author:
 cover: false
 coverImg: 
-mathjax: false</span>
-<span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+mathjax: false
+---<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>然后hexo n “test” 发现的确是生成了自己设置的头部信息，但是设置值的在前头 没有默认值的在后头，不过这是个小事，再也不用每次都手动添加了。</p>
 <blockquote>
