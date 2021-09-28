@@ -2,15 +2,15 @@
 .earth {
     perspective: 400vmin;
     transform-style: preserve-3d;
-      position: absolute;
-      left:20%;
-      bottom: 0;
+    position: absolute;
+    left:20%;
+    bottom: 0;
     width: 200px;
     height: 200px;
     z-index: -1;
   }
   
-  .earth::before {
+.earth::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -33,19 +33,20 @@
       background-position:1200px 0px;
     }
   }
-  /*飞机*/
-  .airplane {
-    position: absolute;
-      left:65%;
-      bottom: 10;
-    z-index: -1;
+/*飞机*/
+.airplane {
+  position: absolute;
+  left:65%;
+  bottom: 10;
+  z-index: -1;
   
   }
-  
-  .travelling {
-      position: absolute;
-      left:47%;
-      bottom: 0;
-  }
+/*开往*/
+.travelling {
+  position: absolute;
+  left:47%;
+  bottom: 0;
+  opacity: 0.7;
+}
   
   
