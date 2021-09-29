@@ -124,3 +124,13 @@ div.timenode .body {
 div.timenode time {
     margin-left: 20px;
 }
+
+.body p {
+	padding-top: 3px;
+	background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	
+}	

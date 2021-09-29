@@ -34,7 +34,7 @@ body {
 	overflow-y: auto;
 	color: #000000;
 	font-family: Georgia,'Noto Serif SC',Helvetica,Arial,Menlo,Monaco,monospace,serif;
-}}/* 让每一级标题更加明显，添加标注 */h1 {
+}/* 让每一级标题更加明显，添加标注 */h1 {
 	margin: 48px 0 22px -5px;
 	font-size: 2.0rem;
 	font-weight: bold;
@@ -852,7 +852,25 @@ header .go-back i {
 	font-weight: 300;
 	font-size: 2rem;
 	line-height: 1.4em;
-	color: #ffb5b8;
+	background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-webkit-animation: rainbowan 60s linear infinite;
+	animation: rainbowan 60s linear infinite;
+}
+
+@-webkit-keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}
+
+@keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
 }
 
 .bg-cover .post-title {
@@ -878,13 +896,44 @@ header .go-back i {
 	font-size: 2rem;
 	font-weight: 700;
 }
-
+/*修改dreams文字*/
 .dream .text {
-	opacity: 0.5;
 	font-size: 1.3rem;
-	font-weight:bold
+	font-weight: bold;
+	opacity: 0.5;
 }
 
+
+/*修改卡片上title文字样式*/
+.card-title {
+	background-image: linear-gradient( to left, rgb(255, 252, 45), rgb(156, 255, 25), rgb(28, 253, 103), rgb(10, 255, 202), rgb(0, 89, 255), rgb(25, 0, 255), mediumpurple, rgb(255, 68, 162), orangered);
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	animation: rainbowan 60s linear infinite;
+}
+
+@-webkit-keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}
+
+@keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}
+
+/*修改header导航字体样式*/
+header .nav-menu li a span {
+	font-size: 1em;
+	color: #000000;
+}
+header .nav-menu li a i {
+	font-size: 1em;
+	color: #000000;
+}
 .music-player,.video-player {
 	margin-top: 10px;
 	margin-bottom: 50px;
@@ -996,7 +1045,24 @@ header .go-back i {
 	height: 65px;
 	max-height: 65px;
 	font-size: 25px;
-	color: #18ff6a !important;
+	background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+	-webkit-animation: rainbowan 60s linear infinite;
+	animation: rainbowan 60s linear infinite;
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+@-webkit-keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}
+
+@keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
 }
 
 .recommend .post-card .read-more {
@@ -1330,7 +1396,11 @@ article .article-tags .chip {
 }
 
 #artDetail .post-info .post-date {
-	color: #5b7f52;
+	padding-top: 3px;
+	background-image: linear-gradient(orangered, orange,dodgerblue, hotpink, orangered);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
 }
 
 #artDetail .post-info .post-word-count {
@@ -2284,18 +2354,48 @@ footer .social-statis {
 	margin-top: 10px;
 	position: relative;
 }
-
+/*页脚字体1样式*/
 footer a {
 	display: inline;
 	padding: 4px 6px 4px 4px;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	color: #fff !important;
+	/*font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+}
+/*页脚字体2样式*/
+footer .copy-right {
+	font-size: 22px;
+	color: #000000;
+	opacity: 0.8;
+
 }
 
-footer .copy-right {
-	color: #00feff;
-}/*搜索层样式*/#searchIcon {
+/*footer .copy-right, footer .copy-right * {
+	font-size: 22px;
+	background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-webkit-animation: rainbowan 60s linear infinite;
+	animation: rainbowan 60s linear infinite;
+}
+
+@-webkit-keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}
+
+@keyframes rainbowan {
+	to {
+		background-position: -2000vw;
+	}
+}*/
+
+/*搜索层样式*/#searchIcon {
 	font-size: 1.2rem;
 }
 
@@ -2415,6 +2515,10 @@ footer .copy-right {
 		word-break: keep-all;
 		float: left;
 		margin-right: 15px;
+		background-image: linear-gradient(orangered, orange,dodgerblue, hotpink, orangered);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
 	}
 }
 
