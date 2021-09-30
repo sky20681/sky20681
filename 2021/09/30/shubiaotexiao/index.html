@@ -1,0 +1,1451 @@
+    <script type="text/javascript">
+        var OriginTitile = document.title, st;
+        document.addEventListener("visibilitychange", function () {
+            document.hidden ? (document.title = "看不见我~看不见我~", clearTimeout(st)) : (document.title = "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
+        }) 
+    </script><!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="如何添加鼠标点击特效, 小白">
+    <meta name="description" content="小白的建站过程">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>如何添加鼠标点击特效 | huakai</title>
+    <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/huakai.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681@latest/css/my.css">
+
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"></script><!--嘿嘿-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/font.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/loading.css"><!--加载动画css-->
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/jquery.js"></script>  
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/live2d-widget/autoload.js"></script> <!--看板娘-->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/footer.css"><!--旋转的地球css--> 
+
+<meta name="generator" content="Hexo 5.4.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+    <style>
+    body{
+       background-image: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/13.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
+
+ 
+
+ <div id="clickCanvas" style="position:fixed;left:0;top:0;z-index:99;pointer-events:none"></div>
+<body >
+    <!--加载动画-->
+    <div id="loading-box">
+        <div class="loading-left-bg"></div>
+        <div class="loading-right-bg"></div>
+        <div class="spinner-box">
+          <div class="configure-border-1">
+            <div class="configure-core"></div>
+          </div>
+          <div class="configure-border-2">
+            <div class="configure-core"></div>
+          </div>
+          <div class="loading-word">加载中...</div>
+        </div>
+      </div>
+    <!--加载动画-->
+
+
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">huakai</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.8;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-bookmark" style="zoom: 0.8;"></i>
+      
+      <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/">
+          
+          <span>建站过程</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">
+          
+          <span>主题美化</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91/">
+          
+          <span>文章编辑</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E5%85%B6%E4%BB%96/">
+          
+          <span>其他</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E5%9B%BE%E9%9B%86/">
+          
+          <span>图集</span>
+   
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.8;"></i>
+      
+      <span>时间轴</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-user-circle" style="zoom: 0.8;"></i>
+      
+      <span>关于</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/about">
+          
+          <span>关于我</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/aboutyou">
+          
+          <span>关于你</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/movies">
+          
+          <span>我的豆瓣</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/photos">
+          
+          <span>我的相册</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/beibei">
+          
+          <span>我的狗子</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/report">
+          
+          <span>网站得分</span>
+   
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/bb" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.8;"></i>
+      
+      <span>花开说</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-address-book" style="zoom: 0.8;"></i>
+      
+      <span>友情链接</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="https://huakai.site/me/water">
+          
+          <i class="fas fa-window-maximize" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>水波纹页面</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://www.tidio.com/talk/u3fufqxzjz8oq1m6aimewzslno5hgpfi">
+          
+          <i class="fas fa-comments" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>与我联系</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/friends">
+          
+          <i class="fas fa-address-book" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>友人帐</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://docsmall.com/image-compress">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>图片压缩</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="http://code.cozv.cn/html/4/">
+          
+          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>彩色文字</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://pan.bilnn.com/api/v3/share/invite/qaOpUm">
+          
+          <i class="fas fa-file" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>不限速网盘</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="http://kd.xiabor.com/index.php?desktop">
+          
+          <i class="fas fa-cloud" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>共享云盘</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://pixabay.com/zh/photos/">
+          
+          <i class="fas fa-picture-o" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>可商用图片</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://www.superbed.cn">
+          
+          <i class="fas fa-picture-o" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>免费图床</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://huakai.site/me/css">
+          
+          <i class="fas fa-file-code-o" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>CSS文字动画</span>
+   
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+ 
+  
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">huakai</div>
+        <div class="logo-desc">
+            
+            小白的建站过程
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/ " style="margin-left:75px">
+				  
+		          <span>建站过程</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/ " style="margin-left:75px">
+				  
+		          <span>主题美化</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E6%96%87%E7%AB%A0%E7%BC%96%E8%BE%91/ " style="margin-left:75px">
+				  
+		          <span>文章编辑</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%85%B6%E4%BB%96/ " style="margin-left:75px">
+				  
+		          <span>其他</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E5%9B%BE%E9%9B%86/ " style="margin-left:75px">
+				  
+		          <span>图集</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			时间轴
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-user-circle"></i>
+			
+			关于我
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/about " style="margin-left:75px">
+				  
+		          <span>关于我</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/aboutyou " style="margin-left:75px">
+				  
+		          <span>关于你</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/movies " style="margin-left:75px">
+				  
+		          <span>我的豆瓣</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/photos " style="margin-left:75px">
+				  
+		          <span>我的相册</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/beibei " style="margin-left:75px">
+				  
+		          <span>我的狗子</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/report " style="margin-left:75px">
+				  
+		          <span>网站得分</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/bb" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="https://huakai.site/me/water " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-window-maximize" style="position: absolute;left:50px" ></i>
+			      
+		          <span>水波纹页面</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://www.tidio.com/talk/u3fufqxzjz8oq1m6aimewzslno5hgpfi " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-comments" style="position: absolute;left:50px" ></i>
+			      
+		          <span>与我联系</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/friends " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-address-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>友人帐</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://docsmall.com/image-compress " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>图片压缩</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="http://code.cozv.cn/html/4/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>彩色文字</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://pan.bilnn.com/api/v3/share/invite/qaOpUm " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-file" style="position: absolute;left:50px" ></i>
+			      
+		          <span>不限速网盘</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="http://kd.xiabor.com/index.php?desktop " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-cloud" style="position: absolute;left:50px" ></i>
+			      
+		          <span>共享云盘</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://pixabay.com/zh/photos/ " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-picture-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>可商用图片</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://www.superbed.cn " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-picture-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>免费图床</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="https://huakai.site/me/css " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-file-code-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>CSS文字动画</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://p.qlogo.cn/zc_icon/0/a7866088a6067793cff6cdaf2b5e3f6316329878376154/0.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">如何添加鼠标点击特效</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/">
+                                <span class="chip bg-color">鼠标特效</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" class="post-category">
+                                主题美化
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2021-09-30
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2021-09-30
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    1.7k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    9 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/prism/prism.css">
+        
+
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>昨天进黑石哔哔官方文档看看，顺便去了<a target="_blank" rel="noopener" href="https://www.heson10.com/">大佬的博客</a>。然后看中了他的鼠标点击特效。于是折腾到三四点给<del>抄袭</del>搬运到了我的博客。</p>
+<p>直接看教程向博文：<a target="_blank" rel="noopener" href="https://www.2025ly.cn/archives/169.html">老姚日记–随心记录，胡乱折腾！</a></p>
+<p>下面是我的坎坷过程</p>
+<br>
+
+<ul>
+<li><p>首先是用Edge浏览器打开黑石博客，然后ctrl + s 选择报存所有给下载到本地。<br><img src="https://p.qlogo.cn/zc_icon/0/565125ac5f44baab03ceb01578a83ac816329859473938/0.png" alt="1.png"></p>
+</li>
+<li><p>这样博客的JS和CSS文件都被撸下来了，然后搜索关键字click<br><img src="https://p.qlogo.cn/zc_icon/0/45f8e3a98a46b4860a001778c9e6036216329860523371/0.png" alt="2.png"></p>
+</li>
+<li><p>一下就在Main.js中找到鼠标点击样式了。<br><img src="https://p.qlogo.cn/zc_icon/0/322a7ee4ca76a3a608f37b278d9e5f631632986172702/0.png" alt="3.jpg"></p>
+</li>
+<li><p>复制鼠标样式代码，粘贴到matery主题clickLove.js中去。</p>
+<pre class="line-numbers language-none"><code class="language-none">//鼠标点击效果
+var Sketch = function () { "use strict"; function e(e) { return "[object Array]" == Object.prototype.toString.call(e) } function t(e) { return "function" == typeof e } function n(e) { return "number" == typeof e } function o(e) { return "string" == typeof e } function r(e) { return E[e] || String.fromCharCode(e) } function i(e, t, n) { for (var o in t) (n || !e.hasOwnProperty(o)) &amp;&amp; (e[o] = t[o]); return e } function u(e, t) { return function () { e.apply(t, arguments) } } function a(e) { var n = {}; for (var o in e) n[o] = t(e[o]) ? u(e[o], e) : e[o]; return n } function c(e) { function n(n) { t(n) &amp;&amp; n.apply(e, [].splice.call(arguments, 1)) } function u(e) { for (_ = 0; _ &lt; J.length; _++)G = J[_], o(G) ? O[(e ? "add" : "remove") + "EventListener"].call(O, G, k, !1) : t(G) ? k = G : O = G } function c() { L(T), T = I(c), U || (n(e.setup), U = t(e.setup), n(e.resize)), e.running &amp;&amp; !j &amp;&amp; (e.dt = (B = +new Date) - e.now, e.millis += e.dt, e.now = B, n(e.update), e.autoclear &amp;&amp; K &amp;&amp; e.clear(), n(e.draw)), j = ++j % e.interval } function l() { O = Y ? e.style : e.canvas, D = Y ? "px" : "", e.fullscreen &amp;&amp; (e.height = w.innerHeight, e.width = w.innerWidth), O.height = e.height + D, O.width = e.width + D, e.retina &amp;&amp; K &amp;&amp; X &amp;&amp; (O.height = e.height * X, O.width = e.width * X, O.style.height = e.height + "px", O.style.width = e.width + "px", e.scale(X, X)), U &amp;&amp; n(e.resize) } function s(e, t) { return N = t.getBoundingClientRect(), e.x = e.pageX - N.left - w.scrollX, e.y = e.pageY - N.top - w.scrollY, e } function f(t, n) { return s(t, e.element), n = n || {}, n.ox = n.x || t.x, n.oy = n.y || t.y, n.x = t.x, n.y = t.y, n.dx = n.x - n.ox, n.dy = n.y - n.oy, n } function g(e) { if (e.preventDefault(), W = a(e), W.originalEvent = e, W.touches) for (M.length = W.touches.length, _ = 0; _ &lt; W.touches.length; _++)M[_] = f(W.touches[_], M[_]); else M.length = 0, M[0] = f(W, V); return i(V, M[0], !0), W } function h(t) { for (t = g(t), q = (Q = J.indexOf(z = t.type)) - 1, e.dragging = /down|start/.test(z) ? !0 : /up|end/.test(z) ? !1 : e.dragging; q;)o(J[q]) ? n(e[J[q--]], t) : o(J[Q]) ? n(e[J[Q++]], t) : q = 0 } function p(t) { F = t.keyCode, H = "keyup" == t.type, Z[F] = Z[r(F)] = !H, n(e[t.type], t) } function v(t) { e.autopause &amp;&amp; ("blur" == t.type ? b : C)(), n(e[t.type], t) } function C() { e.now = +new Date, e.running = !0 } function b() { e.running = !1 } function P() { (e.running ? b : C)() } function A() { K &amp;&amp; e.clearRect(0, 0, e.width, e.height) } function S() { R = e.element.parentNode, _ = x.indexOf(e), R &amp;&amp; R.removeChild(e.element), ~_ &amp;&amp; x.splice(_, 1), u(!1), b() } var T, k, O, R, N, _, D, B, G, W, z, F, H, q, Q, j = 0, M = [], U = !1, X = w.devicePixelRatio, Y = e.type == m, K = e.type == d, V = { x: 0, y: 0, ox: 0, oy: 0, dx: 0, dy: 0 }, J = [e.element, h, "mousedown", "touchstart", h, "mousemove", "touchmove", h, "mouseup", "touchend", h, "click", y, p, "keydown", "keyup", w, v, "focus", "blur", l, "resize"], Z = {}; for (F in E) Z[E[F]] = !1; return i(e, { touches: M, mouse: V, keys: Z, dragging: !1, running: !1, millis: 0, now: 0 / 0, dt: 0 / 0, destroy: S, toggle: P, clear: A, start: C, stop: b }), x.push(e), e.autostart &amp;&amp; C(), u(!0), l(), c(), e } for (var l, s, f = "E LN10 LN2 LOG2E LOG10E PI SQRT1_2 SQRT2 abs acos asin atan ceil cos exp floor log round sin sqrt tan atan2 pow max min".split(" "), g = "__hasSketch", h = Math, d = "canvas", p = "webgl", m = "dom", y = document, w = window, x = [], v = { fullscreen: !0, autostart: !0, autoclear: !0, autopause: !0, container: y.body, interval: 1, globals: !0, retina: !1, type: d }, E = { 8: "BACKSPACE", 9: "TAB", 13: "ENTER", 16: "SHIFT", 27: "ESCAPE", 32: "SPACE", 37: "LEFT", 38: "UP", 39: "RIGHT", 40: "DOWN" }, C = { CANVAS: d, WEB_GL: p, WEBGL: p, DOM: m, instances: x, install: function (t) { if (!t[g]) { for (var o = 0; o &lt; f.length; o++)t[f[o]] = h[f[o]]; i(t, { TWO_PI: 2 * h.PI, HALF_PI: h.PI / 2, QUATER_PI: h.PI / 4, random: function (t, o) { return e(t) ? t[~~(h.random() * t.length)] : (n(o) || (o = t || 1, t = 0), t + h.random() * (o - t)) }, lerp: function (e, t, n) { return e + n * (t - e) }, map: function (e, t, n, o, r) { return (e - t) / (n - t) * (r - o) + o } }), t[g] = !0 } }, create: function (e) { return e = i(e || {}, v), e.globals &amp;&amp; C.install(self), l = e.element = e.element || y.createElement(e.type === m ? "div" : "canvas"), s = e.context = e.context || function () { switch (e.type) { case d: return l.getContext("2d", e); case p: return l.getContext("webgl", e) || l.getContext("experimental-webgl", e); case m: return l.canvas = l } }(), e.container.appendChild(l), C.augment(s, e) }, augment: function (e, t) { return t = i(t || {}, v), t.element = e.canvas || e, t.element.className += " sketch", i(e, t, !0), c(e) } }, b = ["ms", "moz", "webkit", "o"], P = self, A = 0, S = "AnimationFrame", T = "request" + S, k = "cancel" + S, I = P[T], L = P[k], O = 0; O &lt; b.length &amp;&amp; !I; O++)I = P[b[O] + "Request" + S], L = P[b[O] + "Cancel" + T]; return P[T] = I = I || function (e) { var t = +new Date, n = h.max(0, 16 - (t - A)), o = setTimeout(function () { e(t + n) }, n); return A = t + n, o }, P[k] = L = L || function (e) { clearTimeout(e) }, C }();
+
+if (document.getElementById("clickCanvas")) {
+	function Particle(x, y, radius) {
+		this.init(x, y, radius);
+	}
+	Particle.prototype = {
+		init: function (x, y, radius) {
+			this.alive = true;
+			this.radius = radius || 10;
+			this.wander = 0.15;
+			this.theta = random(TWO_PI);
+			this.drag = 0.92;
+			this.color = '#ffeb3b';
+
+			this.x = x || 0.0;
+			this.y = y || 0.0;
+			this.vx = 0.0;
+			this.vy = 0.0;
+		},
+		move: function () {
+			this.x += this.vx;
+			this.y += this.vy;
+			this.vx *= this.drag;
+			this.vy *= this.drag;
+			this.theta += random(-0.5, 0.5) * this.wander;
+			this.vx += sin(this.theta) * 0.1;
+			this.vy += cos(this.theta) * 0.1;
+			this.radius *= 0.96;
+			this.alive = this.radius &gt; 0.5;
+		},
+		draw: function (ctx) {
+			ctx.beginPath();
+			ctx.arc(this.x, this.y, this.radius, 0, TWO_PI);
+			ctx.fillStyle = this.color;
+			ctx.fill();
+		}
+	};
+	var MAX_PARTICLES = 50;
+	//圆点颜色库
+	var COLOURS = ["#5ee4ff", "#f44033", "#ffeb3b", "#F38630", "#FA6900", "#f403e8", "#F9D423"];
+	var particles = [];
+	var pool = [];
+	var clickparticle = Sketch.create({
+		container: document.getElementById('clickCanvas')
+	});
+	clickparticle.spawn = function (x, y) {
+		if (particles.length &gt;= MAX_PARTICLES)
+			pool.push(particles.shift());
+		particle = pool.length ? pool.pop() : new Particle();
+		particle.init(x, y, random(5, 20));//圆点大小范围
+		particle.wander = random(0.5, 2.0);
+		particle.color = random(COLOURS);
+		particle.drag = random(0.9, 0.99);
+		theta = random(TWO_PI);
+		force = random(1, 5);
+		particle.vx = sin(theta) * force;
+		particle.vy = cos(theta) * force;
+		particles.push(particle);
+	};
+	clickparticle.update = function () {
+		var i, particle;
+		for (i = particles.length - 1; i &gt;= 0; i--) {
+			particle = particles[i];
+			if (particle.alive)
+				particle.move();
+			else
+				pool.push(particles.splice(i, 1)[0]);
+		}
+	};
+	clickparticle.draw = function () {
+		clickparticle.globalCompositeOperation = 'lighter';
+		for (var i = particles.length - 1; i &gt;= 0; i--) {
+			particles[i].draw(clickparticle);
+		}
+	};
+	//按下时显示效果，mousedown 或者 click
+	document.addEventListener("click", function (e) {
+		var max, j;
+		//排除一些元素
+		"TEXTAREA" !== e.target.nodeName &amp;&amp; "INPUT" !== e.target.nodeName &amp;&amp; "A" !== e.target.nodeName &amp;&amp; "I" !== e.target.nodeName &amp;&amp; "IMG" !== e.target.nodeName
+			&amp;&amp; function () {
+				for (max = random(15, 20), j = 0; j &lt; max; j++)
+					clickparticle.spawn(e.clientX, e.clientY);
+			}();
+	});
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>打开本地调试，发现样式不生效，主题引入了clicklove.js，应该是其他问题。开始看代码，</p>
+</li>
+<li><p>把document.getElementById(“clickCanvas”)粘贴到百度中搜什么意思。</p>
+</li>
+<li><p>感觉clickCanvas这个要像CSS一样引用<br>于是在layout.ejs中加</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;div id="clickCanvas"&gt;&lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>嗯，于是，点击有效果了。<br>后来，发现一篇教程。</p>
+</li>
+</ul>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.2025ly.cn/archives/169.html">老姚日记–随心记录，胡乱折腾！</a></p>
+</blockquote>
+<p>其实调整一下id=”clickCanvas”的位置就行了</p>
+<p>把代码改为：</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;div id="clickCanvas" style="position:fixed;left:0;top:0;z-index:99;pointer-events:none;"&gt;&lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>顺利显示在正确位置。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">HuaKai</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://huakai.site/2021/09/30/shubiaotexiao/">https://huakai.site/2021/09/30/shubiaotexiao/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">HuaKai</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/">
+                                    <span class="chip bg-color">鼠标特效</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light blue">觉</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect ">得</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light black">不</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light pink">错</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light gray">的</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light blue">话</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light orange">请</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light ">多</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light green">多</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light pink">关</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light brown">注</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">分</a>
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light black">享</a>
+
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+<div><img id="footer-ad-img" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/WeChat-huakai.png" alt="" class="img-shadow img-margin" width="100%" style="border-radius:18px"></div>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2021/09/30/shubiaotexiao/">
+                    <div class="card-image">
+                        
+                        <img src="https://p.qlogo.cn/zc_icon/0/a7866088a6067793cff6cdaf2b5e3f6316329878376154/0.jpg" class="responsive-img" alt="如何添加鼠标点击特效">
+                        
+                        <span class="card-title">如何添加鼠标点击特效</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            添加鼠标点击泡泡
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-30
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/" class="post-category">
+                                    主题美化
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/">
+                        <span class="chip bg-color">鼠标特效</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/09/29/yumingbeian/">
+                    <div class="card-image">
+                        
+                        <img src="https://p.qlogo.cn/zc_icon/0/2cd397c5338df4516ea765030ad6b8d916329174161791/0.png" class="responsive-img" alt="如何给网站备案。">
+                        
+                        <span class="card-title">如何给网站备案。</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            域名备案
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-29
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%85%B6%E4%BB%96/" class="post-category">
+                                    其他
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88/">
+                        <span class="chip bg-color">域名备案</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/codeBlock/codeShrink.js"></script>
+
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer sky diysky">
+    <div class="clouds_one"></div>
+	<div class="clouds_two"></div>
+	<div class="clouds_three"></div>
+
+    
+
+    <div class="container row center-align diyheight" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right ">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2021</span>
+            
+            <span id="year">2021</span>
+            <a href="/about" target="_blank">HuaKai</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">26.7k</span>&nbsp;字
+            
+            <span style="display: none;"><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280121714'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280121714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span>
+
+            
+            
+            
+            
+            <br>
+            
+            <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第一颗心-->
+            
+            <span id="sitetime">正在载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "5";
+                    var startDate = "16";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear
+                        document.getElementById("sitetime").innerHTML = "本站已跌跌撞撞运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已跌跌撞撞运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <i id="heartbeat" class="fa fas fa-heartbeat"></i> <!--页脚跳动的第二颗心-->
+
+            <br>
+            <span id="slogan" data-text="Maybe we'll be stronger"></span>
+            
+
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    </div>
+ <!--页脚旋转地球-->
+<div class="diyearth">
+    <div class="earth"></div>
+</div>
+
+
+<div class="airplane"><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/airplan.png"  alt="" /></div>   
+
+<div class="travelling"><a href="https://travellings.link/" target="_blank" rel="noopener" title="开往-友链接力">
+    <img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/img/travellings.gif" alt="开往-友链接力" width="120">
+</a>
+</div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css"><!--跳动的心-->
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/matery.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"><!--FontAwesome图标-->
+    <script src="//code.tidio.co/u3fufqxzjz8oq1m6aimewzslno5hgpfi.js" async></script>  <!--tidio-->
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+    
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/others/click.js" async="async"></script>
+    
+    
+
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" color="99, 184, 255"
+        pointColor="0,0,0" opacity='1'
+        zIndex="-1" count="299"
+        src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+
+   <!--加载动画-->
+    <script>
+        var endLoading = function () {
+          document.body.style.overflow = 'auto';
+          document.getElementById('loading-box').classList.add("loaded");
+        }
+        window.addEventListener('load',endLoading);
+      </script>
+
+   <!--加载动画-->
+
+<body>
+</html>

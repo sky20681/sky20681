@@ -406,7 +406,7 @@ mark {
 
 .bg-color {
 	background-image: linear-gradient(to right, #FFB5B5 40%, #2894FF 100%);
-	opacity: 0.8;
+	opacity: 0.8; 
 }
 
 .bg-color:before {
@@ -1217,7 +1217,7 @@ article .article-tags .chip {
 	font-weight: 400;
 	height: 22px;
 	line-height: 22px;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	border-radius: 10px;
 }
 
