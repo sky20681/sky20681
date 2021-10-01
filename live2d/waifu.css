@@ -43,7 +43,7 @@
 	border: 1px solid rgba(224, 186, 140, .62);
 	border-radius: 12px;
 	box-shadow: 0 3px 15px 2px rgba(191, 158, 118, .2);
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 24px;
 	margin: -30px 20px;
 	min-height: 70px;
@@ -66,14 +66,14 @@
 	color: #0099cc;
 }
 
-#waifu #live2d {
+#live2d {
 	cursor: grab;
 	height: 300px;
 	position: relative;
 	width: 300px;
 }
 
-#waifu #live2d:active {
+#live2d:active {
 	cursor: grabbing;
 }
 
