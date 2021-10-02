@@ -414,7 +414,7 @@ hr:hover::before {
 
 /*页面按钮样式结束*/
 
- 
+/*markdown 彩色文字*/ 
 .mdfont {
 	font-weight: 300;
 	font-size: 2rem;
@@ -426,4 +426,59 @@ hr:hover::before {
 	color: transparent;
 	-webkit-animation: rainbowan 60s linear infinite;
 	animation: rainbowan 60s linear infinite;
+}
+
+/*隐藏文字*/
+
+.hidden {
+
+    text-decoration: none!important;
+    -webkit-transition: .2s cubic-bezier(.25,.46,.45,.94) color,.2s cubic-bezier(.25,.46,.45,.94) background;
+    transition: .2s cubic-bezier(.25,.46,.45,.94) color,.2s cubic-bezier(.25,.46,.45,.94) background
+}
+
+.hidden * {
+    -webkit-transition: .35s cubic-bezier(.25,.46,.45,.94) opacity;
+    transition: .35s cubic-bezier(.25,.46,.45,.94) opacity
+}
+
+.hidden:not(:hover) {
+    color: transparent!important;
+    background: #000!important
+}
+
+.hidden:not(:hover) * {
+    opacity: 0!important
+}
+
+.hidden:not(:hover),.yue del:not(:hover) * {
+    border: none!important
+}
+
+
+/*P隐藏文字鼠标悬浮显示文字*/
+
+#articleContent p >hidden {
+	
+    text-decoration: none!important;
+    -webkit-transition: .2s cubic-bezier(.25,.46,.45,.94) color,.2s cubic-bezier(.25,.46,.45,.94) background;
+    transition: .2s cubic-bezier(.25,.46,.45,.94) color,.2s cubic-bezier(.25,.46,.45,.94) background
+}
+
+#articleContent p >hidden * {
+    -webkit-transition: .35s cubic-bezier(.25,.46,.45,.94) opacity;
+    transition: .35s cubic-bezier(.25,.46,.45,.94) opacity
+}
+
+#articleContent p > hidden:not(:hover) {
+    color: transparent!important;
+    background: #000!important
+}
+
+#articleContent p > hidden:not(:hover) * {
+    opacity: 0!important
+}
+
+#articleContent p > hidden:not(:hover),.yue del:not(:hover) * {
+    border: none!important
 }
