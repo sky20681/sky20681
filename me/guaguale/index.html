@@ -1,23 +1,57 @@
-var bodystyle = document.body.style;
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>刮开图片,随机获得一枚二次元</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
+</head>
+<body style="background-color: #FFDEE9;
+background-image: linear-gradient(270deg, #FFDEE9 0%, #B5FFFC 100%); overflow:hidden ">
+
+<div style="position: relative;top: 0px;left: 50%;">
+
+    <button class="btn-hover color-2"><a href="javascript:void(0)" onclick="window.location.reload()">再刮一次</a></button>
+
+	<p>感谢：<a href="https://codepen.io/jonechen/pen/ZOyxmq">代码地址</a>
+		<a href="https://www.dmoe.cc/random.php">图片api地址</a> 
+	<br>滚轮会导致消除漂移，禁用滚轮了，尽量最大化电脑浏览器 3440 x 1440最佳</p>
+</div>
+
+<div><canvas class="canvas"></canvas></div>
+
+
+
+  
+<script>var bodystyle = document.body.style;
 bodystyle.mozUserSelect = 'none';
 bodystyle.webkitUserSelect = 'none';
 var img = new Image();
 var canvas = document.querySelector('canvas');
 canvas.style.backgroundColor = 'transparent';
-canvas.style.position = 'absolute';
-var imgs = ['https://p.qlogo.cn/zc_icon/0/208ce8d24b0a38597e351198092c2b8516328991818414/0.jpeg', 'https://p.qlogo.cn/zc_icon/0/208ce8d24b0a38597e351198092c2b8516328991818414/0.jpeg'];
+canvas.style.position = 'relative';
+canvas.style.left = '5%';
+
+
+var imgs = ['https://www.dmoe.cc/random.php', 'https://www.dmoe.cc/random.php'];
+
 var num = Math.floor(Math.random() * 2);
+
 img.src = imgs[num];
+
+/* img.width = 1500
+img.height = img.width * 0.5 */
+
 img.addEventListener('load', function(e) {
 	var ctx;
-	var w = img.width,
-		h = img.height;
+	var w = img.width
+		h = img.height
 	var offsetX = canvas.offsetLeft,
 		offsetY = canvas.offsetTop;
 	var mouseDown = false;
 
 	function layer(ctx) {
-		ctx.fillStyle = 'gray';
+		ctx.fillStyle = 'grey';
 		ctx.fillRect(0, 0, w, h)
 	};
 
@@ -42,7 +76,7 @@ img.addEventListener('load', function(e) {
 			var y = (e.clientY + document.body.scrollTop || e.pageY) - offsetY || 0;
 			with(ctx) {
 				beginPath();
-				arc(x, y, 10, 0, Math.PI * 2);
+				arc(x, y, 40, 40, Math.PI * 2);
 				fill();
 			}
 		}
@@ -61,4 +95,8 @@ img.addEventListener('load', function(e) {
 	canvas.addEventListener('mousedown', eventDown);
 	canvas.addEventListener('mouseup', eventUp);
 	canvas.addEventListener('mousemove', eventMove);
-}, false)
+}, false)</script>
+
+
+</body>
+</html>
