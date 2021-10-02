@@ -44,7 +44,7 @@ hr:hover::before{
 ​
 
 
-}/*跳动文字css*/.Pshake {
+/*跳动文字css*/.Pshake {
 	display: inline-block;
 	will-change: transform;
 	-webkit-transform-origin: center center;
@@ -414,4 +414,16 @@ hr:hover::before {
 
 /*页面按钮样式结束*/
 
-
+ 
+.mdfont {
+	font-weight: 300;
+	font-size: 2rem;
+	line-height: 1.4em;
+	background-image: linear-gradient( to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
+	background-size: 110vw;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-webkit-animation: rainbowan 60s linear infinite;
+	animation: rainbowan 60s linear infinite;
+}
