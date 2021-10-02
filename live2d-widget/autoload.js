@@ -1,41 +1,41 @@
 // 注意：live2d_path 参数应使用绝对路径
-//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
-const live2d_path = "https://cdn.jsdelivr.net/gh/sky20681/sky20681/live2d-widget/";
-
+const live2d_path = "https://cdn.jsdelivr.net/gh/sky20681/live2d-widget@latest/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
-	return new Promise((resolve, reject) =&gt; {
+	return new Promise((resolve, reject) => {
 		let tag;
 
 		if (type === "css") {
 			tag = document.createElement("link");
 			tag.rel = "stylesheet";
 			tag.href = url;
+			tag.id = "live2d_css";
 		}
 		else if (type === "js") {
 			tag = document.createElement("script");
 			tag.src = url;
 		}
 		if (tag) {
-			tag.onload = () =&gt; resolve(url);
-			tag.onerror = () =&gt; reject(url);
+			tag.onload = () => resolve(url);
+			tag.onerror = () => reject(url);
 			document.head.appendChild(tag);
 		}
 	});
 }
 
 // 加载 waifu.css live2d.min.js waifu-tips.js
-if (screen.width &gt;= 768) {
+if (screen.width >= 768) {
+	// "768"为最低显示宽度
 	Promise.all([
-		loadExternalResource(live2d_path + "waifu.css", "css"),
+		loadExternalResource(live2d_path + "waifu_left.css", "css"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
 		loadExternalResource(live2d_path + "waifu-tips.js", "js")
-	]).then(() =&gt; {
+	]).then(() => {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "https://api.zsq.im/live2d", 
-			//cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+			apiPath: "https://live2d.fghrsh.net/api/",
+			// cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 		});
 	});
 }
@@ -56,16 +56,9 @@ console.log(`
             ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |
               | |/i 〈|/   i  ,.ﾍ |  i  |
              .|/ /  ｉ：    ﾍ!    ＼  |
-              kヽ&gt;､ﾊ    _,.ﾍ､    /､!
+              kヽ>､ﾊ    _,.ﾍ､    /､!
               !'〈//｀Ｔ´', ＼ ｀'7'ｰr'
               ﾚ'ヽL__|___i,___,ンﾚ|ノ
                   ﾄ-,/  |___./
                   'ｰ'    !_,.:
 `);
-window.addEventListener('load', () =&gt; {
-	console.log('%花开九千叶的博客', 'text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);\
-font-size: 5em;');
-	console.log(`\n%cMimi's Blog%cv${CONFIG.version}%c\n`, "padding: 8px; background: #cd3e45; font-weight: bold; font-size: large; color: white;", "padding: 8px; background: #ff5450; font-size: large; color: #eee;", '');
-	console.log(`页面加载完毕消耗了${Math.round(performance.now() * 100) / 100}ms`);
-});
-
