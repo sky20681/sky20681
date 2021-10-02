@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>随机刮出一个二次元</title>
+      <link href="2021/10/02/guaerciyuan/"/>
+      <url>2021/10/02/guaerciyuan/</url>
+      
+        <content type="html"><![CDATA[<div class="mdfont">随机刮出一个二次元</div><p>今天无意中看见一个刮刮乐页面，于是想把这个效果拔下来，搜了一圈，找到一个貌似不错的实现代码</p><blockquote><p>代码地址：<a href="https://codepen.io/jonechen/pen/ZOyxmq">https://codepen.io/jonechen/pen/ZOyxmq</a></p></blockquote><p>测试了一下，效果不错。<br><img src="https://bu.dusays.com/2021/10/02/0b548da3b5e66.png" alt="cainiao.png"></p><p>然后就把默认的图片地址换了就行。<br>又上GitHub找了一圈，发现二次元api 要调用接口，返回什么json什么的，对于前端萌新，当然看不懂。<br>然后又找了找，发现一个网址访问可以直接显示图片。吼！<br>然后自己面向搜索引擎编程<br>效果如下：</p><h2 id="随机获得一个二次元刮刮乐"><a href="#随机获得一个二次元刮刮乐" class="headerlink" title="随机获得一个二次元刮刮乐"></a>随机获得一个二次元刮刮乐</h2><p><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/2021/10/02/guaerciyuan/0.png"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/2021/10/02/guaerciyuan/1.png"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/2021/10/02/guaerciyuan/2.png"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/2021/10/02/guaerciyuan/3.png"><br><img src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/2021/10/02/guaerciyuan/4.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 二次元 </tag>
+            
+            <tag> 刮刮乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>清空控制台</title>
       <link href="2021/10/02/kongzhitai/"/>
       <url>2021/10/02/kongzhitai/</url>
