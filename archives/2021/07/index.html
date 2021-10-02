@@ -40,7 +40,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"> <!--看板娘的依赖-->
 
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681@latest/live2d-widget/autoload.js"></script>   <!--加载看板娘-->
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/live2d-widget/autoload.js"></script>   <!--加载看板娘-->
 
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/footer.css"><!--旋转的地球css--> 
@@ -256,7 +256,7 @@
     <a href="/friends" class="waves-effect waves-light">
 
       
-      <i class="fas fa-address-book" style="zoom: 0.8;"></i>
+      <i class="fas fa-link" style="zoom: 0.8;"></i>
       
       <span>友情链接</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
@@ -367,9 +367,35 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.8;"></i>
+      
+      <span>单页</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/galleries">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>蛋液</span>
+   
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;color:#00ffdd"></i>
     </a>
   </li>
  
@@ -550,7 +576,7 @@
 	  
 		<a href="javascript:;">
 			
-				<i class="fa-fw fas fa-address-book"></i>
+				<i class="fa-fw fas fa-link"></i>
 			
 			友情链接
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
@@ -654,6 +680,31 @@
 				   <i class="fa fas fa-file-code-o" style="position: absolute;left:50px" ></i>
 			      
 		          <span>CSS文字动画</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			单页
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/galleries " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>蛋液</span>
                   </a>
                 </li>
               
@@ -1751,7 +1802,7 @@
             
             <span id="year">2021</span>
             <a href="/about" target="_blank">HuaKai</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank" >Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
@@ -1859,7 +1910,7 @@
     <div class="modal-content">
         <div class="search-header">
             <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
-            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+            <input type="search" id="searchInput" name="s" placeholder="💬"
                    class="search-input">
         </div>
         <div id="searchResult"></div>
@@ -1974,6 +2025,7 @@ $(function () {
     <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/scrollprogress/scrollProgress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/matery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/console.log.js"></script>   <!--自定义js文件-->
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet"><!--FontAwesome图标-->
     <script src="//code.tidio.co/u3fufqxzjz8oq1m6aimewzslno5hgpfi.js" async></script>  <!--tidio-->
 

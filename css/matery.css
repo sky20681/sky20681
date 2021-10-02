@@ -2395,8 +2395,9 @@ footer .copy-right {
 	}
 }*/
 
-/*搜索层样式*/#searchIcon {
-	font-size: 1.2rem;
+/*搜索层样式*/
+#searchIcon {
+	font-size: 1.8rem;
 }
 
 #searchModal {
@@ -2408,8 +2409,9 @@ footer .copy-right {
 
 #searchModal .search-header .title {
 	font-size: 1.6rem;
-	color: #A9C9FF;
+	color: #35b9fe;
 }
+
 
 #searchResult {
 	margin: -15px 0 10px 10px;
@@ -2423,7 +2425,7 @@ footer .copy-right {
 
 .search-result-list .search-result-title {
 	font-size: 1.4rem;
-	color: #42b983;
+	color:#f19200e8;
 }
 
 .search-result-list li {
@@ -2439,7 +2441,13 @@ footer .copy-right {
 	color: #e96900;
 	font-style: normal;
 	white-space: pre-wrap;
-}/*回到顶部按钮样式*/.top-scroll {
+}
+#searchInput.search-input {
+	color: #20b8ff;
+	font-size: 24px;
+}
+
+/*回到顶部按钮样式*/.top-scroll {
 	display: block;
 	position: fixed;
 	right: 15px;
