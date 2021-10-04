@@ -28,13 +28,13 @@
 		"text": ["可以去左边吗？", "要搬家吗？"]
 	}, {
 		"selector": "#waifu-tool .fa-chevron-right",
-		"text": ["可以去左右吗？", "要搬家吗？"]
+		"text": ["可以去右边吗？", "要搬家吗？"]
 	}, {
 		"selector": ".menu-item-home a",
-		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
+		"text": ["点它就可以回到首页啦👻 ！", "回首页 🏡 看看吧。"]
 	}, {
 		"selector": ".menu-item-about a",
-		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
+		"text": ["你想知道我家主人是谁吗？😉 ", "这里有一些关于我家主人的秘密哦🙈 ，要不要看看呢？", "发现主人出没地点！"]
 	}, {
 		"selector": ".menu-item-tags a",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
@@ -43,18 +43,24 @@
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
 		"selector": ".menu-item-archives a",
-		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
+		"text": ["文章按时间排好了", "文章目录都整理在这里啦！"]
 	}, {
+		"selector": ".menu-item-huakaishuo a",
+		"text": ["这里是主人的废话 🤫 ", "主人的废话都在这里哦 🙊 ", "这里主人逼逼叨叨的地方哦 🤭"]
+	}, {
+		"selector": ".menu-item-danye a",
+		"text": ["这里是一些有趣的页面", "去刮二次元老婆吧 😍"]
+	},{
 		"selector": ".menu-item-friends a",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
 		"selector": ".menu-item-search a",
-		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
+		"text": ["找不到想看的内容？搜索 🔍  看看吧！", "想搜索 🔍 什么东西呢？"]
 	}, {
 		"selector": ".menu-item a",
 		"text": ["快看看这里都有什么呢？"]
 	}, {
-		"selector": ".site-author",
+		"selector": "#site-author",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
 		"selector": ".site-state",
@@ -69,8 +75,8 @@
 		"selector": ".links-of-author",
 		"text": ["这里是主人的常驻地址哦。", "这里有主人的联系方式！"]
 	}, {
-		"selector": "#qrcode",
-		"text": ["手机扫一下就能继续看，很方便呢～", "扫一扫，打开新世界的大门！"]
+		"selector": "#footer-ad-img",
+		"text": ["手机扫一下关注主人公众号～", "主人让我宣传一下～"]
 	}, {
 		"selector": ".fancybox img, img.medium-zoom-image",
 		"text": ["点击图片可以放大呢！"]
@@ -177,14 +183,38 @@
 		"selector": ".vsubmit",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
+		"selector": "#backTop",
+		"text": ["点一下返回顶部哦～"]
+	},{
+		"selector": ".fa-angle-right",
+		"text": ["查看下一页"]
+	},{
+		"selector": ".fa-angle-left",
+		"text": ["返回上一页"]
+	},{
+		"selector": "#wusha",
+		"text": ["主人好厉害油～五杀"]
+	},{
+		"selector": "#article-yuji",
+		"text": ["虞姬的这个皮肤最漂亮～"]
+	},{
+		"selector": "#article-yuji-again",
+		"text": ["哇～好漂亮，再看一次"]
+	},{
 		"selector": ".vcontent",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
+	},{
+		"selector": ".huakaishuo",
+		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",
 		"text": ["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110 吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]
 	}, {
 		"selector": ".veditor",
+		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
+	},{
+		"selector": ".top-scroll",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
 	}, {
 		"selector": ".vsubmit",

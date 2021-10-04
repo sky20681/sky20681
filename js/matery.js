@@ -149,7 +149,7 @@ $(function () {
     	
 	$(".nav-menu>li").hover(function(){
 		$(this).children('ul').stop(true,true).show();
-		 $(this).addClass('nav-show').siblings('li').removeClass('nav-show');
+		 $(this).addClass('menu-item-search a nav-show ').siblings('li').removeClass('nav-show');  //在这里加搜索的live2d的menu-item-search a 
 		
 	},function(){
 		$(this).children('ul').stop(true,true).hide();
