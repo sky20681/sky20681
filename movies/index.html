@@ -1,16 +1,17 @@
-    <script type="text/javascript">
-        var OriginTitile = document.title, st;
-        document.addEventListener("visibilitychange", function () {
-            document.hidden ? (document.title = "看不见我~看不见我~", clearTimeout(st)) : (document.title = "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
-        }) 
-    </script><!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<script type="text/javascript">
+    var OriginTitile = document.title, st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "看不见我~看不见我~", clearTimeout(st)) : (document.title = "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () { document.title = OriginTitile }, 3e3))
+    }) 
+</script>
 <html lang="zh-CN">
 
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我看过的电影, 小白">
-    <meta name="description" content="小白的建站过程">
+    <meta name="keywords" content="博客">
+    <meta name="description" content="花开九千叶的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,32 +19,26 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我看过的电影 | huakai</title>
+    <title>huakai</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/huakai.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
-
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"></script><!--嘿嘿-->
-
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">    <!--看板娘的依赖fontAwesome用主题自带的-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/matery.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/font.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/loading.css"><!--加载动画css-->
-
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/jquery.ripples.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
-    <script src="/live2d-widget/autoload.js"></script>
-
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/font.css">  <!--自定义字体css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/loading.css"><!--加载动画css-->  
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681@latest/live2d-widget/autoload.js"></script>   <!--加载看板娘-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/footer.css"><!--旋转的地球css--> 
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/jquery.js"></script>  
+   <!-- <span style="display: none;"><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280121714'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280121714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span> --> 
+    
 <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
@@ -60,9 +55,8 @@
 
  
 
-
-
-<body>
+ <div id="clickCanvas" style="position:fixed;left:0;top:0;z-index:99;pointer-events:none"></div>
+<body >
     <!--加载动画-->
     <div id="loading-box">
         <div class="loading-left-bg"></div>
@@ -96,9 +90,9 @@
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
 <ul class="right nav-menu">
   
-  <li class="hide-on-med-and-down nav-item">
+  <li class="hide-on-med-and-down nav-item menu-item-home a">
     
-    <a href="/" class="waves-effect waves-light">
+    <a href="/" class="waves-effect waves-light ">
       
       <i class="fas fa-home" style="zoom: 0.8;"></i>
       
@@ -107,7 +101,7 @@
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
+  <li class="hide-on-med-and-down nav-item menu-item-categories a">
     
     <a href="/categories" class="waves-effect waves-light">
 
@@ -151,13 +145,21 @@
         </a>
       </li>
       
+      <li>
+        <a href="/categories/%E5%9B%BE%E9%9B%86/">
+          
+          <span>图集</span>
+   
+        </a>
+      </li>
+      
     </ul>
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
+  <li class="hide-on-med-and-down nav-item menu-item-archives a">
     
-    <a href="/archives" class="waves-effect waves-light">
+    <a href="/archives" class="waves-effect waves-light ">
       
       <i class="fas fa-archive" style="zoom: 0.8;"></i>
       
@@ -166,7 +168,7 @@
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
+  <li class="hide-on-med-and-down nav-item menu-item-about a">
     
     <a href="/about" class="waves-effect waves-light">
 
@@ -202,16 +204,51 @@
         </a>
       </li>
       
+      <li>
+        <a href="/me/photos">
+          
+          <span>我的相册</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/beibei">
+          
+          <span>我的狗子</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/report">
+          
+          <span>网站得分</span>
+   
+        </a>
+      </li>
+      
     </ul>
     
   </li>
   
-  <li class="hide-on-med-and-down nav-item">
+  <li class="hide-on-med-and-down nav-item menu-item-huakaishuo a">
+    
+    <a href="/bb" class="waves-effect waves-light ">
+      
+      <i class="fas fa-comments" style="zoom: 0.8;"></i>
+      
+      <span>花开说</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item menu-item-friends a">
     
     <a href="/friends" class="waves-effect waves-light">
 
       
-      <i class="fas fa-address-book" style="zoom: 0.8;"></i>
+      <i class="fas fa-link" style="zoom: 0.8;"></i>
       
       <span>友情链接</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
@@ -221,7 +258,7 @@
       <li>
         <a href="https://huakai.site/me/water">
           
-          <i class="fas fa-window-maximize" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-window-maximize " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>水波纹页面</span>
    
@@ -231,7 +268,7 @@
       <li>
         <a target="_blank" rel="noopener" href="https://www.tidio.com/talk/u3fufqxzjz8oq1m6aimewzslno5hgpfi">
           
-          <i class="fas fa-comments" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-comments " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>与我联系</span>
    
@@ -241,7 +278,7 @@
       <li>
         <a href="/friends">
           
-          <i class="fas fa-address-book" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-address-book " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>友人帐</span>
    
@@ -251,7 +288,7 @@
       <li>
         <a target="_blank" rel="noopener" href="https://docsmall.com/image-compress">
           
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-image " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>图片压缩</span>
    
@@ -261,7 +298,7 @@
       <li>
         <a target="_blank" rel="noopener" href="http://code.cozv.cn/html/4/">
           
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-image " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>彩色文字</span>
    
@@ -269,9 +306,9 @@
       </li>
       
       <li>
-        <a target="_blank" rel="noopener" href="https://www.bilnn.com">
+        <a target="_blank" rel="noopener" href="https://pan.bilnn.com/api/v3/share/invite/qaOpUm">
           
-          <i class="fas fa-file" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-file " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>不限速网盘</span>
    
@@ -281,7 +318,7 @@
       <li>
         <a target="_blank" rel="noopener" href="http://kd.xiabor.com/index.php?desktop">
           
-          <i class="fas fa-cloud" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-cloud " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>共享云盘</span>
    
@@ -291,7 +328,7 @@
       <li>
         <a target="_blank" rel="noopener" href="https://pixabay.com/zh/photos/">
           
-          <i class="fas fa-picture-o" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-picture-o " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>可商用图片</span>
    
@@ -301,9 +338,55 @@
       <li>
         <a target="_blank" rel="noopener" href="https://www.superbed.cn">
           
-          <i class="fas fa-picture-o" style="margin-top: -20px; zoom: 0.8;"></i>
+          <i class="fas fa-picture-o " style="margin-top: -20px; zoom: 0.8;"></i>
           
           <span>免费图床</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://huakai.site/me/css">
+          
+          <i class="fas fa-file-code-o " style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>CSS文字动画</span>
+   
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item menu-item-danye a">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.8;"></i>
+      
+      <span>单页</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.8;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a target="_blank" rel="noopener" href="https://gfl.zzzzz.kr/dolls.php?lang=ja">
+          
+          <i class="fas fa-picture-o " style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>live2d预览</span>
+   
+        </a>
+      </li>
+      
+      <li>
+        <a href="/me/guaguale">
+          
+          <i class="fas fa-picture-o " style="margin-top: -20px; zoom: 0.8;"></i>
+          
+          <span>二次元刮刮乐</span>
    
         </a>
       </li>
@@ -314,7 +397,7 @@
   
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
-      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;color:#00ffdd"></i>
     </a>
   </li>
  
@@ -331,7 +414,7 @@
         <div class="logo-name">huakai</div>
         <div class="logo-desc">
             
-            小白的建站过程
+            花开九千叶的博客
             
         </div>
     </div>
@@ -394,6 +477,14 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="/categories/%E5%9B%BE%E9%9B%86/ " style="margin-left:75px">
+				  
+		          <span>图集</span>
+                  </a>
+                </li>
+              
             </ul>
           
         </li>
@@ -444,7 +535,42 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="/me/photos " style="margin-left:75px">
+				  
+		          <span>我的相册</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/beibei " style="margin-left:75px">
+				  
+		          <span>我的狗子</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/report " style="margin-left:75px">
+				  
+		          <span>网站得分</span>
+                  </a>
+                </li>
+              
             </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/bb" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
           
         </li>
         
@@ -452,7 +578,7 @@
 	  
 		<a href="javascript:;">
 			
-				<i class="fa-fw fas fa-address-book"></i>
+				<i class="fa-fw fas fa-link"></i>
 			
 			友情链接
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
@@ -511,7 +637,7 @@
               
                 <li>
 
-                  <a target="_blank" rel="noopener" href="https://www.bilnn.com " style="margin-left:75px">
+                  <a target="_blank" rel="noopener" href="https://pan.bilnn.com/api/v3/share/invite/qaOpUm " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-file" style="position: absolute;left:50px" ></i>
 			      
@@ -549,6 +675,51 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="https://huakai.site/me/css " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-file-code-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>CSS文字动画</span>
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			单页
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a target="_blank" rel="noopener" href="https://gfl.zzzzz.kr/dolls.php?lang=ja " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-picture-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>live2d预览</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/me/guaguale " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-picture-o" style="position: absolute;left:50px" ></i>
+			      
+		          <span>二次元刮刮乐</span>
+                  </a>
+                </li>
+              
             </ul>
           
         </li>
@@ -556,7 +727,6 @@
         
     </ul>
 </div>
-
 
         </div>
 
@@ -566,15 +736,18 @@
 </header>
 
     
-
+s
 
 
 <div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/featureimages/19.jpg')">
+
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
+
                     <h1 class="description center-align post-title">我看过的电影</h1>
+                    
                 </div>
             </div>
         </div>
