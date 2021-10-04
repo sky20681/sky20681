@@ -25,28 +25,18 @@
 
     <title>花开说 | huakai</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/medias/huakai.jpg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681@latest/css/my.css">
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/ip.js"> </script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/awesome/css/all.css">    <!--看板娘的依赖fontAwesome用主题自带的-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/matery.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/my.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/font.css">  <!--自定义字体css-->
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/loading.css"><!--加载动画css-->
-    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/jquery.js"></script>  
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"> <!--看板娘的依赖-->
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/font.css">  <!--自定义字体css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/loading.css"><!--加载动画css-->  
     <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/live2d-widget/autoload.js"></script>   <!--加载看板娘-->
-
-
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sky20681/sky20681/css/footer.css"><!--旋转的地球css--> 
-
+    <script src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/js/jquery.js"></script>  
    <!-- <span style="display: none;"><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280121714'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280121714%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></span> --> 
     
 <meta name="generator" content="Hexo 5.4.0">
@@ -1193,7 +1183,7 @@
         }
 
         function getData(page = 0) {
-            query.descending('createdAt').skip(page * 10).limit(10).find().then(function (results) {
+            query.descending('createdAt').skip(page *  10 ).limit( 10 ).find().then(function (results) {
                 if (results.length == 0) {
                     alert('之前没发表过说说')
                 } else {
