@@ -54,7 +54,7 @@
 		"selector": ".menu-item-friends a",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".menu-item-search a",
+		"selector": "#searchIcon",
 		"text": ["找不到想看的内容？搜索 🔍  看看吧！", "想搜索 🔍 什么东西呢？"]
 	}, {
 		"selector": ".menu-item a",
