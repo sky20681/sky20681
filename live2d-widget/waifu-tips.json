@@ -204,6 +204,9 @@
 		"selector": ".vcontent",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	},{
+		"selector": "#article-meituanwaimai",
+		"text": ["不过主人最后还是买了，因为太饿了", "美团好无耻是不是呀～"]
+	},{
 		"selector": ".huakaishuo",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}],
