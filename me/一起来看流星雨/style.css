@@ -162,7 +162,7 @@ body {
   left: -360px;
   -webkit-animation: rotation 30s linear infinite;
   animation: rotation 30s linear infinite;
-  content: url(../earth.jpg);
+  content: url(https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/一起来看流星雨/earth.jpg);
   height: 320px;
   background-size: cover;
 }
