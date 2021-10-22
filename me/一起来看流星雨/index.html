@@ -623,6 +623,12 @@
         <stop offset="100%" stop-color="rgba(245,245,245,0)"></stop>
       </radialGradient>
     </defs>
+    <defs>
+      <radialGradient id="comet-gradient-a" cx="0" cy=".5" r="2">
+        <stop offset="0%" stop-color="rgba(255,255,255,.8)"></stop>
+        <stop offset="100%" stop-color="rgba(12, 119, 241,0)"></stop>
+      </radialGradient>
+    </defs>
     <g transform="rotate(-135)">
       <ellipse class="comet comet-a" fill="url(#comet-gradient)" cx="0" cy="0" rx="150" ry="2"></ellipse>
     </g>
@@ -632,9 +638,21 @@
     <g transform="rotate(300)">
       <ellipse class="comet comet-c" fill="url(#comet-gradient)" cx="40%" cy="100%" rx="150" ry="2"></ellipse>
     </g>
+    <g transform="rotate(300)">
+      <ellipse class="comet comet-c" fill="url(#comet-gradient)" cx="40%" cy="100%" rx="150" ry="2"></ellipse>
+    </g>
+    <g transform="rotate(-105)">
+      <ellipse class="comet comet-a" fill="url(#comet-gradient)" cx="10%" cy="0" rx="250" ry="4"></ellipse>
+    </g>
+    <g transform="rotate(20)">
+      <ellipse class="comet comet-d" fill="url(#comet-gradient-a)" cx="100%" cy="0" rx="150" ry="2"></ellipse>
+    </g>
+    <g transform="rotate(-140)">
+      <ellipse class="comet comet-e" fill="url(#comet-gradient-a)" cx="20%" cy="50%" rx="350" ry="5"></ellipse>
+    </g>
   </svg>
 </div>
-
+<!--rx调整流星的长度 ry是宽度  Cx是持续时间越小越长  rotate和cy是发射位置方向-->
 
 
 <div class="moon"> <img  src="https://cdn.jsdelivr.net/gh/sky20681/sky20681/me/一起来看流星雨/moon.png"  alt=""/>
